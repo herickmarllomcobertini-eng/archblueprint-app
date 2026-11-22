@@ -1,0 +1,527 @@
+[
+ {
+  "page": "home",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Autor",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Entidade responsável por criar e sustentar uma narrativa. Uma narrativa sem autor perde proteção e valor dentro do sistema.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Anomalia",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Presença ou poder fora do padrão esperado dentro de uma narrativa ou de um ser, geralmente de origem desconhecida e difícil de controlar. A Anomalia selada em Tolta é identificada como Nephilis Heder.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Auréola",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Manifestação de poder de um indivíduo, usada como referência para classificação de rank entre Caçadores de Recompensa.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Camada",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "As 21 Camadas (A Escada da Solidificação) formam uma estrutura própria, separada das narrativas, não uma divisão de profundidade dentro delas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Supervisor",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Controla e administra narrativas em nome do Sistema de Supervisores de Ficções, segunda maior autoridade da existência (abaixo apenas do Conselho dos Adomos Primordiais). Nativo da Escada da Solidificação, portando Auréola de N5 a N9, não entra na narrativa como um Agente de Campo, achata o espaço dela inteiro de cima. Os Homens de Terno respondem a esse sistema.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Deus Primordial",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Categoria de ser que transcende o sistema comum de rankings, com poder de origem anterior às estruturas conhecidas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Caçador de Recompensa",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Indivíduo classificado pelo Sistema de Rankings, independente de estar ativo ou não na função.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Homens de Terno",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Organização que ignora narrativas sem autor, respondendo diretamente ao Sistema de Supervisores de Ficções (presidido por um presidente). Não são os Juízes. Os Juízes também não dão valor a narrativas sem autor, mas são outra instância: só entram em cena em casos extremos, como destruição em massa de narrativas com autor sem justificativa, e já convocaram Onyx várias vezes.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "home",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Conselho dos Adomos Primordiais",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Os 6 Juízes Absolutos formam o núcleo do Conselho, o Tribunal no topo das 21 Camadas. Sistema máximo dentro da ficção, da pré-ficção e das 21 Camadas, acima até do Sistema de Supervisores de Ficções (só Anoff, A Entidade e o Deus Primordial do Conhecimento estão acima). Só é convocado em situações de gravidade extrema.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Escada da Solidificação",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "As 21 Camadas empilhadas, em três fases: Peso (C01 a C05), Rigidez (C06 a C15) e Cristal (C16 a C20), com a C21 como ápice. Cada camada engole e achata a anterior.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Camada",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "As 21 Camadas formam uma estrutura própria, separada das narrativas, não uma divisão de profundidade dentro delas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Regra de Portação Biológica",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Ao atingir o teto de uma camada, a lei daquele piso se solda ao ser e passa a valer onde ele estiver, mesmo fora das 21 Camadas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Exclusão Categórica",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Dominar por completo um ataque ou conceito significa deixar de pertencer à categoria de onde ele vem, e não apenas resistir a ele. Acumula camada após camada.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Porta de Entrada (C01)",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Filtro de segurança da Escada. Quem tenta entrar afirmando \"transcender todos os conceitos\" sofre a Inversão Ontológica de Definição e se solidifica.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Inversão Ontológica de Definição",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "A tentativa de \"não ter conceito\" vira o conceito rígido da criatura, que assume um corpo físico denso e vulnerável.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Reforço Progressivo",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "De C01 a C10, a mesma lei de solidificação se repete e se aprofunda, camada após camada.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Régua Zerada",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "A Escada não mede por acúmulo, mede de outro jeito. Por isso nenhuma narrativa, por maior que seja, altera a posição dela.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Auréola",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Nível estrutural de uma entidade, de N1 a N12. Cada nível contém o anterior dentro de uma fração de si. As formas geométricas são só a leitura padrão do sistema.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Colapso do Conceito (N9)",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Barreira onde o sistema de Ranks encontra incompatibilidade total. O portador é tratado como Minério Bruto Executável.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 10,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Auréolas Ômega (N10 a N12)",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Níveis pós-conceituais. A ficção vira minério bruto e o conflito se resolve por força física real.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 11,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Algoritmo de Nível Zero",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "O backend da realidade. Mantém um backup estático de tudo, então apagamento e morte instantânea não funcionam nessa escala.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 12,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Oceano do Vazio",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "A ausência total de ordem de leitura que envolve a Macroestrutura. Só uma Auréola Ômega mantém a coesão do corpo ali.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 13,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "A-Sintaxe",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Estado em que a sequência é desmembrada: o dano é sofrido antes do golpe e o tempo gramatical deixa de existir.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 14,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Pilar Arco-Íris",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Sistema de calibração no topo da Macroestrutura. Absorve a estática dos combates de alta escala e joga o excesso em direção ao Além.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 15,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Piso Ontológico",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "A base da Macroestrutura. Contém o Multiverso de Conjuntos e funciona como o piso da quantidade.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 16,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Multiverso de Conjuntos",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Todos os modelos de conjuntos, cada um com seus axiomas e cardinais, válidos no próprio modelo. Mora no Piso Ontológico.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 17,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Hiper-Transcendência Recursiva",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Qualquer nível de infinitude criado ou teorizado é englobado e multiplicado por um infinito inalcançável. A resposta chega antes da pergunta.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 18,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Estado Não-Escrito",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Plano localizado no Espaço Antes da Tinta. Existe antes da ideia de escrever, por isso nenhuma narrativa consegue descrevê-lo.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 19,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Mar dos Rascunhos",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "O espaço das narrativas, abaixo das 21 Camadas. Cada narrativa é um bloco fechado e opaco, entre incontáveis outros.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 20,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Mundo Central",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "O ponto máximo que uma narrativa pode alcançar sem deixar de ser uma. Fica abaixo das 21 Camadas, ao lado das narrativas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 21,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Sistema de Vontade Absoluta",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Saber, estar e poder crescem juntos. Em quatro níveis, do Domínio Formal à Categoria Zero.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 22,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Equivalência Hipotética",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "A tabela Rank × Auréola é uma aproximação do Sistema de Supervisores, não uma lei rígida.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 23,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Deus Primordial",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Categoria de ser que transcende o sistema comum de rankings, com poder de origem anterior às estruturas conhecidas.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 24,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Supervisor",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Nativo da Escada, com Auréola de N5 a N9. Não entra na narrativa como um Agente de Campo, achata o espaço dela inteiro de cima.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ },
+ {
+  "page": "hierarquia",
+  "sortOrder": 25,
+  "attrs": {
+   "class": "glossary-row"
+  },
+  "term": "Conselho dos Adomos Primordiais",
+  "termAttrs": {
+   "class": "glossary-term"
+  },
+  "defHtml": "Os 6 Juízes Absolutos formam o núcleo do Conselho, o Tribunal no topo das 21 Camadas. Só Anoff, A Entidade e o Deus Primordial do Conhecimento estão acima.",
+  "defAttrs": {
+   "class": "glossary-def"
+  }
+ }
+]

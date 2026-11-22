@@ -1,0 +1,51 @@
+    /* FAQ */
+    .faq-item {
+      background: var(--panel);
+      margin-bottom: 0.6rem;
+      padding: 0;
+      border: 1px solid var(--border);
+    }
+    .faq-item summary {
+      padding: 1rem 1.4rem;
+      cursor: pointer;
+      list-style: none;
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--white);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+';
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-left: 1rem;
+    }
+    .faq-item[open] summary::after { content: '−'; }
+    .faq-answer {
+      padding: 0 1.4rem 1.1rem;
+      font-size: 0.85rem;
+      color: var(--grey);
+      line-height: 1.6;
+    }
+
+    /* PRÓXIMO EPISÓDIO teaser */
+    .next-ep-teaser {
+      border: 1px dashed var(--border);
+      padding: 1rem 1.4rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .next-ep-label {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      color: var(--accent2);
+    }
+    .next-ep-text { font-size: 0.85rem; color: var(--grey); }

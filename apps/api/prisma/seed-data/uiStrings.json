@@ -1,0 +1,6 @@
+[
+ {
+  "key": "ep-reader-close",
+  "html": "<button class=\"close-reader\" onclick=\"closeEp('{slug}')\">// FECHAR EPISÓDIO</button>"
+ }
+]

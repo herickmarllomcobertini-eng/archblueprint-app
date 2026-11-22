@@ -1,0 +1,302 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------- paginas
+model Page {
+  slug      String         @id // "home" | "hierarquia"
+  title     String
+  headHtml  String
+  htmlAttrs Json
+  bodyAttrs Json
+  blocks    ContentBlock[]
+}
+
+/// Trechos de HTML que nao viraram tabela propria (texto corrido, decoracao, nav).
+/// Marcadores <!--@tipo:arg--> dentro do html sao trocados pelos componentes React.
+model ContentBlock {
+  id        Int    @id @default(autoincrement())
+  pageSlug  String
+  page      Page   @relation(fields: [pageSlug], references: [slug], onDelete: Cascade)
+  sortOrder Int
+  key       String
+  kind      String // section | chrome | comment
+  html      String
+
+  @@unique([pageSlug, sortOrder])
+  @@index([pageSlug])
+}
+
+model UiString {
+  key  String @id
+  html String
+}
+
+model Media {
+  id            Int     @id @default(autoincrement())
+  hash          String  @unique
+  folder        String
+  filename      String
+  path          String  @unique // URL publica: /media/<pasta>/<arquivo>.avif
+  width         Int
+  height        Int
+  bytesOriginal Int
+  bytesAvif     Int
+  alt           String?
+}
+
+// ---------------------------------------------------------------- episodios
+model Season {
+  number   Int       @id
+  label    String
+  episodes Episode[]
+}
+
+model Spinoff {
+  slug      String    @id
+  label     String
+  sortOrder Int
+  attrs     Json
+  episodes  Episode[]
+}
+
+model Episode {
+  slug         String   @id // ep1, spinoff-shadow-ep1...
+  sortOrder    Int // ordem na lista
+  readerOrder  Int // ordem dos leitores no HTML original
+  seasonNumber Int?
+  season       Season?  @relation(fields: [seasonNumber], references: [number])
+  spinoffSlug  String?
+  spinoff      Spinoff? @relation(fields: [spinoffSlug], references: [slug])
+  numLabel     String
+  title        String
+  subtitle     String?
+  itemAttrs    Json
+  readerAttrs  Json
+  readerTag    String
+  readerTitle  String
+  bodyHtml     String
+  bodyAttrs    Json
+  afterHtml    String
+
+  @@index([seasonNumber])
+  @@index([spinoffSlug])
+}
+
+// ---------------------------------------------------------------- personagens
+model CharacterGroup {
+  id         String      @id
+  page       String
+  sortOrder  Int
+  attrs      Json
+  characters Character[]
+}
+
+model Character {
+  id          Int             @id @default(autoincrement())
+  page        String
+  groupId     String
+  group       CharacterGroup  @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  sortOrder   Int
+  attrs       Json
+  name        String
+  title       String
+  headerAttrs Json
+  badgeText   String?
+  badgeAttrs  Json?
+  toggleText  String
+  bodyAttrs   Json
+  parts       CharacterPart[]
+
+  @@index([groupId])
+}
+
+model CharacterPart {
+  id          Int       @id @default(autoincrement())
+  characterId Int
+  character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)
+  sortOrder   Int
+  kind        String // field | gallery | html
+  attrs       Json?
+  html        String?
+  fieldParts  Json? // field: [{t: label|value|raw, ...}]
+  images      Json? // gallery: [{attrs}]  (src aponta para Media.path)
+
+  @@index([characterId])
+}
+
+// ---------------------------------------------------------------- entidades
+model EntityGroup {
+  id       String   @id
+  page     String
+  attrs    Json
+  entities Entity[]
+}
+
+model Entity {
+  id        Int         @id @default(autoincrement())
+  page      String
+  groupId   String
+  group     EntityGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  sortOrder Int
+  attrs     Json
+  rank      String
+  name      String
+  imgAttrs  Json?
+  descHtml  String
+  descAttrs Json
+  tagsAttrs Json
+  order     Json // ordem dos filhos do card
+  tags      EntityTag[]
+
+  @@index([groupId])
+}
+
+model EntityTag {
+  id        Int    @id @default(autoincrement())
+  entityId  Int
+  entity    Entity @relation(fields: [entityId], references: [id], onDelete: Cascade)
+  sortOrder Int
+  text      String
+  attrs     Json
+
+  @@index([entityId])
+}
+
+// ---------------------------------------------------------------- ranks
+model RankGroup {
+  id    String @id
+  page  String
+  attrs Json
+  ranks Rank[]
+}
+
+model Rank {
+  id         Int       @id @default(autoincrement())
+  page       String
+  groupId    String
+  group      RankGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  sortOrder  Int
+  attrs      Json
+  label      String
+  labelAttrs Json
+  name       String
+  nameAttrs  Json
+  descHtml   String
+  descAttrs  Json
+  extraHtml  String
+  midAttrs   Json
+
+  @@index([groupId])
+}
+
+// ---------------------------------------------------------------- glossario e faq
+model GlossaryTerm {
+  id        Int    @id @default(autoincrement())
+  page      String
+  sortOrder Int
+  attrs     Json
+  term      String
+  termAttrs Json
+  defHtml   String
+  defAttrs  Json
+
+  @@index([page])
+}
+
+model FaqItem {
+  id            Int    @id @default(autoincrement())
+  sortOrder     Int
+  attrs         Json
+  question      String
+  questionAttrs Json
+  answerHtml    String
+  answerAttrs   Json
+}
+
+// ---------------------------------------------------------------- cosmologia
+model LayerGroup {
+  id           String  @id
+  page         String
+  sortOrder    Int
+  attrs        Json
+  trailingHtml String  @default("")
+  layers       Layer[]
+}
+
+/// Cosmo-layers: camadas inalcancaveis, escada, mecanicas, aureolas N1..N12, patamares...
+model Layer {
+  id          Int        @id @default(autoincrement())
+  groupId     String
+  group       LayerGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  sortOrder   Int
+  attrs       Json
+  beforeHtml  String     @default("")
+  numHtml     String
+  midAttrs    Json
+  preNameHtml String     @default("")
+  name        String
+  nameAttrs   Json
+  bodyHtml    String
+  badgeText   String
+  badgeAttrs  Json
+
+  @@index([groupId])
+}
+
+model CamadaGroup {
+  id           String   @id
+  page         String
+  attrs        Json
+  trailingHtml String   @default("")
+  camadas      Camada[]
+}
+
+/// As 21 camadas da Escada da Solidificacao (C01...)
+model Camada {
+  id         Int         @id @default(autoincrement())
+  groupId    String
+  group      CamadaGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  sortOrder  Int
+  attrs      Json
+  beforeHtml String      @default("")
+  code       String
+  codeAttrs  Json
+  midAttrs   Json
+  name       String
+  nameAttrs  Json
+  descHtml   String
+  descAttrs  Json
+
+  @@index([groupId])
+}
+
+// ---------------------------------------------------------------- mapa de relacoes
+model RelNode {
+  id        String    @id
+  name      String
+  x         Int
+  y         Int
+  hub       Boolean   @default(false)
+  sortOrder Int
+  outgoing  RelEdge[] @relation("from")
+  incoming  RelEdge[] @relation("to")
+}
+
+model RelEdge {
+  id        Int     @id @default(autoincrement())
+  fromId    String
+  toId      String
+  from      RelNode @relation("from", fields: [fromId], references: [id], onDelete: Cascade)
+  to        RelNode @relation("to", fields: [toId], references: [id], onDelete: Cascade)
+  label     String
+  sortOrder Int
+
+  @@index([fromId])
+  @@index([toId])
+}

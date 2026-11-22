@@ -1,0 +1,42 @@
+    /* MAPA DE RELAÇÕES */
+    .relmap-wrap {
+      max-width: 700px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .relmap-edge {
+      stroke: var(--border);
+      stroke-width: 1;
+      fill: none;
+      transition: stroke 0.2s, stroke-width 0.2s;
+    }
+    .relmap-edge.highlight { stroke: var(--accent); stroke-width: 1.6; }
+    .relmap-node circle {
+      fill: var(--panel);
+      stroke: var(--accent2);
+      stroke-width: 1.2;
+      transition: stroke 0.2s, fill 0.2s;
+    }
+    .relmap-node.hub circle { stroke: var(--accent); stroke-width: 1.6; }
+    .relmap-node { cursor: pointer; opacity: 0; transition: opacity 0.6s ease; }
+    .relmap-node.visible { opacity: 1; }
+    .relmap-node text {
+      fill: var(--silver);
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      text-anchor: middle;
+      pointer-events: none;
+    }
+    .relmap-node.hub text { fill: var(--white); font-weight: 700; }
+    .relmap-node:hover circle { stroke: var(--accent); }
+    .relmap-info {
+      margin-top: 1.5rem;
+      min-height: 3.5rem;
+      padding: 1rem 1.4rem;
+      background: var(--panel);
+      border: 1px dashed var(--border);
+      font-size: 0.85rem;
+      color: var(--grey);
+      line-height: 1.6;
+    }
+    .relmap-info strong { color: var(--accent2); font-family:'Cinzel',serif; }

@@ -1,0 +1,89 @@
+    /* COSMOLOGY */
+    .cosmo-section { background: var(--deep); }
+
+    .cosmo-layers {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    .cosmo-layer {
+      background: var(--panel);
+      padding: 1.5rem 2rem;
+      display: grid;
+      grid-template-columns: 80px 1fr auto;
+      align-items: center;
+      gap: 2rem;
+      transition: background 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cosmo-layer::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--accent);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .cosmo-layer:hover { background: var(--deep); }
+    .cosmo-layer:hover::before { opacity: 1; }
+
+    .aureola-num-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .aureola-glyph {
+      width: clamp(30px, 5vw, 44px);
+      height: clamp(30px, 5vw, 44px);
+      opacity: 0.55;
+      pointer-events: none;
+      transition: opacity 0.2s;
+      flex-shrink: 0;
+    }
+
+    .cosmo-layer:hover .aureola-glyph { opacity: 0.85; }
+
+    @media (max-width: 768px) {
+      .aureola-glyph { width: 28px; height: 28px; opacity: 0.45; }
+    }
+
+    .layer-num {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: var(--muted);
+    }
+
+    .layer-name {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.2rem;
+    }
+
+    .layer-desc {
+      font-size: 0.88rem;
+      color: var(--grey);
+    }
+
+    .layer-badge {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      color: var(--accent2);
+      border: 1px solid var(--accent2);
+      padding: 0.2rem 0.6rem;
+      white-space: nowrap;
+      opacity: 0.7;
+    }

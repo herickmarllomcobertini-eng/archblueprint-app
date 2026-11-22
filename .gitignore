@@ -1,0 +1,10 @@
+node_modules
+dist
+*.db
+*.db-journal
+.env
+backup.zip
+__pycache__
+.DS_Store
+apps/web/public/data
+apps/web/public/media

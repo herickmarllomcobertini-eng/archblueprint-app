@@ -1,0 +1,6 @@
+.nav-links a.nav-ext{color:var(--accent)!important;border-bottom:1px solid rgba(201,161,58,.4)}
+.spoiler-banner{margin:5.2rem auto 0;max-width:1100px;padding:1rem 1.4rem;border:1px solid rgba(201,161,58,.35);border-left:3px solid var(--accent);background:var(--panel);font-size:.85rem;line-height:1.7;color:var(--silver);position:relative;z-index:5}
+.spoiler-banner b{color:var(--accent)}
+.spoiler-banner a{color:var(--accent);text-decoration:underline}
+.hier-link-card{display:inline-block;margin-top:1.4rem;padding:.8rem 1.4rem;border:1px solid var(--accent);color:var(--accent);font-family:'Share Tech Mono',monospace;font-size:.7rem;letter-spacing:.18em;text-decoration:none}
+.hier-link-card:hover{background:var(--accent);color:var(--black)}

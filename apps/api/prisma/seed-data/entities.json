@@ -1,0 +1,1026 @@
+[
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// ENTIDADE CRIADORA",
+  "name": "A ENTIDADE",
+  "imgAttrs": {
+   "src": "/media/entidades/a-entidade.avif",
+   "alt": "A Entidade",
+   "style": "width:100%; max-width:260px; height:auto; display:block; margin:0 auto 0.8rem; border:1px solid var(--border);"
+  },
+  "descHtml": "\n            Surgiu antes do nada ter nome. Plantou a semente. Não age, apenas decide. Sua presença não ocupa espaço porque o espaço não existia antes dela ocupar. Qualquer tentativa de defini-la falha antes de começar, não porque seja grande demais, mas porque definição pressupõe algo fora dela para comparar.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "CRIAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "OBSERVAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ABSOLUTO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "INDEFINÍVEL",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "img",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// FILHO DA ÁRVORE · PRIMORDIAL",
+  "name": "ANOFF",
+  "imgAttrs": null,
+  "descHtml": "\n            Emergiu do interior da árvore. Criou o sistema das Auréolas, uma estrutura que contém, em cada nível, a totalidade do nível anterior como fração insignificante de si. Definiu as hierarquias. Selado por escolha. O que ele construiu não pode ser desfeito por nada que exista dentro dele. Sua árvore, a <strong style=\"color:var(--silver);\">Árvore de Anoff</strong>, original e primordial. Habita a camada 21, sendo a raiz de onde toda a estrutura da existência se ramifica pelas demais camadas.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "SISTEMA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ÁUREOLAS",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "HIERARQUIA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "SELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DA AÇÃO",
+  "name": "SOCUM / SUKUM",
+  "imgAttrs": null,
+  "descHtml": "\n            Deus primordial da ação, do punho, da lógica e da escrita. Sem ordem não existe luta. Sem luta não existe existência. Cada ação sua gera uma sequência que nunca se repete e nunca termina, adaptando, mudando e superando qualquer resposta antes mesmo do tempo registrar o primeiro movimento. Prefere viajar.\n            <br/><br/>\n            Estilo lendário: <strong style=\"color:var(--silver);\">Sintaxe do Punho</strong>. Cada golpe escreve a própria regra no instante em que acontece, então nenhuma defesa consegue prever o que ainda não foi escrito.",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "AÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ORDEM",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ADAPTAÇÃO INFINITA",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUSA PRIMORDIAL DO DESESPERO",
+  "name": "SOLENNA LUVITUS",
+  "imgAttrs": null,
+  "descHtml": "\n            Uma existência de puro desespero absoluto. O ar não suporta sua presença. Não porque seja destrutiva, mas porque o conceito de \"suportar\" pressupõe algo que ela não reconhece como real. A realidade afunda ao redor dela. Governa a morte em toda expansão. Chamá-la de deusa é diminuí-la.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "DESESPERO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "MORTE",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ANULAÇÃO DE ESTRUTURA",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DO VAZIO",
+  "name": "INFINITE",
+  "imgAttrs": null,
+  "descHtml": "\n            Nascido do conflito entre Lua e Sol. Escuridão que não consome, apaga. Suas lâminas são feitas do próprio inexistente. Em guerra eterna com Bill. Cada golpe não destrói, remove a possibilidade de que o que foi destruído já tenha existido. A guerra deles não tem fim porque nenhum dos dois reconhece o outro como algo que pode terminar.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "VAZIO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "APAGAMENTO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "REMOÇÃO DE POSSIBILIDADE",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DA LUZ",
+  "name": "BILL",
+  "imgAttrs": null,
+  "descHtml": "\n            Personificação da luz e das estrelas. Olhos que queimam como sóis. Em guerra perpétua com Infinite. Cada golpe colapsa realidades inteiras. Não como dano colateral, mas porque a energia que ele emite cria novas camadas de existência entre cada impacto, tornando o espaço entre os golpes infinitamente maior que os próprios golpes.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "LUZ",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CRIAÇÃO CONTÍNUA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "COLISÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DO DOMÍNIO",
+  "name": "BULLDOG SHOESIGN",
+  "imgAttrs": null,
+  "descHtml": "\n            Um cavaleiro. Postura firme. Tudo tem valor, inclusive coisas que ainda não existem. Tudo pode ser negociado, inclusive conceitos que a lógica diz que não podem ser possuídos. Sua existência não destrói. Ela incorpora. O que ele domina não é removido, passa a existir dentro de uma fração de si mesmo, reduzido a dado estático.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "DOMÍNIO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "INCORPORAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CONTROLE ABSOLUTO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// SUBFILHO SELADO",
+  "name": "ADAM",
+  "imgAttrs": null,
+  "descHtml": "\n            O oposto de tudo. Deus e demônio. Apóstolo do fim. Mesmo com 10% de poder supera Infinite e Bill juntos. Responsável por guerras e colapsos. Sua existência é uma contradição que quebra as leis do sistema para conseguir existir. Selado. Não porque foi derrotado, mas porque solto, o sistema não conseguiria registrar o que aconteceria.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "GUERRA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CONTRADIÇÃO ABSOLUTA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "SELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// O TECELÃO",
+  "name": "PROFETA",
+  "imgAttrs": null,
+  "descHtml": "\n            Existe desde o surgimento de Anoff. A estrutura de tudo. Sustenta cada camada da existência até a vigésima primeira. Não como suporte físico, mas como o padrão que nunca se repete e nunca termina, presente em cada ponto simultaneamente. Apenas testemunha. Apenas sustenta. Estar em um lugar significa estar em todos.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "TECIDO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ONIPRESENÇA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "21 CAMADAS",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// O ANDARILHO · NÃO CLASSIFICADO",
+  "name": "ONYX",
+  "imgAttrs": {
+   "src": "/media/entidades/onyx.avif",
+   "alt": "Onyx",
+   "style": "width:100%; max-width:260px; height:auto; display:block; margin:0.6rem auto 0.8rem; border:1px solid var(--border);"
+  },
+  "descHtml": "\n            Não é um Deus Primordial de origem. Ocupa o posto de Primordial do Portão, guardião do Portão Principal da Árvore de Anoff, na Camada 21 (Fio Zero), e opera em nível equivalente ao deles. É reconhecido como tal pelos próprios Deuses Primordiais. O que ele é de verdade ainda não foi revelado. O que já foi mostrado é suficiente para que ninguém queira ver o resto.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "ANDARILHO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "NÍVEL PRIMORDIAL",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "NÃO REVELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "LIVRE",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "img",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-entities",
+  "sortOrder": 10,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS DA PAZ INTERIOR · ALMAS",
+  "name": "BU",
+  "imgAttrs": null,
+  "descHtml": "\n            Deus Primordial do equilíbrio interior e das almas. Mencionado por Sukum como possível candidato pra ajudar Tolta a controlar a entidade dentro dele. Descartado por não ser suficiente pra uma situação desse nível. Ainda não apareceu diretamente nos episódios.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "PAZ INTERIOR",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ALMAS",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "PRIMORDIAL",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// ENTIDADE CRIADORA",
+  "name": "A ENTIDADE",
+  "imgAttrs": {
+   "src": "/media/entidades/a-entidade.avif",
+   "alt": "A Entidade",
+   "style": "width:100%; max-width:260px; height:auto; display:block; margin:0 auto 0.8rem; border:1px solid var(--border);"
+  },
+  "descHtml": "\n            Surgiu antes do nada ter nome. Plantou a semente. Não age, apenas decide. Sua presença não ocupa espaço porque o espaço não existia antes dela ocupar. Qualquer tentativa de defini-la falha antes de começar, não porque seja grande demais, mas porque definição pressupõe algo fora dela para comparar.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "CRIAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "OBSERVAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ABSOLUTO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "INDEFINÍVEL",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "img",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// FILHO DA ÁRVORE · PRIMORDIAL",
+  "name": "ANOFF",
+  "imgAttrs": null,
+  "descHtml": "\n            Emergiu do interior da árvore. Criou o sistema das Auréolas, uma estrutura que contém, em cada nível, a totalidade do nível anterior como fração insignificante de si. Definiu as hierarquias. Selado por escolha. O que ele construiu não pode ser desfeito por nada que exista dentro dele. Sua árvore, a <strong style=\"color:var(--silver);\">Árvore de Anoff</strong>, original e primordial. Habita a camada 21, sendo a raiz de onde toda a estrutura da existência se ramifica pelas demais camadas.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "SISTEMA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ÁUREOLAS",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "HIERARQUIA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "SELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DA AÇÃO",
+  "name": "SOCUM / SUKUM",
+  "imgAttrs": null,
+  "descHtml": "\n            Deus primordial da ação, do punho, da lógica e da escrita. Sem ordem não existe luta. Sem luta não existe existência. Cada ação sua gera uma sequência que nunca se repete e nunca termina, adaptando, mudando e superando qualquer resposta antes mesmo do tempo registrar o primeiro movimento. Prefere viajar.\n            <br/><br/>\n            Estilo lendário: <strong style=\"color:var(--silver);\">Sintaxe do Punho</strong>. Cada golpe escreve a própria regra no instante em que acontece, então nenhuma defesa consegue prever o que ainda não foi escrito.<br/><br/>Ajuste por escala de Auréola: para a maioria, a técnica escreve uma regra por golpe. Para Sukum, ela escreve a regra e o próprio ato de escrever ao mesmo tempo, sem intervalo entre os dois.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "AÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ORDEM",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ADAPTAÇÃO INFINITA",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUSA PRIMORDIAL DO DESESPERO",
+  "name": "SOLENNA LUVITUS",
+  "imgAttrs": null,
+  "descHtml": "\n            Uma existência de puro desespero absoluto. O ar não suporta sua presença. Não porque seja destrutiva, mas porque o conceito de \"suportar\" pressupõe algo que ela não reconhece como real. A realidade afunda ao redor dela. Governa a morte em toda expansão. Chamá-la de deusa é diminuí-la.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "DESESPERO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "MORTE",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ANULAÇÃO DE ESTRUTURA",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DO VAZIO",
+  "name": "INFINITE",
+  "imgAttrs": null,
+  "descHtml": "\n            Nascido do conflito entre Lua e Sol. Escuridão que não consome, apaga. Suas lâminas são feitas do próprio inexistente. Em guerra eterna com Bill. Cada golpe não destrói, remove a possibilidade de que o que foi destruído já tenha existido. A guerra deles não tem fim porque nenhum dos dois reconhece o outro como algo que pode terminar.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "VAZIO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "APAGAMENTO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "REMOÇÃO DE POSSIBILIDADE",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DA LUZ",
+  "name": "BILL",
+  "imgAttrs": null,
+  "descHtml": "\n            Personificação da luz e das estrelas. Olhos que queimam como sóis. Em guerra perpétua com Infinite. Cada golpe colapsa realidades inteiras. Não como dano colateral, mas porque a energia que ele emite cria novas camadas de existência entre cada impacto, tornando o espaço entre os golpes infinitamente maior que os próprios golpes.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "LUZ",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CRIAÇÃO CONTÍNUA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "COLISÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS PRIMORDIAL DO DOMÍNIO",
+  "name": "BULLDOG SHOESIGN",
+  "imgAttrs": null,
+  "descHtml": "\n            Um cavaleiro. Postura firme. Tudo tem valor, inclusive coisas que ainda não existem. Tudo pode ser negociado, inclusive conceitos que a lógica diz que não podem ser possuídos. Sua existência não destrói. Ela incorpora. O que ele domina não é removido, passa a existir dentro de uma fração de si mesmo, reduzido a dado estático.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "DOMÍNIO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "INCORPORAÇÃO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CONTROLE ABSOLUTO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// SUBFILHO SELADO",
+  "name": "ADAM",
+  "imgAttrs": null,
+  "descHtml": "\n            O oposto de tudo. Deus e demônio. Apóstolo do fim. Mesmo com 10% de poder supera Infinite e Bill juntos. Responsável por guerras e colapsos. Sua existência é uma contradição que quebra as leis do sistema para conseguir existir. Selado. Não porque foi derrotado, mas porque solto, o sistema não conseguiria registrar o que aconteceria.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "GUERRA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "CONTRADIÇÃO ABSOLUTA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "SELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// O TECELÃO",
+  "name": "PROFETA",
+  "imgAttrs": null,
+  "descHtml": "\n            Existe desde o surgimento de Anoff. A estrutura de tudo. Sustenta cada camada da existência até a vigésima primeira. Não como suporte físico, mas como o padrão que nunca se repete e nunca termina, presente em cada ponto simultaneamente. Apenas testemunha. Apenas sustenta. Estar em um lugar significa estar em todos.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "TECIDO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ONIPRESENÇA",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "21 CAMADAS",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// O ANDARILHO · NÃO CLASSIFICADO",
+  "name": "ONYX",
+  "imgAttrs": {
+   "src": "/media/entidades/onyx.avif",
+   "alt": "Onyx",
+   "style": "width:100%; max-width:260px; height:auto; display:block; margin:0.6rem auto 0.8rem; border:1px solid var(--border);"
+  },
+  "descHtml": "\n            Não é um Deus Primordial de origem. Ocupa o posto de Primordial do Portão, guardião do Portão Principal da Árvore de Anoff, na Camada 21 (Fio Zero), e opera em nível equivalente ao deles. É reconhecido como tal pelos próprios Deuses Primordiais. O que ele é de verdade ainda não foi revelado. O que já foi mostrado é suficiente para que ninguém queira ver o resto.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "ANDARILHO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "NÍVEL PRIMORDIAL",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "NÃO REVELADO",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "LIVRE",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "img",
+   "entity-desc",
+   "entity-tags"
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-entities",
+  "sortOrder": 10,
+  "attrs": {
+   "class": "entity-card"
+  },
+  "rank": "// DEUS DA PAZ INTERIOR · ALMAS",
+  "name": "BU",
+  "imgAttrs": null,
+  "descHtml": "\n            Deus Primordial do equilíbrio interior e das almas. Mencionado por Sukum como possível candidato pra ajudar Tolta a controlar a entidade dentro dele. Descartado por não ser suficiente pra uma situação desse nível. Ainda não apareceu diretamente nos episódios.\n          ",
+  "descAttrs": {
+   "class": "entity-desc"
+  },
+  "tags": [
+   {
+    "text": "PAZ INTERIOR",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "ALMAS",
+    "attrs": {
+     "class": "tag"
+    }
+   },
+   {
+    "text": "PRIMORDIAL",
+    "attrs": {
+     "class": "tag"
+    }
+   }
+  ],
+  "tagsAttrs": {
+   "class": "entity-tags"
+  },
+  "order": [
+   "entity-rank",
+   "entity-name",
+   "entity-desc",
+   "entity-tags"
+  ]
+ }
+]

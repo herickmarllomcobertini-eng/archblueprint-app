@@ -1,0 +1,20 @@
+[
+ {
+  "slug": "home",
+  "title": "ARCHBLUEPRINT",
+  "headHtml": "<meta charset=\"utf-8\"/><meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/><title>ARCHBLUEPRINT</title><link href=\"perfil.png\" rel=\"icon\" type=\"image/png\"/><link href=\"perfil.png\" rel=\"apple-touch-icon\"/><link href=\"https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&amp;family=IM+Fell+English:ital@0;1&amp;family=Share+Tech+Mono&amp;family=Rajdhani:wght@300;400;500;600;700&amp;display=swap\" rel=\"stylesheet\"/>",
+  "htmlAttrs": {
+   "lang": "pt-BR"
+  },
+  "bodyAttrs": {}
+ },
+ {
+  "slug": "hierarquia",
+  "title": "ARCHBLUEPRINT Hierarquia",
+  "headHtml": "<meta charset=\"utf-8\"/><meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/><title>ARCHBLUEPRINT Hierarquia</title><link href=\"perfil.png\" rel=\"icon\" type=\"image/png\"/><link href=\"perfil.png\" rel=\"apple-touch-icon\"/><link href=\"https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&amp;family=IM+Fell+English:ital@0;1&amp;family=Share+Tech+Mono&amp;family=Rajdhani:wght@300;400;500;600;700&amp;display=swap\" rel=\"stylesheet\"/>",
+  "htmlAttrs": {
+   "lang": "pt-BR"
+  },
+  "bodyAttrs": {}
+ }
+]

@@ -1,0 +1,52 @@
+    /* FOOTER */
+    footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 900;
+      letter-spacing: 0.2em;
+      color: var(--white);
+      margin-bottom: 0.8rem;
+    }
+
+    .footer-logo span { color: var(--accent); }
+
+    .footer-credits {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.15em;
+      color: var(--grey);
+      margin-bottom: 0.4rem;
+    }
+
+    .footer-credits span { color: var(--silver); }
+
+    .footer-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 1.5rem;
+    }
+
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 1.4rem;
+      margin: 1.2rem 0 0.4rem;
+    }
+
+    .footer-social a {
+      color: var(--grey);
+      transition: color 0.25s;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-social a:hover {
+      color: var(--accent);
+    }

@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "shadow",
+  "label": "Shadow Rëvna e o Pistoleiro",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "spinoff-tab active",
+   "onclick": "selectSpinoff('shadow', this)",
+   "type": "button"
+  }
+ },
+ {
+  "slug": "onyx",
+  "label": "Onyx: Fio Zero",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "spinoff-tab",
+   "onclick": "selectSpinoff('onyx', this)",
+   "type": "button"
+  }
+ },
+ {
+  "slug": "infinitibill",
+  "label": "Infiniti e Bill: A Dualidade Perfeita",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "spinoff-tab",
+   "onclick": "selectSpinoff('infinitibill', this)",
+   "type": "button"
+  }
+ }
+]

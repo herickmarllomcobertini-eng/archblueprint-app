@@ -1,0 +1,60 @@
+    /* AUREOLAS */
+    .aureola {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0.12;
+    }
+
+    .aureola svg {
+      fill: none;
+      stroke: var(--accent);
+    }
+
+    .aureola-spin {
+      animation: spinSlow 20s linear infinite;
+    }
+
+    .aureola-spin-rev {
+      animation: spinSlow 30s linear infinite reverse;
+    }
+
+    .aureola-pulse {
+      animation: auPulse 4s ease-in-out infinite;
+    }
+
+    @keyframes spinSlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Torch/ember flicker for a Souls-like ambient magic feel */
+    @keyframes emberFlicker {
+      0%, 100% { text-shadow: 0 0 6px var(--glow), 0 0 14px var(--ember-glow); }
+      25% { text-shadow: 0 0 4px var(--glow), 0 0 10px var(--ember-glow); }
+      50% { text-shadow: 0 0 9px var(--glow), 0 0 18px var(--ember-glow); }
+      75% { text-shadow: 0 0 5px var(--glow), 0 0 11px var(--ember-glow); }
+    }
+
+    .section-title, .nav-logo span {
+      animation: emberFlicker 4.5s ease-in-out infinite;
+    }
+
+    @keyframes auPulse {
+      0%, 100% { opacity: 0.08; transform: scale(1); }
+      50% { opacity: 0.18; transform: scale(1.05); }
+    }
+
+    /* floating decorative aureolas between sections */
+    .section-aureola {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem 0;
+      gap: 3rem;
+      opacity: 0.15;
+    }
+
+    .section-aureola svg {
+      fill: none;
+      stroke: var(--accent);
+    }

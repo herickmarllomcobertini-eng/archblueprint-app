@@ -1,0 +1,12 @@
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 0 1.2rem; }
+      .nav-links { gap: 1.2rem; }
+      .about-grid { grid-template-columns: 1fr; }
+      .cosmo-layer { grid-template-columns: 50px 1fr; }
+      .layer-badge { display: none; }
+      .ep-item { grid-template-columns: auto 1fr auto; }
+      .ep-num { font-size: 0.55rem; }
+      .ep-reader { padding: 1.5rem; }
+    }
+

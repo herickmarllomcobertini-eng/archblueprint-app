@@ -1,0 +1,288 @@
+[
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "D",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Iniciante",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Força física superior à média humana. Velocidade abaixo do sônico. Manipulação elementar básica. Fogo, água, vento em nível rudimentar. Sem presença perceptível.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "C",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Caçador Básico",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Controle elementar mais sólido. Velocidade sônica inicial. Capacidade de manipular um ou dois elementos com consistência. Começa a emitir presença mensurável.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "B",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Caçador Intermediário",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Velocidade sônica avançada. Manipulação de múltiplos elementos. Resistência elevada. Presença que afeta o ambiente ao redor. Começa a interagir com energia de forma consciente.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "A",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Caçador Avançado",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Alta manipulação de elementos. Velocidade hipersônica. Resistência absurda. Presença que paralisa oponentes comuns. Manipulação de energia em nível refinado. Começa a desenvolver técnicas únicas. É a faixa onde Jeff e os Agentes de Campo de nível inferior do Beco operam.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "S",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Élite",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Presença esmagadora. Velocidade além do físico. Manipulação de espaço básica. Onipresença rudimentar. O simples olhar de um rank S pode paralisar ranks inferiores completamente. O Agente de Campo superior do Beco já opera nesse patamar, e Maria não fica muito abaixo dele.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SS",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Supremo",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Onipresença básica consolidada. Manipulação de espaço e tempo em nível inicial. Presença que distorce o ambiente. Capazes de destruir estruturas dimensionais menores.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSS",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Lendário",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Manipulação de realidade em nível inicial. Onipresença avançada. Capacidade de interagir com estruturas narrativas. Presença que colapsa ambientes inteiros. Pouquíssimos atingem este nível, é onde a estimativa atual do poder de Maria se encaixa.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSS+",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Além do Lendário",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Manipulação de realidade consolidada. Capacidade de reescrever eventos locais. Presença que afeta camadas narrativas próximas. Manipulação de conceitos abstratos em nível básico.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSA",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Transcendente",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Manipulação de narrativa direta. Capacidade de alterar histórias em andamento. Onipresença em múltiplas camadas. Manipulação de conceitos matemáticos básicos.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSA+",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Transcendente Superior",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Alta manipulação de narrativa e conceitos. Capacidade de interagir com o tecido fictício. Presença que afeta realidades vizinhas. Manipulação de estruturas causais.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 10,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSAS",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Absoluto",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Manipulação Total de realidade, narrativa e história. Alta manipulação de conceitos matemáticos. Onipresença em nível quase Total. Capazes de colapsar narrativas inteiras.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n<div class=\"rank-desc\" style=\"margin-top:0.6rem; opacity:0.85; font-style:italic;\">Nota: um SSAS nascido dentro das 21 Camadas da Escada da Solidificação não é equivalente a um SSAS de uma narrativa comum. O habitante da Escada carrega biologicamente, soldada ao próprio ser, a regra da camada mais alta que já dominou, e a impõe onde estiver, mesmo fora de sua realidade natal. A diferença não aparece no número do rank, aparece na régua real de poder entre os dois.</div>\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 11,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSAS+",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Absoluto Superior",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Nível dos grandes predadores multinarrativos. Manipulação de tecido fictício. Distorção de conceitos em escala cósmica. Auréola próxima ao nível caótico. Top 1 em infinitas narrativas é algo alcançável neste nível, e é onde o Braço de Ferro se encontra.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n",
+  "midAttrs": {}
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-ranks",
+  "sortOrder": 12,
+  "attrs": {
+   "class": "rank-row"
+  },
+  "label": "SSAS++",
+  "labelAttrs": {
+   "class": "rank-label"
+  },
+  "name": "Magnitude Cósmica",
+  "nameAttrs": {
+   "class": "rank-name"
+  },
+  "descHtml": "Território dos seres que transcendem o sistema de rankings. Poder de origem primordial ou linhagem divina. Onipresença em nível de colapso caótico em forma máxima. Auréola em nível caótico ou além. O sistema mal consegue classificar estes seres.",
+  "descAttrs": {
+   "class": "rank-desc"
+  },
+  "extraHtml": "\n<div class=\"rank-desc\" style=\"margin-top:0.6rem; opacity:0.85; font-style:italic;\">Kevin, quando perguntado por que ele e outros tão diferentes entre si dividem a mesma classificação, deu de ombros: \"o sistema não sabe o que fazer comigo, então me jogou na mesma gaveta de todo mundo que ele também não sabe medir. Não significa que a gente seja igual, só que a régua deles parou de funcionar bem antes de chegar aqui.\" A partir desse ponto, o rank cataloga qualquer indivíduo que seja ou já tenha sido Caçador de Recompensa, independente de mortalidade, não é uma medida do que o ser é, só de como o mundo dos caçadores consegue rotulá-lo.</div>\n",
+  "midAttrs": {}
+ }
+]

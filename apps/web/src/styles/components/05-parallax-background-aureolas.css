@@ -1,0 +1,19 @@
+    /* PARALLAX BACKGROUND AUREOLAS */
+    .bg-aureolas {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .bg-aureola-item {
+      position: absolute;
+      opacity: 0.04;
+      transition: transform 0.1s ease-out;
+    }
+
+    .bg-aureola-item svg {
+      fill: none;
+      stroke: var(--accent);
+    }

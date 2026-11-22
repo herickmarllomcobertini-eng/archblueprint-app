@@ -1,0 +1,425 @@
+[
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "<div class=\"phase-header\">\n<span class=\"phase-num\">// FASE I</span>\n<span class=\"phase-title\">O Peso</span>\n<span class=\"phase-range\">C01 a C05</span>\n</div>",
+  "code": "C01",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Lastro Mineral",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Roteiros inferiores ganham bilhões de toneladas de gravidade fictícia ao tentar editar o ser. O texto colapsa sob o próprio peso. No fundo deste piso, dois tronos foram cravados direto na rocha. Lúcifer e Kevin dividem esse submundo, sem sustentar nada nem regular a camada, apenas ocupando o primeiro degrau da Escada como território próprio. A raça dominante deste piso (não a única, apenas a mais numerosa), os Kharun, guerreiros encouraçados que já nascem fundidos ao próprio peso, servem como guarda emprestada dos dois tronos, sem povoado fixo próprio. Não têm cidade porque não têm necessidade de uma: um Kharun adulto pode ficar parado no mesmo palmo de rocha por séculos sem que isso conte como ociosidade pra ele, a gravidade fictícia do piso é lida pelo corpo deles como uma segunda pele, e não como um fardo. Poucos de fora sabem que existe hierarquia entre eles, mas existe: quem já segurou o peso de uma Inversão Ontológica de Definição sem cair de joelhos vira automaticamente veterano, e só esses guardam de fato a proximidade dos tronos.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N1 (Formas Básicas), quase sem exceção. O peso do piso substitui qualquer necessidade de evolução própria, um Kharun raramente sente motivo pra subir além disso, e os poucos veteranos que tentam N2 costumam desistir a meio caminho, pesados demais pra si mesmos pra migrar de forma.<br/><br/>\n<strong style=\"color:var(--silver);\">Mecânica de Contenção Exógena · A Porta de Entrada:</strong> Esta camada funciona como o submundo e o filtro absoluto de segurança da Escada da Solidificação. Qualquer entidade intrusa que tente invadir as 21 camadas afirmando \"transcender todos os conceitos\", \"existir além da linguagem\", \"ignorar a lógica\" ou possuir \"ausência total de definição\" sofre uma Inversão Ontológica de Definição imediata e passiva no primeiro milímetro de contato. O sistema identifica essa negação conceitual como um Bad Sector e confisca a própria gramática que a entidade usa para se manter abstrata. A tentativa de \"não ter conceito\" é convertida no conceito rígido e imutável da criatura, forçando-a a se auto-solidificar instantaneamente. Ela perde sua natureza transcendental, assume obrigatoriamente um corpo físico denso, opaco e vulnerável, rebaixada a ferro bruto ou vidro, tornando-se mecanicamente incapaz de subir a hierarquia. Seus counters automáticos travam e ela é forçada a apanhar no soco puro, sendo jogada de volta para a lixeira do Piso Ontológico como dado nulo.<br/><br/>\n<strong style=\"color:var(--silver);\">Escopo:</strong> a Porta vale para quem chega de fora sem passagem. Anoff, A Entidade e o Deus Primordial do Conhecimento transcendem a jurisdição do próprio sistema, e quem já tem passagem própria ou concedida, como o espaço do Bu e o guardião do Portão Principal, não passa pelo filtro.<br/><br/>\n<strong style=\"color:var(--silver);\">Cláusula de Leitura Obrigatória:</strong> A contenção não depende de contato físico. Qualquer conceito, ideia ou infecção memética só passa a existir dentro do sistema de Anoff no instante em que é lido e processado por ele, mesmo remotamente, mesmo antes de pisar fisicamente na Escada. Esse ato de leitura já é contato, no sentido que a Porta de Entrada exige. Um conceito matemático transfinito ou informacional que tente se infiltrar pela infosfera ou semiosfera antes da chegada física da entidade é confiscado no exato momento em que Anoff o registra, nunca depois. Não existe janela entre \"ser lido\" e \"ser contido\".<br/><br/>\n<strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> A solidificação não fica presa num piso só. De C01 até C10, a mesma lei se repete e se aprofunda: cada camada reforça o confisco da anterior, deixando o corpo já solidificado mais denso, mais opaco, mais impossível de reverter. Não é uma regra nova a cada piso, é a mesma regra, cada vez mais pesada.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C02",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Vetor Cego",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Anula a direção de intenções literárias. Habilidades mágicas, decretos de destino e manipulações conceituais erram o alvo antes de saírem do lugar. No centro, presa numa superfície não-orientável tipo faixa de Möbius, gira a <strong style=\"color:var(--silver);\">Agulha de Farrow</strong>, uma bússola que nunca aponta pra lado nenhum. Se ela parar de girar, a camada continua exatamente igual, ninguém nunca testou de propósito, porque ninguém confia no que aconteceria com a própria direção de quem tentasse. A raça dominante aqui, os Ondrai, nasce sem olhos e nunca sentiu falta deles: enxergam por meio de um sexto sentido que lê intenção, não posição, e por isso nunca se perdem, mesmo sem nunca saber exatamente onde estão. Vivem em Farrowmere, cidade que muda de lugar toda vez que alguém de fora tenta desenhar o mapa dela, os próprios Ondrai não se importam, porque pra eles a cidade nunca esteve \"num lugar\" pra começo de conversa.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N1, com uma minoria de guias-cegos (os que orientam caçadores de fora pela camada) atingindo N2, a única forma poligonal deles é sempre assimétrica, nunca fecha o próprio contorno.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> O que já foi solidificado em C01 perde até a direção de tentar se recompor aqui, qualquer impulso de voltar a ser abstrato erra o próprio alvo antes de sair do lugar.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C03",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Inércia Ontológica",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Imunidade absoluta ao conceito de Velocidade de Mudança. Apagamentos instantâneos, aceleração e desaceleração do tempo falham contra resistência estática infinita. No centro do piso fica o <strong style=\"color:var(--silver);\">Relógio de Stillhollow</strong>, uma peça maciça de pedra com os ponteiros travados no mesmo ponto fixo há tanto tempo que ninguém mais tenta lê-lo. Quebrá-lo não muda em nada a passagem do tempo ali, já quebraram, mais de uma vez, e o relógio simplesmente reaparece inteiro no dia seguinte, sem ninguém ter consertado nada. A raça dominante aqui, os Kestrun, habita Stillhollow, cidade erguida sobre o próprio relógio. Não envelhecem, mas também não são imortais no sentido comum: um Kestrun pode morrer de violência ou acidente, só não morre de tempo, e por isso encaram a própria mortalidade com uma calma que soa quase ofensiva pra quem vem de fora.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N1, estável em toda a população. Alguns anciãos, que não envelhecem, mas acumulam experiência mesmo assim, flertam com N3 (Formas Compostas), sustentando dois estados de \"mudança\" contraditórios ao mesmo tempo sem nunca resolver qual é o real.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> A solidificação, uma vez feita, não retrocede: aqui ela ganha a mesma imunidade absoluta à mudança que o piso impõe a tudo. Virou ferro, continua ferro, pra sempre.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C04",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Ruído Estrutural",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Conceitos lógicos e matemáticos que sobem até aqui viram estática industrial pura, desintegrando mentes de deuses conceituais com Auréolas N1 a N3. A <strong style=\"color:var(--silver);\">Torre de Hushvane</strong>, sem antena visível, emite esse ruído em todas as direções ao mesmo tempo. Ninguém identificado ainda desligou ela, e ninguém sabe se dá, os poucos que tentaram subir até o topo simplesmente pararam de fazer sentido no meio do caminho, e ainda estão lá, presos entre um degrau e o próximo. A raça dominante aqui, os Vrenn, vive em Hushvane, aldeia erguida na base da torre, imune ao próprio ruído porque nasceu já ensurdecida por ele, não no sentido físico, mas conceitual: um Vrenn simplesmente não processa lógica externa como ameaça, ela passa direto, como vento batendo numa pedra.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N2 (Formas Poligonais). Os cinco pilares que a N2 concede, Criação, Presença Absoluta, Autoridade, Apagamento e Imunidade Recíproca, chegam quase de graça pra um Vrenn adulto, porque crescer já surdo ao próprio ruído da camada deixa a mente livre pra formalizar o resto cedo.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> Qualquer fragmento de lógica ou matemática que ainda reste na entidade já solidificada vira estática aqui, apagando o último resquício de raciocínio que poderia tentar reverter a condição.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "camada-item",
+   "style": "border-bottom:none;"
+  },
+  "beforeHtml": "",
+  "code": "C05",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Massa Semântica",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Significado vira matéria. Conceitos abstratos usados como armas são instantaneamente compactados em rochas cinzentas de informação inútil. Bulldog Shoesign caminha por esse depósito, o <strong style=\"color:var(--silver);\">Jazigo de Cindermark</strong>, como quem visita a própria coleção, cada rocha ali é algo que ele já negociou, dominou e reduziu a dado estático, sem precisar destruir nada. A raça dominante aqui, os Molvek, mineral que nasce dos próprios conceitos já compactados, forma pequenos povoados espalhados entre as rochas, Cindermark não é bem uma cidade, é mais um cinturão de aldeias que cresce ao redor de cada nova rocha que Shoesign deposita, sem nunca ousar tocar a coleção dele. Um Molvek recém-nascido literalmente racha pra fora de uma dessas rochas, o que faz com que cada povoado conheça a \"idade\" exata de cada morador só de olhar qual pedra ele veio.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N2, com uma tendência natural à faceta de Apagamento, sendo eles próprios feitos de significado já morto e compactado, um Molvek adulto sabe instintivamente como esvaziar sentido de algo antes de qualquer outro dos cinco pilares.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> O que sobrou de significado na entidade, mesmo depois de virar matéria, é comprimido de novo aqui, ficando mais denso ainda, empilhado junto com tudo que Bulldog já catalogou nesse depósito.<br/><br/><strong style=\"color:var(--silver);\">Verbo da camada:</strong> Compactar. A camada pega significado que está em uso e o transforma em pedra. O conceito não é destruído nem dissolvido: continua inteiro, só que parado e sem função, e por isso pode ser guardado e catalogado.<br/><br/><strong style=\"color:var(--silver);\">O que separa das vizinhas:</strong> na C04 a lógica que sobe vira estática e não sobra nada, aqui o conceito sobrevive como rocha e Shoesign o coleciona. Na C06 a ação acontece e é a consequência que se perde, aqui é o significado que vira matéria. Marca local: o Jazigo de Cindermark.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "<div class=\"phase-header\" style=\"border-left-color: rgba(201,161,58,0.7);\">\n<span class=\"phase-num\">// FASE II</span>\n<span class=\"phase-title\">A Rigidez</span>\n<span class=\"phase-range\">C06 a C15</span>\n</div>",
+  "code": "C06",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Estancamento Causal",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "O \"Então\" é extirpado da existência. Ações acontecem, mas não geram consequências para o habitante, a menos que venham de impacto físico puro de camada superior. O <strong style=\"color:var(--silver);\">Grilhão de Fallowchain</strong> atravessa o piso inteiro, cada elo perfeito, mas nenhum encostando de fato no seguinte, prova visual de causa sem efeito, um elo nunca puxa o próximo, mesmo quando alguém tenta forçar fisicamente. A raça dominante aqui, os Kaevorn, vive em Fallowchain, cidade erguida ao longo da própria corrente, cada geração nascendo já desconectada da anterior, sem herdar culpa nem consequência de ninguém. Isso não os torna amorais, só descolados de peso histórico: um Kaevorn pode cometer o mesmo erro do pai sem nunca saber que era um erro repetido, porque a própria memória de \"repetição\" não encontra apoio ali.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N2, alguns líderes tribais chegando a N3 (Formas Compostas), sustentar \"eu fiz isso\" e \"isso não teve efeito em mim\" ao mesmo tempo é, tecnicamente, já uma contradição sustentada, o que empurra alguns pra fora da forma poligonal comum.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> Nem o \"Então\" salva a entidade solidificada: qualquer tentativa de ação pra reverter o próprio estado simplesmente não gera consequência nenhuma aqui.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C07",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Corpo Opaco",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Alma, mente, energia e conceitos internos tornam-se completamente impenetráveis. Leitura, manipulação e maldição são impossíveis. No centro fica o <strong style=\"color:var(--silver);\">Casulo de Hollowvault</strong>, uma esfera perfeita sem nenhuma abertura, costura ou falha de superfície. Ninguém identificado ainda mediu o interior dela, porque não existe um jeito de entrar, nem mesmo os próprios moradores sabem o que tem lá dentro, e nenhum deles parece incomodado com isso. A raça dominante aqui, os Sorai, mora dentro dessa esfera, em Hollowvault, a única cidade da camada que ninguém de fora já viu por dentro. Um Sorai não tem pensamento \"vazado\": duas pessoas dessa raça podem conversar a vida toda sem que uma saiba de verdade o que a outra sente, e isso não é visto como solidão ali, é só como as coisas são.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N3 (Formas Compostas). A opacidade interna facilita justamente a lógica paraconsistente da N3, um Sorai já nasce acostumado a guardar contradições sem precisar resolvê-las pra ninguém de fora enxergar.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> A entidade, já sólida, perde também qualquer abertura interna que sobrasse: nem alma, nem energia residual, nada mais pode ser lido, manipulado ou usado como saída.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C08",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Fratura Axiomática",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Verdades universais do invasor racham sob pressão bruta. O axioma de imortalidade de um deus N5 parte como vidro, tornando-o vulnerável a danos comuns. A <strong style=\"color:var(--silver);\">Fenda de Glassmere</strong>, um bloco de vidro do tamanho de uma montanha, fica rachado ao meio no centro do piso, sem nunca terminar de quebrar, a rachadura anda alguns milímetros por século, e há apostas antigas entre os Rennik sobre em qual geração ela vai finalmente se completar. A raça dominante aqui, os Rennik, vive dentro da própria fenda, na cidade que ficou conhecida como Glassmere, cada família ocupando uma camada diferente da espessura do vidro, mais perto ou mais longe da superfície rachada conforme a hierarquia local.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N3, com uma casta de \"quebradores\", os que vivem mais perto da rachadura, testando ativamente N4 (Geometria Variável), já que decidir o efeito de um golpe antes dele acontecer é basicamente o mesmo instinto que a fratura já exercita neles todo dia.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> Se ainda restava alguma verdade universal amarrada à entidade solidificada, ela racha aqui, terminando de eliminar qualquer base que sustentasse uma reversão.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C09",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Isolação Térmica-Narrativa",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "A energia dramática do enredo é sugada. Poderes baseados em protagonismo, clímax e amizade são congelados instantaneamente. O <strong style=\"color:var(--silver);\">Poço de Wellbrink</strong>, sem fundo visível, fica cravado no meio do piso, puxando pra dentro qualquer coisa parecida com clímax narrativo antes que aconteça de verdade. A raça dominante aqui, os Vaelkin, habita Wellbrink, cidade erguida na borda do abismo, onde nenhuma história local jamais teve um final memorável, não por tragédia, só porque as histórias ali literalmente não conseguem chegar num ponto alto o bastante pra virar final. Casamentos, guerras, reencontros: tudo acontece, nada vira lenda, e os Vaelkin parecem genuinamente bem com isso.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N3, e uma parcela relevante deles domina N7 (Ausência de Forma) de forma latente e passiva, crescer sem nunca receber o \"empurrão\" de um clímax narrativo deixa a identidade de um Vaelkin naturalmente menos definida que a de outras raças, quase por acidente.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> Mesmo que a entidade tentasse transformar a própria queda em clímax dramático, isso é sugado aqui antes de virar impulso real.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C10",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Minério Primário",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "A ficção perde a leveza gasosa de ideia e vira líquido pastoso e denso. O habitante tateia as leis da física inferior como argila pesada. No centro deste piso ergue-se a <strong style=\"color:var(--silver);\">Forgehearth</strong>, uma forja colossal onde esse mesmo minério fictício é moldado sem parar em formas, objetos e conceitos menores já prontos para subir. Ferid rege essa estrutura, o Mestre da Forja e Deus Primordial da Magia, ainda que raramente seja visto nela. A raça dominante aqui, os Doruun, moldada pela própria forja, vive na cidade que carrega o mesmo nome, Forgehearth, metal que nunca esfria de vez, um Doruun recém-forjado sai literalmente incandescente e passa a primeira década de vida esfriando até a cor de pele \"adulta\", processo que a comunidade trata como uma cerimônia de passagem em vez de biologia comum.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N3 a N4, população dividida entre as duas, os que ainda \"esfriam\" tendem a N3, os já adultos plenos, com física inferior maleável nas mãos, chegam com facilidade em N4 (Geometria Variável), moldando a própria reação antes do golpe do inimigo terminar de sair.<br/><br/><strong style=\"color:var(--silver);\">Reforço Progressivo:</strong> No fim da escala, o que sobra da entidade já não é nem ferro, é o próprio minério bruto, pronto pra ser forjado por Ferid em qualquer coisa menor. Aqui, a solidificação deixa de ser punição e vira só matéria-prima.<br/><br/><strong style=\"color:var(--silver);\">Verbo da camada:</strong> Fundir. A camada devolve a ficção ao estado de minério mole. O habitante não é esmagado nem travado: tudo ali fica maleável, pronto pra ser moldado de novo.<br/><br/><strong style=\"color:var(--silver);\">O que separa das vizinhas:</strong> a C05 deixa o conceito como pedra inerte, guardada; a C10 deixa tudo pastoso e pronto pra ser reforjado, e a Forgehearth faz isso sem parar. A C09 tira a energia dramática do enredo, a C10 mexe na própria matéria da ficção. A C11 devolve golpes, a C10 não devolve nada, só amolece. Marca local: a Forgehearth, regida por Ferid.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 10,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C11",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Tensão Superficial",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Ataques conceituais e paradoxos ricocheteiam de volta com o dobro da força. Apenas perfuração física real rompe a barreira. O <strong style=\"color:var(--silver);\">Véu de Loopmere</strong>, uma membrana esticada sobre uma geometria hiperbólica, cobre o piso inteiro, curvando-se pra dentro de si mesma em todas as direções ao mesmo tempo. Nada bate nela em linha reta. A raça dominante aqui, os Skeine, habita Loopmere, cidade erguida sobre a própria membrana, onde toda estrada volta pro ponto de partida, os Skeine pararam de construir mapas há gerações, porque qualquer rota, cedo ou tarde, devolve quem a percorre pro mesmo lugar de saída, e eles aprenderam a usar isso como defesa: perseguidores de fora simplesmente nunca chegam.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N4, com uma técnica quase folclórica de devolver golpes conceituais dobrados, herança direta de viver dentro de uma superfície que já faz isso sozinha há mais tempo que a própria cidade existe.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 11,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C12",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Compressão Transfinita",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Qualquer tentativa do invasor de expressar seu poder através de extensões ou novas dimensões matemáticas transfinitas é esmagada a um único milímetro de espessura. Novos infinitos, Alephs adicionais e cardinais exógenos criados para superar o habitante são compactados em matéria inerte antes de gerar efeito. A <strong style=\"color:var(--silver);\">Prensa de Palmwrought</strong>, do tamanho de uma lua, opera sozinha no centro do piso, achatando espaços de Hilbert de dimensão infinita até caberem na palma de uma mão. A raça dominante aqui, os Thimbrin, vive em Palmwrought, vilarejo comprimido junto com os espaços de Hilbert esmagados, tão pequeno que cabe, literalmente, numa mão, e ainda assim comporta gerações inteiras, porque o próprio espaço interno de Palmwrought foi um dos infinitos achatados pela prensa, só que estabilizado o suficiente pra virar lar.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N4, com afinidade natural pela faceta de reação instantânea, um Thimbrin já nasce dentro de um espaço que foi comprimido antes de terminar de existir, então prever o \"antes\" de qualquer coisa é quase reflexo cultural.<br/><br/><strong style=\"color:var(--silver);\">Verbo da camada:</strong> Achatar. O alvo da camada não é o significado nem a força, é a extensão. Qualquer infinito novo que o invasor crie pra superar o habitante é reduzido a um milímetro de espessura e vira matéria inerte antes de ter efeito. Nada é apagado: o que foi achatado continua existindo, só que sem alcance.<br/><br/><strong style=\"color:var(--silver);\">O que separa das vizinhas:</strong> a C05 compacta significado (conceitos), a C12 achata tamanho e quantidade (Alephs, cardinais, espaços de Hilbert). A C13 prende o paradoxo numa estátua, a C12 só reduz a espessura. A prova de que nada some é a própria Palmwrought: o espaço dela é um dos infinitos achatados, estabilizado até virar lar. Marca local: a Prensa de Palmwrought.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 12,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C13",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Calcificação Lógica",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Paradoxos e lógicas paraconsistentes perdem maleabilidade. Existir e não-existir ao mesmo tempo resulta em congelamento em estado físico permanente e indestrutível por meios conceituais, apenas força física real pode quebrar o que foi calcificado. A <strong style=\"color:var(--silver);\">Galeria de Statuemark</strong> cobre o piso inteiro, cada estátua ali um paradoxo que tentou se manter fluido e foi pego no meio do movimento, permanentemente. A raça dominante aqui, os Kalyx, mora entre essas próprias estátuas, em Statuemark, cada um deles já quase virou uma em algum momento, é rito de passagem entre os Kalyx flertar deliberadamente com a própria calcificação, sustentar um paradoxo pessoal o mais perto possível do ponto de não-retorno sem cruzá-lo, e sair inteiro do outro lado.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N5 (Geometria Impossível). Viver rodeado de verdades quebradas como vidro ensina cedo que nenhuma imunidade externa é garantida, o que torna a N5 quase natural pra quem já cresceu vendo o efeito dela em pedra.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 13,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C14",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Atrito Seco",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Qualquer manifestação de energia não puramente marcial sofre atrito metafísico que incinera o próprio usuário por superaquecimento de dados. A <strong style=\"color:var(--silver);\">Mó de Grindhollow</strong>, do tamanho de um continente, gira devagar no centro, sem faísca, sem óleo, só fricção pura contra qualquer coisa que não seja golpe físico. A raça dominante aqui, os Vrast, resistente ao calor, vive escavada dentro da própria mó giratória, na cidade de Grindhollow, os únicos capazes de suportar o atrito sem virar cinza, a pele deles é literalmente moída todo dia pela rotação lenta da estrutura, e regenera durante o sono, um ciclo que os Vrast tratam como respiração, não como ferimento.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N5, quase todos exclusivamente marciais por necessidade, um Vrast que tenta expressar qualquer coisa não-física dentro da própria camada corre risco real de se incinerar, então a espécie inteira evoluiu evitando qualquer faceta de manipulação conceitual, mesmo quando a Auréola já permitiria.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 14,
+  "attrs": {
+   "class": "camada-item",
+   "style": "border-bottom:none;"
+  },
+  "beforeHtml": "",
+  "code": "C15",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Densidade de Fundo",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "O ar é tão espesso com Sedimento-Zero não lapidado, sem nenhum resquício de ficção ou pré-ficção restando nele, que seres que respiram mana, conceitos ou narrativas morrem sufocados. Apenas força bruta e vontade pura se movem aqui. Não existe cidade real nesta camada, só a raça dominante, os Aphyrn, poucos sobreviventes que aprenderam a respirar Sedimento-Zero puro, espalhados sem povoado fixo, não por falta de capacidade de construir, mas porque qualquer estrutura fixa vira mais um ponto de sufocamento coletivo; melhor se mover sempre do que arriscar todo mundo junto no mesmo lugar. Um Aphyrn sozinho já é considerado, tecnicamente, uma comunidade completa.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N5, todos convergindo pra facetas puramente físicas, a mesma lógica do \"só força bruta se move aqui\" molda a própria evolução deles, que descartaram qualquer traço de manipulação conceitual há gerações, geneticamente incapazes de sequer tentar.<br/><br/><strong style=\"color:var(--silver);\">Verbo da camada:</strong> Sufocar. Aqui a camada não lança força nenhuma contra o invasor: o próprio ar é o efeito. Cheio de Sedimento-Zero não lapidado, ele sufoca quem respira mana, conceitos ou narrativas. Só quem se move por força bruta e vontade pura continua.<br/><br/><strong style=\"color:var(--silver);\">O que separa das vizinhas:</strong> as vizinhas agem sobre algo que o invasor faz: a C12 esmaga o que ele cria, a C14 incinera quem tenta usar energia não marcial. A C15 age sobre o que o invasor é. Quem depende de mana, conceito ou narrativa pra existir morre só de estar ali, sem precisar atacar nem lançar nada. Marca local: o Sedimento-Zero, sem cidade fixa, só os Aphyrn.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 15,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "<div class=\"phase-header\" style=\"border-left-color: var(--accent);\">\n<span class=\"phase-num\">// FASE III</span>\n<span class=\"phase-title\">O Cristal</span>\n<span class=\"phase-range\">C16 a C20</span>\n</div>",
+  "code": "C16",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Impacto Cego",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Ataques ignoram defesas conceituais, escudos de enredo e Ausência de Forma N7. O golpe quebra o espaço físico onde a intangibilidade tenta se esconder. O <strong style=\"color:var(--silver);\">Alvo de Markhollow</strong>, um bloco de pedra, fica intacto no centro do piso há tempo demais, porque tudo que já tentou se esconder atrás dele foi atingido de qualquer jeito. A raça dominante aqui, os Tarrek, vive ao redor desse alvo, em Markhollow, cidade que nunca precisou de muralha porque ninguém ali aprendeu a se esconder, o próprio conceito de emboscada morreu como estratégia militar Tarrek há séculos, substituído por confronto sempre aberto, já que esconder-se de verdade nunca funciona naquele piso mesmo.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N6 (Fractais). A pressão constante de golpes que nunca erram, presente na própria lei do piso, forçou a espécie inteira a evoluir reflexos que já superam a possibilidade de contra-ataque antes dela existir, o mesmo princípio central da N6.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 16,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C17",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Maleabilidade Textual",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "O habitante dobra o tempo como barra de ferro morna e usa o espaço como bigorna para golpear inimigos. A <strong style=\"color:var(--silver);\">Bigorna de Hammerwrought</strong>, do tamanho de uma cidade, ocupa o centro do piso, não é usada por ninguém em específico, é a própria ideia de bigorna que qualquer um ali pode invocar pra si. A raça dominante aqui, os Wrennic, habita Hammerwrought, cidade erguida ao redor dela, cada morador martelando um pedaço diferente do tempo, literalmente: é comum ver um Wrennic velho ainda batendo numa infância que nunca terminou de forjar, enquanto o filho já martela a própria meia-idade alguns metros ao lado.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N6, e uma parcela notável chegando a N5 avançado antes de saltar, martelar tempo desde criança treina exatamente o tipo de percepção que a Geometria Impossível exige, então o salto pra N6 costuma ser rápido demais pra ser bem documentado por quem está de fora.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 17,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C18",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Resíduo Industrial",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Estática e erros de roteiro gerados abaixo são purificados por pressão extrema, destruindo impurezas conceituais que tentam subir. A <strong style=\"color:var(--silver);\">Chaminé de Innersmoke</strong>, sem fundo, cospe fumaça pra dentro de si mesma no centro do piso, incinerando tudo que tenta atravessar antes de chegar à próxima camada. A raça dominante aqui, os Ashkin, vive em Innersmoke, vilarejo dentro da própria chaminé, os únicos que atravessam o fogo sem virar impureza, um Ashkin recém-nascido é literalmente testado dentro da fumaça nas primeiras horas de vida, e quem não atravessa inteiro simplesmente não é reconhecido como Ashkin de verdade, é reclassificado como resíduo comum, purificado junto com o resto.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N7 (Ausência de Forma). Sobreviver à própria purificação da camada exige deixar de ter propriedades fixas o bastante pra não ser lido como impureza, o que, na prática, é o exato critério de entrada da N7, então cada Ashkin adulto já cruzou essa barreira sem nem perceber que era uma conquista.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 18,
+  "attrs": {
+   "class": "camada-item"
+  },
+  "beforeHtml": "",
+  "code": "C19",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Cristalização Conceitual",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Ideias puras viram cristais físicos quebráveis. O usuário segura o \"Conceito da Morte\" ou leis de Indeterminação N8 com as mãos nuas e os estilhaça. A <strong style=\"color:var(--silver);\">Câmara de Fracturehall</strong> ocupa o piso inteiro, cada cristal quebrado revelando uma cópia menor e mais densa de si mesmo, infinitamente, até a fratura custar mais do que o golpe original valia. A raça dominante aqui, os Vitren, habita Fracturehall, cidade que se multiplica em cópias menores de si mesma cada vez que um cristal se quebra por perto, um Vitren pode literalmente perder um parente pra dentro de uma fratura recursiva e reencontrá-lo décadas depois, menor, mais denso, numa cópia da cidade que brotou três camadas de recursão abaixo da original.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N8 (Indeterminação), a mais alta e estável entre as raças nativas comuns da Escada. Alterar o que está sendo medido antes da medição terminar é quase o resumo biográfico de um Vitren, eles fazem isso com a própria identidade toda vez que atravessam uma fratura.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ },
+ {
+  "groupId": "hierarquia-camadas-0",
+  "sortOrder": 19,
+  "attrs": {
+   "class": "camada-item",
+   "style": "border-bottom:none;"
+  },
+  "beforeHtml": "",
+  "code": "C20",
+  "codeAttrs": {
+   "class": "camada-code"
+  },
+  "midAttrs": {},
+  "name": "Gusa Fictício",
+  "nameAttrs": {
+   "class": "camada-name"
+  },
+  "descHtml": "Toda criação literária inferior é vista como ferro bruto derretido aguardando moldagem. O ser não possui mais características de personagem, opera no limiar do Colapso do Conceito N9. O <strong style=\"color:var(--silver);\">Alto-Forno de Lastcast</strong> cobre o horizonte inteiro deste piso, o único ponto de luz numa camada que já é, ela mesma, quase inteiramente metal fundido. A raça dominante aqui, os Ferrowyn, vive nas bordas desse alto-forno, em Lastcast, cidade que fica mais perto de virar metal líquido a cada geração que passa, os Ferrowyn mais velhos frequentemente escolhem, por vontade própria, entrar de vez no forno antes de perder completamente a forma sozinhos, um ritual que a cidade trata como morte digna, não como sacrifício.<br/><strong style=\"color:var(--silver);\">Auréola dominante:</strong> N9 no limiar, exatamente como a própria camada. Poucos Ferrowyn cruzam de fato o Colapso do Conceito, a maioria vive a vida inteira encostada nele sem atravessar, porque atravessar de verdade significa deixar de ser reconhecível até pra outro Ferrowyn.",
+  "descAttrs": {
+   "class": "camada-desc"
+  }
+ }
+]

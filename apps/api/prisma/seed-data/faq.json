@@ -1,0 +1,62 @@
+[
+ {
+  "sortOrder": 0,
+  "attrs": {
+   "class": "faq-item"
+  },
+  "question": "Os spin-offs são canon?",
+  "questionAttrs": {},
+  "answerHtml": "Sim. Todos os spin-offs fazem parte oficial da cosmologia Archblueprint e se encaixam na linha do tempo principal.",
+  "answerAttrs": {
+   "class": "faq-answer"
+  }
+ },
+ {
+  "sortOrder": 1,
+  "attrs": {
+   "class": "faq-item"
+  },
+  "question": "Preciso ler os spin-offs pra entender a história principal?",
+  "questionAttrs": {},
+  "answerHtml": "Não é obrigatório, mas eles agregam contexto e detalhes que não aparecem na narrativa principal.",
+  "answerAttrs": {
+   "class": "faq-answer"
+  }
+ },
+ {
+  "sortOrder": 2,
+  "attrs": {
+   "class": "faq-item"
+  },
+  "question": "Com que frequência saem episódios novos?",
+  "questionAttrs": {},
+  "answerHtml": "Não existe uma data fixa. Novos episódios e temporadas são publicados conforme ficam prontos.",
+  "answerAttrs": {
+   "class": "faq-answer"
+  }
+ },
+ {
+  "sortOrder": 3,
+  "attrs": {
+   "class": "faq-item"
+  },
+  "question": "Posso sugerir ideias ou teorias sobre a história?",
+  "questionAttrs": {},
+  "answerHtml": "Sim! Interações e teorias da comunidade são bem-vindas nas redes sociais do projeto.",
+  "answerAttrs": {
+   "class": "faq-answer"
+  }
+ },
+ {
+  "sortOrder": 4,
+  "attrs": {
+   "class": "faq-item"
+  },
+  "question": "Onde posso acompanhar novidades do projeto?",
+  "questionAttrs": {},
+  "answerHtml": "Pelas redes sociais oficiais do Archblueprint, linkadas no rodapé do site.",
+  "answerAttrs": {
+   "class": "faq-answer"
+  }
+ }
+]

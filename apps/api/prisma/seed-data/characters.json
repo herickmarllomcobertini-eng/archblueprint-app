@@ -1,0 +1,4749 @@
+[
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Tengu",
+  "title": "O Escolhido · Fio Dourado",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "gallery",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "estrutura-galeria",
+     "style": "display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin-bottom:1.2rem;"
+    },
+    "html": null,
+    "images": [
+     {
+      "attrs": {
+       "src": "/media/personagens/tengu-retrato.avif",
+       "alt": "Retrato de Tengu",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     },
+     {
+      "attrs": {
+       "src": "/media/personagens/tengu-corpo-inteiro.avif",
+       "alt": "Tengu de corpo inteiro empunhando a Lâmina de Nullis",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Tengu é movido por algo que ele mesmo ainda não sabe nomear. Não é ambição, não é orgulho, é uma necessidade visceral de provar que o que está dentro dele é real. Impulsivo por natureza, age antes de pensar, e isso já quase o destruiu mais de uma vez. Mas por trás da explosividade existe uma lealdade absoluta: ele não abandona ninguém, mesmo quando deveria.\n                <br/><br/>\n                O que os episódios mostram é um garoto que acumulou poder sem ter a estrutura interna pra sustentá-lo. E que aprendeu isso da forma mais dolorosa possível. Depois do treinamento nas luas, algo mudou. Ele não ficou mais calmo. Ficou mais <em>quieto</em>. Como alguém que aprendeu que o barulho era pra cobrir o medo.\n                <br/><br/>\n<strong>Em uma linha:</strong> o tipo de pessoa que diz \"ainda não estamos prontos\" e continua andando mesmo assim.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Origem",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Mundo de dungeons e exploradores. Sistema baseado em Mana e níveis. Fio dourado. O mais raro dentro do sistema de fios.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Natureza da Auréola",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Onyx confirmou em episódio que Tengu não consegue atingir um ranking de auréola pelo sistema padrão. A saída dele é materializar a própria auréola do zero, algo que Onyx trata como a única forma real disponível pra ele. Não é uma auréola nascida naturalmente nele, é forjada. Isso explica por que ela se comporta como um anti-conceito em forma pura, e por que não se adapta às regras de nenhuma camada como um poder comum faria: ela não segue o caminho natural de ninguém, porque foi construída do zero, não herdada nem despertada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Rank atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank SSS em forma base, confirmado no ep 29, e SSS+ com a Forma Heroica ativada. Antes do salto do ep 29 a leitura era A-S em base e SSS na nova forma. Superando qualquer parâmetro esperado para um ser de sua origem.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Combate com espada e magia em alto nível, desenvolvidos sob treinamento direto de Onyx e Lothus. Anos no mundo das luas (morte e reset contínuos) forjaram velocidade, precisão e instinto além do esperado para seu rank. Forma Heroica. Aura branca instável que racha o espaço ao redor e gera counters conceituais automáticos. É um anti-conceito em forma pura, e por isso não se adapta às regras de nenhuma camada como um poder comum faria. Atualmente controla mais de 50% do poder real da aura, já injetando-a diretamente na própria existência, não mais só como técnica externa. O que essa aura representa hoje não é necessariamente o que ela vai representar quando o refino for completo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma · Lâmina de Nullis",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Espada negra com linhas brancas pulsantes, criada antes das primeiras estruturas narrativas. Não corta matéria. Corta conceitos. Se adapta ao usuário e amplifica sua intenção, criando um counter automático para qualquer defesa. Recuperada por Onyx em suas viagens exógenas e deixada sob a guarda de Lothus com instrução estrita: entregar apenas quando o Fio Dourado demonstrasse controle real.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     },
+     {
+      "t": "raw",
+      "html": "<img alt=\"A Lâmina de Nullis\" src=\"/media/personagens/tengu-lamina-de-nullis.avif\" style=\"max-width:220px; width:100%; height:auto; display:block; margin:0.8rem auto 0; border:1px solid var(--border);\"/>"
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Fio",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Dourado. Potencial ainda não completamente ativado. O que já foi mostrado é apenas o início.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 8,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Trajetória de Combate",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                A primeira vez que Tengu provou que não era só potencial foi quando apagou sozinho um boss de antimagia física que evoluía devorando vítimas e absorvendo habilidades. Ford, Rank S, foi quem resumiu melhor o que aconteceu: Tengu não derrotou a criatura, ele a apagou da existência, sem deixar energia residual, pó ou rastro. A cratera que sobrou virou cicatriz impossível na dungeon, e ninguém nunca conseguiu explicar direito como.\n                <br/><br/>\n                O salto de verdade veio depois, no episódio 29, ainda em forma base: destruiu Lothus (Rank SSS) incontáveis vezes antes dele sequer perceber o que tinha acontecido, com uma velocidade tão absurda que parecia teletransporte. Um único golpe no estômago gerou onda de choque capaz de apagar um planeta ou sistema solar inteiro, e Onyx chegou a avaliar que, pra vencê-lo naquela forma, precisaria do Manto Sagrado ou mais. Nessa mesma luta, Tengu usou Onipresença Nível 2, counters conceituais infinitos e uma mana que analisa e ignora imunidades, e chegou a atacar o próprio Onyx com a Lâmina de Nullis, que só foi segurada com dois dedos, usando a Técnica Alpha.\n                <br/><br/>\n                Desde então o treinamento direto com Onyx começou de fato: Tengu está na camada 15, com um atributo de sobrevivência aplicado pelo próprio Onyx, e ainda usa só 30% a 40% do potencial real. Ainda assim, Onyx já afirmou que, do jeito que está, ele poderia superar quem o criou. É discípulo oficial de Onyx, mesmo negando o título. Na Temporada 2, observando o treino à distância, Onyx descreveu o que viu como velocidade absurda, golpes limpos e precisos, sem esforço aparente e sem uso de aura, só técnica e controle puro, algo que já parece natural nele, e afirmou sentir orgulho.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Feng",
+  "title": "Grupo de Tengu · O Escudo",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Feng não é complicado. E isso é uma força, não uma fraqueza. Ele sabe exatamente o que é: o escudo. Não porque foi designado assim, mas porque é o tipo de pessoa que se levanta depois de apanhar só pra garantir que ninguém mais vai apanhar. Impulsivo, irritável, mas de uma lealdade que não precisa de palavras.\n                <br/><br/>\n                Enquanto outros processam, Feng já está no meio da pancadaria. Ele não analisa ameaças. Ele as absorve. Literalmente, depois do treinamento. Há uma brutalidade honesta nele que é difícil de não respeitar.\n                <br/><br/>\n<strong>Em uma linha:</strong> cai, levanta, não explica.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Direto. Impulsivo. Prefere ação à análise. Irritável mas leal. Se levanta sempre. Não importa quantas vezes seja esmagado.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Armadura de Gravidade Colapsante</strong>. Gera um campo gravitacional absurdo ao redor do corpo. Ataques são puxados, esmagados e dissipados antes de atingir.<br/><br/>\n<strong>Impacto Titânico</strong>. Cada golpe carrega peso equivalente a uma massa estelar. Tornou-se um tanque absoluto após o treinamento intensivo nas luas de Onyx sob Lothus.<br/><br/>\n<strong>Punho de Colapso</strong>. Concentra o campo gravitacional inteiro num único soco, comprimindo o espaço à frente do punho antes do impacto. O alvo sente o peso chegar antes do golpe em si.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica Corporal · Rebote de Lastro Gravitacional",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Feng assume uma postura defensiva firme e ativa sua Armadura de Gravidade Colapsante. Quando recebe um golpe físico ou de energia, ele usa a transferência de peso para concentrar o impacto em seu centro gravitacional, protegendo o grupo.\n                <br/><br/>\nAtualmente em seu nível intermediário (Rank B+, entre a Geometria Variável e a fronteira seguinte), ele usa essa técnica para repelir ataques e jogar o oponente pra trás com força estelar. Conforme sua maestria evoluir, o golpe passa a simular propriedades da própria Tensão Superficial: o ataque do rival racha contra o escudo de Feng e ricocheteia de volta com o dobro da força, triturando a estrutura do inimigo através do próprio impacto que ele disparou.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Treinamento concluído. Função definida: escudo do grupo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ania",
+  "title": "Grupo de Tengu · Domínio Sensorial",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Ania processa tudo antes de agir. E esse intervalo entre perceber e reagir é onde ela é mais perigosa. Cautelosa na superfície, mas por baixo existe uma mente que está constantemente mapeando cada pessoa ao redor. Ela sente antes de ver. Percebe intenções antes que sejam verbalizadas.\n                <br/><br/>\n                Não é fria. É precisa. Há uma diferença. Com quem ela escolhe ser próxima, existe uma ternura real. Mas esse círculo é pequeno e demora pra abrir. O treinamento sob Lothus apenas tornou explícito o que ela sempre foi: alguém cuja maior arma é entender o outro melhor do que ele mesmo.\n                <br/><br/>\n<strong>Em uma linha:</strong> ela já sabe o que você vai fazer antes de você decidir.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Cautelosa. Observadora. Mais sensível à presença de entidades acima do comum. Murmura antes de agir. Processa antes de reagir.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Domínio Sensorial Absoluto</strong>. Cria ilusões que afetam visão, som, toque, percepção e conceitos. O alvo não percebe o que é real.<br/><br/>\n<strong>Espelho de Inversão Total</strong>. Qualquer coisa percebida pelo alvo pode ser reescrita: ataques, intenções e até decisões.<br/><br/>\n<strong>Guardiões do Véu</strong>. Invocação de criaturas feitas de mana conceitual pura.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Estilo Marcial · Passo do Reflexo Invertido",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Ania combina o combate corporal curto com o seu Espelho de Inversão Total. Ela não tenta desviar do soco do oponente de forma física comum; ela desfere um contra-ataque que interfere diretamente nos impulsos de percepção e nos sentidos do rival durante o movimento.\n                <br/><br/>\n                \"No nível dela hoje, ela só faz o cara errar o ângulo do golpe, achando que ela se moveu\", comentou Onyx uma vez, observando um treino. \"Mas conforme ela refinar essa sintonização, o soco que o rival desferiu contra ela vai ser reescrito na mente dele, virar retroativamente uma decisão de golpear a si mesmo. O cara vai quebrar o próprio braço na marra e nem vai entender por quê.\"\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Treinamento concluído nas luas de Onyx. A mente é sua arma. E agora ela domina a dos outros.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Brulhios",
+  "title": "Grupo de Tengu · Cavaleiro Dimensional",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Brulhios carrega uma contradição interessante: é a pessoa mais analítica do grupo e ao mesmo tempo a que mais parece um cavaleiro de conto antigo. Há um código nela. Não escrito, não verbalizado, mas absolutamente presente. Ela não trai. Não recua sem razão. E não usa força onde inteligência resolve.\n                <br/><br/>\n                O bar que comanda não é só um ponto de encontro. É uma extensão de quem ela é. Um lugar onde as regras são dela. Onde ela controla o ambiente. O treinamento com a Lança de Aethelion apenas confirmou o que o grupo já sabia: Brulhios não foi treinada pra destruir. Foi treinada pra romper o que não deveria existir.\n                <br/><br/>\n<strong>Em uma linha:</strong> cavaleiro com bom gosto e sem misericórdia quando necessário.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Papel",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Cavaleiro. Analista do grupo. Dona do bar onde o grupo se reúne.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma · Lança de Aethelion",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Forjada com fragmentos de realidades colapsadas. Não perfura apenas corpos. Perfura linhas de existência.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Investida Dimensional</strong>. Atravessa barreiras de espaço e conceito no avanço.<br/><br/>\n<strong>Ruptura Linear</strong>. Rompe a continuidade de existência do alvo no ponto de impacto.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Treinamento concluído. Combatente de elite.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Kael",
+  "title": "Grupo de Tengu · Precisão Letal",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Silencioso. Fala pouco. Observa muito. O mais letal do grupo em potencial.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Precisão em crescimento acelerado após treinamento. Movimentos econômicos e letais. <strong>Corte Único</strong>. Nunca desfere um segundo golpe se o primeiro já resolveu. Estuda o oponente em silêncio antes de agir, então converte tudo que observou num único ataque decisivo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Tolta",
+  "title": "O Escolhido · Receptáculo da Anomalia",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Tolta é alguém que cresceu sem saber o peso que carregava. Há uma inocência nele que não é ingenuidade. É genuína. Ele não age movido por poder ou destino, age movido por pessoas. Por Maria. Por quem está ao redor.\n                <br/><br/>\n                O que torna Tolta perigoso não é a Anomalia dentro dele. É que quando ela acorda, ela acorda junto com a vontade dele. E a vontade de Tolta, quando alguém que ele ama está em risco, não tem freio. O Berserker não é uma forma que ele escolhe. É o que acontece quando ele para de tentar segurar.\n                <br/><br/>\n                Por baixo de tudo isso existe um garoto que só queria uma vida normal com a tia. Esse garoto ainda está lá. Só ficou mais quieto.\n                <br/><br/>\n<strong>Em uma linha:</strong> gentil até o momento em que não precisa mais ser.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Origem",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Orfão. Seus pais eram heróis dos mais fortes, com ligação direta ao Deus máximo dessa realidade. Esse Deus foi assassinado por um Supervisor de nível superior ao atual.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O Segredo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Quando bebê, foi levado pelo Deus máximo a um local anterior à criação atual. Lá, foi usado como receptáculo para selar uma Anomalia. Origem desconhecida na época, hoje identificada como Nephilis Heder. Maria afirma ser um ser da época dos Deuses Primordiais Mitológicos, deuses que teoricamente antecederam os atuais. Onyx não acredita completamente, mas a presença da entidade no corpo de Tolta o faz levar a sério.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Forma Berserker",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Armadura negra com linhas vermelhas. Regeneração instantânea. Velocidade além da luz. Capaz de pressionar Onyx. Em forma Berserker invoca Asmondia, uma técnica mágica antiga que lança uma esfera de energia capaz de apagar os fios existenciais narrativos de todos os habitantes daquela realidade a nível zero absoluto. Sem alvo específico. Sem volta. A Anomalia dentro de Tolta sairia do corpo antes do apagamento, e como ambos já estão fundidos a nível de alma, Tolta herdaria os poderes da entidade e não morreria junto. Onyx reconheceu e selou a técnica junto com Tolta antes que fosse ativada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Fio",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Dourado mas escuro. Falhando. Instável. Único no sistema. Não existe igual.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Imortalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Confirmada. Tipo ainda desconhecido. Membros perdidos regeneram. Mortes revertidas.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Criação involuntária",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Dentro do espaço mental, criou um mundo inteiro sem intenção. A realidade respondeu ao seu inconsciente. Onyx revelou no ep 28 que Tolta cria universos quando dorme. E retorna à cama horas depois, ainda dormindo, sem memória do que aconteceu.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Revelação · Ep 28",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Quando bebê foi levado a uma árvore, não a árvore de Anoff. Uma árvore anterior, mais antiga. Falcon confirmou que essa árvore existia e foi destruída por um ser em uma guerra. Existiam escamas, possível ligação com um Dragão. A entidade dentro de Tolta pode estar ligada a essa árvore e à guerra que a destruiu. Falcon classificou o ser como nível equivalente a um Deus Primordial, mas não é um. O autor da realidade de Tolta foi assassinado por um supervisor anterior. Onyx está a caminho de buscá-lo para treiná-lo ao lado de Tengu.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 8,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Temporada 2 · Risco",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Onyx confirmou que a Anomalia dentro dele é primordial e que o corpo de Tolta pode não aguentar o processo de controle, podendo morrer tentando. Decidiu buscar ajuda de alguém com \"domínio absurdo\": o pai de Ayla, ligado às raízes da árvore anterior à atual, que já lidou com esse tipo de entidade antes.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Maria",
+  "title": "Tia de Tolta · Rainha de Gelo",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Maria escolheu se tornar menor do que é. E isso exigiu mais força do que qualquer batalha. Ela não é uma pessoa que desistiu. É uma pessoa que decidiu. Há uma diferença enorme entre as duas coisas, e ela sabe disso melhor do que ninguém.\n                <br/><br/>\n                Por fora: direta, irônica, com baixa tolerância a bobagem. Desafia quem não respeita seu espaço. Incluindo Onyx, o que por si só já diz muito sobre quem ela é. Por dentro: carrega histórico, perda, conhecimento que ela preferia não ter. Ama Tolta de um jeito que não precisa de demonstração porque está em cada escolha que ela fez nos últimos anos.\n                <br/><br/>\n                A relação com Onyx a incomoda porque ela reconhece nele algo que não deveria ser reconhecível. E isso quebra a lógica do mundo que ela construiu pra se proteger.\n                <br/><br/>\n<strong>Em uma linha:</strong> a pessoa mais perigosa da sala, que escolheu não ser.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica principal · Rainha de Gelo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Congelamento absoluto, temperaturas extremas e criação de armas de gelo infinitas. O diferencial desta técnica não é apenas o gelo em si, é que cada arma forjada pode receber infinitos conceitos existentes e inexistentes aplicados por Maria. Um único cristal pode carregar o conceito de apagamento, o conceito de peso absoluto, o conceito de impossibilidade, ou qualquer outro que ela decida impor. As possibilidades são literalmente infinitas. Capaz de congelar planetas inteiros com fração mínima do real poder.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma favorita",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Foice de gelo. Arma que ela forja instantaneamente e pode escalar em tamanho e densidade conforme a situação exige.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica Marcial de Lâmina · Clivagem do Zero Ontológico",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Maria forja instantaneamente sua foice de gelo e desfere um corte cirúrgico. O golpe não busca congelar a matéria física (carne/ossos), mas sim injetar estagnação lógica nas propriedades conceituais do oponente. No impacto, o alvo sofre os efeitos da Inércia Ontológica (C03) ao contrário, tendo o enredo de suas ações e sua velocidade de mudança congelados na marra.\n                <br/><br/>\n                Em sua maestria atual, o corte é um congelamento local de alta escala. Dependendo do refino de sua Auréola Fractal ou de sua natureza oculta, porém, o golpe evolui pro patamar de Congelamento Pós-Conceitual: o pagamento existencial do corte congela a própria gramática de escrita do rival, fazendo com que qualquer counter automático do oponente vire um cristal inerte e quebrável no soco.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder real",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O que ela demonstra publicamente é deliberadamente contido para não chamar atenção. Onyx a classifica como absurda. E isso já é SSS. Seu nível real, quando sem restrições, não foi revelado nem a Tolta. A contenção é uma escolha, não um limite.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Capacidades ocultas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de temperatura em escala cósmica. Congelamento de conceitos além do físico. Criação de estruturas de gelo que existem fora do espaço convencional. Percepção de presenças absurdas. Sentiu algo no nível de Onyx sem conseguir identificar a fonte, o que a deixou em estado de alerta por dias. Tentou socar Onyx com força real e não o moveu um centímetro.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Histórico",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Já foi muito mais forte. Fez parte de uma equipe perigosa no passado. Teve contato com camadas acima de tudo, incluindo a Árvore anterior à atual. Conhecia os pais de Tolta. Sabe do Deus máximo assassinado. Escolheu uma vida simples para proteger Tolta, uma escolha que custou poder, mas não o apagou.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Conhecimento lore",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Sabe da Anomalia selada em Tolta, hoje identificada como Nephilis Heder, e classifica como ser da época dos Deuses Primordiais Mitológicos. Sabe da árvore anterior à atual. Reconhece Onyx instintivamente, e isso a incomoda profundamente, pois ela não deveria reconhecer algo que não tem forma nem presença detectável. Revelou a Onyx a verdade sobre o que habita Tolta.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 8,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Relação com Onyx",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Tensa. Respeitosa. Ela o desafia. Ele não leva a sério, o que a irrita mais ainda. No fundo, sabe que ele é a única coisa entre Tolta e o que vem por eles. Isso não a agrada, mas ela aceita.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Jeff",
+  "title": "Colega de Sala · O Mais Forte da Turma",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Tranquilo. Respeitoso. Estratégico. Percebeu o potencial de Onyx desde o primeiro dia.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O mais forte da turma. Mal consegue tocar o professor. Em constante evolução. Já demonstra os primeiros sinais de <strong>Investida Reta</strong>. Um avanço direto sem finta, sem economia, jogando toda a energia disponível num único ponto de impacto. Cru e sem refino, mas cresce a cada tentativa.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Objetivo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Medir forças com Onyx em combate oficial. Reconhece que há algo diferente nele.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Onyx",
+  "title": "O Andarilho · Nível Primordial",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "gallery",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "estrutura-galeria",
+     "style": "display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin-bottom:1.2rem;"
+    },
+    "html": null,
+    "images": [
+     {
+      "attrs": {
+       "src": "/media/personagens/onyx-retrato.avif",
+       "alt": "Retrato de Onyx, encapuzado",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Onyx não é misterioso por escolha, é misterioso porque não existe categoria pra ele. Ele não se encaixa no sistema de ranks, não se encaixa no papel de herói, não se encaixa no papel de vilão. Ele se encaixa no papel de alguém que aparece quando as coisas estão prestes a sair completamente do controle, e resolve.\n                <br/><br/>\n                O que os episódios mostram é alguém que <em>nunca reage com urgência</em>. Ele absorve um soco de Tolta em Berserker e ri. Bloqueia Maria com uma mão. Sela Asmondia numa fração de segundo. Não com pressa. Com a calma de quem já sabe o final antes de começar.\n                <br/><br/>\n                Mas existe algo que Kevin acertou: Onyx acredita que tudo pode ser resolvido. Essa não é ingenuidade. É uma convicção construída por algo que ele já viu e ninguém mais viu. E essa convicção, às vezes, é exatamente o que o coloca no caminho errado.\n                <br/><br/>\n<strong>Em uma linha:</strong> resolve o impossível com a expressão de quem está levemente entediado.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Não é um Deus Primordial de origem. Ocupa o posto de Primordial do Portão, guardião do Portão Principal da Árvore de Anoff, na Camada 21 (Fio Zero), e opera em nível equivalente ao deles, reconhecido como tal pelos próprios Deuses Primordiais. Fora do sistema de rankings. O sistema não consegue registrá-lo. Maria, com percepção SSS, não sentiu absolutamente nada da presença dele.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Feitos confirmados",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Onyx selou simultaneamente a técnica Asmondia e o próprio Tolta antes que o colapso fosse ativado, num dos momentos mais decisivos que já se viu dele: Asmondia apagaria os fios existenciais narrativos de todos os habitantes daquela realidade a nível zero absoluto, incluindo o próprio Tolta, e uma fração de segundo a mais teria feito toda aquela narrativa deixar de existir, sem volta.\n                <br/><br/>\n                Fora dessa crise, o padrão se repete: ele absorveu um soco do Berserker de Tolta, com velocidade além da luz e força capaz de destruir estruturas dimensionais, e só riu. Reconstruiu um parque inteiro, prédios destruídos incluídos, e apagou a memória do evento de todos os presentes com um único pulso, sem concentração visível. Chegou a pressionar o ambiente só com presença passiva, o suficiente pra paralisar Jeff, o mais forte da turma, por instantes, sem sequer olhar pra ele. Eliminou um agente Rank S com um arremesso de espada sem desviar o olhar, chamando-o de inseto. Bloqueou um soco de Maria com uma mão, ela tentou com força real e não moveu ele um centímetro.\n                <br/><br/>\n                Também percorreu infinitas narrativas por um período que passa de dois mil anos, mantendo identidade, poder e controle o tempo todo, e foi top 1 de caçadores em infinitas narrativas antes de abandonar o sistema, superando até seres que Braço de Ferro, ele mesmo top 1 em escala multinarrativa, não alcança. E quando reencontrou Falcon depois de 30 anos, travou uma luta que destruiu um planeta, incinerou uma lua inteira e rasgou múltiplas camadas: levou cortes que partiram seu corpo ao meio, se recompôs ativando a Auréola Pentagonal (Colapso Conceitual), ativou a Forma Alfa e destruiu Falcon, Colapso Conceitual no height e um dos seres mais poderosos já confirmados, a ponto dele desistir de continuar lutando.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Na <b>Forma Sagrada / Manto Sagrado</b>, Onyx dissolve o corpo em energia anti-narrativa pura. Nesse estado, porta manipulação total de enredo, narrativa e história, com adaptação contínua e imunidade a qualquer tentativa de manipulação narrativa contra ele; ataques físicos, conceituais e narrativos passam através sem efeito, e a única forma de derrotá-lo seria através de absorção de imunidade combinada com energia narrativa pura, já que ele se torna o oposto absoluto disso. Nessa forma, selamento de alma é possível.\n                <br/><br/>\n                O <b>Dragon</b> é uma esfera de energia que absorve qualquer ataque, distorce sua estrutura e devolve amplificado, quanto mais poderoso o ataque absorvido, mais destrutivo o retorno. As <b>Três Íris Verdes Sobrepostas</b> dão a ele percepção além do tempo, vendo ações antes de acontecerem, enquanto o espaço ao redor desacelera pra ele processar tudo simultaneamente. Sua <b>Manipulação de Espaço e Distância</b> altera a geometria ao redor sem movimento visível, fazendo um ataque que deveria acertar simplesmente não alcançar, já que a distância entre os dois muda antes do impacto.\n                <br/><br/>\n                A <b>Transmutação de Matéria</b> reconstrói e desfaz estruturas físicas e dimensionais com precisão cirúrgica ou em escala absoluta. O <b>Selamento Conceitual</b> prende entidades no nível da alma e do conceito, não do corpo, tornando resistência física irrelevante. A <b>Manipulação de Narrativa Local</b> reescreve a percepção de eventos dentro de uma narrativa, fazendo o impossível ser aceito como normal por todos os presentes. Já o <b>Ocultamento Total</b> apaga completamente sua presença, energia e existência perceptível, indetectável até por entidades SSS com percepção elevada.\n                <br/><br/>\n                O <b>Buff de Auréola</b> é capaz de elevar temporariamente o nível de outro ser, foi assim que Tolta, com um boost básico, quase atingiu Rank S e destruiu o parque. A <b>Lâmina Verde</b> é uma arma de energia que corta espaço, matéria e estruturas além do físico, e pode ser arremessada com precisão absoluta a qualquer distância. Já a <b>Técnica Alpha</b> concentra aura verde numa única mão, cortando existência, não existência, conceitos e lógica ao mesmo tempo, foi com ela que Onyx segurou a Lâmina de Nullis de Tengu com apenas dois dedos.\n                <br/><br/>\n<img alt=\"A Lâmina Verde de Onyx\" src=\"/media/personagens/onyx-lamina-verde.avif\" style=\"max-width:220px; width:100%; height:auto; display:block; margin:0 auto; border:1px solid var(--border);\"/>\n<div style=\"max-width:400px; margin:0.6rem auto 0; text-align:center; font-size:0.78rem; color:var(--grey); font-style:italic; line-height:1.6;\">Não é uma arma separada do corpo dele. É a própria matéria ao redor se contorcendo e assumindo essa forma nas mãos de Onyx, o mesmo poder que ele usa pra qualquer outra coisa, só que moldado em lâmina. Pode assumir qualquer outro formato (foice, martelo, cajado), mas quase sempre aparece como espada por escolha dele, não por limitação.</div>\n<br/>\n                O <b>Golpe Zero</b> é o soco mais simples que ele tem, e por isso o mais perigoso: cada impacto aplica um pagamento existencial que dobra a partir do anterior, o primeiro vale por um, o segundo por dois, o terceiro por quatro, o quarto por oito, crescendo assim indefinidamente enquanto a sequência não for interrompida. O valor de cada soco dobra em cima da Auréola de quem aplica, não do soco anterior isolado, e Onyx raramente precisa passar do terceiro golpe.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Hierarquia de Formas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                O próprio Onyx confirma à Maria que existem formas superiores que superam infinitamente sua base, Forma Duo e Manto Sagrado. A <b>Forma Base</b> é o que foi mostrado na história até agora, e já opera em nível primordial. Acima dela vem a <b>Forma Duo</b>, ainda não revelada em combate, e depois o <b>Manto Sagrado / Forma Sagrada</b>, energia anti-narrativa pura que supera infinitamente as anteriores. A <b>Forma Celestial</b>, revelada contra Falcon, puxa sua lâmina real, não a cópia que Falcon usa, e combate em velocidade incompreensível, com onipresença nível 3. Já a <b>Forma Divina</b> porta poderes baseados nos conceitos absolutos da cosmologia, manipulação total de realidade, narrativa, conceitos matemáticos, estruturas causais e existenciais, transcendência absoluta.\n                <br/><br/>\n                No topo confirmado está a <b>Forma Alfa, o Filamento do Colapso (N9 Height Intrínseca)</b>, alcançada após um treinamento secreto com A Entidade e revelada publicamente no combate mano a mano contra Falcon. Nela, Onyx implode a Auréola máxima do sistema formal, a N9 Height, Colapso do Conceito, e a funde diretamente ao próprio Fio Existencial. Como o Fio é o registro matemático absoluto de uma entidade no ecossistema, Onyx deixa de carregar uma estrutura geométrica externa: ele se torna a própria Auréola viva.\n                <br/><br/>\n                Essa fusão gera Imunidade Infinita baseada estritamente na alta matemática da cosmologia, impossível de ser morto, alterado ou apagado, independente do nível de apagamento do oponente. Quando um ataque de escala infinita tenta lê-lo pra deletá-lo, o sistema do invasor recebe um valor nulo de volta, gerando Incompatibilidade Crônica de Sistemas instantânea, e o hack ou apagamento racha como vidro e colapsa a zero antes de tocá-lo. Ofensivamente, a forma converte Adaptação Total em atributo físico absoluto: Onyx passa a manifestar as propriedades mais pesadas da cosmologia, Massa Semântica e Gusa Fictício, nos próprios músculos, e enxerga qualquer divindade conceitual ou entidade abstrata como ferro bruto derretido. Se o rival afirma ser intocável, o soco do Onyx aplica Fratura Axiomática em escala absoluta, quebra a verdade universal do inimigo, solidifica seu corpo abstrato à força e tritura sua estrutura no impacto via Vontade Auto-Inflexível.\n                <br/><br/>\n                Múltiplas transformações simultâneas, galáxia, buraco negro, retorno humano, são apenas o reflexo visual dessa adaptação operando no ápice absoluto. Onyx narra os próprios golpes como se fosse o narrador da história, e foi assim que destruiu Falcon, Colapso Conceitual no height, a ponto dele desistir de lutar. Existem formas superiores à Alfa. Não reveladas. Não nomeadas. Onyx não as discute.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder real",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O que foi mostrado é o mínimo necessário para cada situação. Nunca mais. Afirma que soltar seus limites destruiria o planeta. Suas formas máximas e poderes reais permanecem completamente não revelados.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Origem",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Desconhecida. Ex-caçador de recompensas. Abandonou o sistema por escolha. Agora vaga entre narrativas. Observando, interferindo quando decide, e treinando quem considera digno.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 8,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Vida pessoal",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Casado com <strong>Ayla</strong> (ver ficha própria), tem um filho pequeno, Christopher. Vive escondido numa camada que ele mesmo esqueceu qual é, local que ninguém mais conhece. Eliminou espécies hostis ao redor da casa por segurança da família.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 9,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Temporada 2 · Arco atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Decidiu formar um grupo de \"escolhidos\" sem autor pra treinar e proteger, visando eventualmente enfrentar o sistema dos Homens de Terno. Foi a Gloryfield comprar armas e reencontrar velhos conhecidos (o ferreiro Damon) quando se envolveu, sem querer, num mistério: uma garota chamada \"Fabi\", que não existia de verdade, o levou até o castelo, onde presenciou o rei fechar um tratado suspeito com o rei Abner, cedendo acesso às minas do leste (templos antigos, possíveis rituais). Suspeita que o tratado é fachada para um ritual de troca de almas/ressurreição, e que a Fabi ilusória está ligada ao sumiço do ferreiro Felipe. Decidiu adiar seus planos e ficar mais tempo no reino, prevendo guerra.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g0",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ayla",
+  "title": "Esposa de Onyx",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Esposa de Onyx e mãe de Christopher. Não é desse mundo/reino e afirma não ser fraca, apesar de nunca ter demonstrado poder em combate. Escolheu viver com Onyx e a família por vontade própria.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Família",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Tem um pai com \"domínio absurdo\", ligado às raízes da árvore anterior à atual, que já lidou antes com entidades como a Anomalia de Tolta. Onyx pretende recorrer a ele para ajudar Tolta.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Relação com Onyx",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Casamento estabelecido, cúmplice e bem-humorado. Onyx afirma que ela foi a única coisa que o manteve firme durante um período de vazio em sua vida passada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Kevin",
+  "title": "O Descendente · Caçador Absoluto",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Origem",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Tataraneto de um deus dragão misterioso e antigo. Mais antigo que os Deuses Primordiais atuais. Origem não completamente revelada. Reside em C01 (Lastro Mineral) por escolha territorial, dividindo o submundo com Lúcifer, não por ser esse o limite do poder dele. Via Rank (SSAS++) e a Auréola hipotética que ele nem se dá ao trabalho de manifestar, seu poder já ultrapassa o teto da própria camada onde mora.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Magnitude de nível cósmico. Supera qualquer SSAS+ comum. Sua linhagem o coloca em categoria separada. Praticamente um semideus primordial por herança.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Auréola",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Não utiliza forma geométrica padrão. Considera o sistema de auréolas coisa de fraco. Em forma máxima: onipresença em nível de colapso caótico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Objetivo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Em busca de lâminas antigas e poderosas. Os nomes dessas lâminas ainda não foram revelados.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Relação com Onyx",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Amigos antigos. Conexão leve e bem-humorada. Se respeitam mutuamente como iguais.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Kevin é o tipo de pessoa que já sabe a resposta antes de fazer a pergunta. E faz a pergunta assim mesmo, só pra ver como você vai mentir. Há uma antiguidade nele que vai além da aparência: cada risada é pesada, cada pausa é calculada, cada palavra foi escolhida antes de existir.<br/><br/>\n                Ele não ajuda por bondade. Não ajuda por aliança. Kevin age quando acha interessante. E Onyx é interessante há tempo suficiente pra ele ainda abrir a porta. A conversa do ep 24 revela isso: ele não deu informação pra ajudar Onyx. Deu porque queria ver o que ia acontecer.<br/><br/>\n                Há uma inteligência emocional afiada nele que poucos percebem porque está escondida atrás da ironia. Ele leu Onyx completamente, \"você não veio por informação, veio confirmar que isso é real\", numa fração de segundo. Isso não é intuição. É experiência acumulada.<br/><br/>\n<strong>Em uma linha:</strong> sabe de tudo, fala o mínimo, e sorri quando as coisas ficam complicadas.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Papel no verso",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rei do submundo. Ponto de convergência de informação entre entidades que não deveriam sequer existir. Tem acesso a nomes e localizações que ninguém mais consegue. Não suportado por Lúcifer, que o considera inferior no submundo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Deu a Onyx a direção para a Árvore Morta e o nome: Bulldog Shoesign. Ficou no trono enquanto Onyx atravessava a realidade. Sua última frase foi um sorriso. \"isso vai dar uma merda colossal. Finalmente.\"",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Braço de Ferro",
+  "title": "O Negociador · Distorcedor de Narrativas",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Caçador de recompensas rank SSAS+. Dentro de infinitas narrativas, foi considerado top 1 dos caçadores. Um monstro absoluto em escala multinarrativa.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Equipamento",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Distorcedor de Narrativa. Forjado pelo Deus da Forja, um ser acima de autores. Interage diretamente com o tecido fictício da existência.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poderes",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de realidade, história e narrativa. Manipulação de conceitos matemáticos. Distorção do tecido fictício. Auréola de nível quase caótico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Papel na história",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Intermediário de contratos e informações. Mantém relação de respeito mútuo com Onyx. Possui contato com o Mestre da Forja.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Homens de Terno",
+  "title": "Organização Desconhecida · Agentes",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Todos os agentes confirmados são Rank S, portando Auréola entre N3 e N4. Presença esmagadora, capacidade de abrir fendas dimensionais, mas presos à sintaxe da cena onde atuam, dependem de ferramentas externas como maletas de contenção pra agir. Reconhecem entidades acima do sistema comum e sabem a diferença entre um Agente de Campo e um Supervisor de verdade.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Aparições",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Primeiro contato no beco. Eliminou um alvo, reconheceu Onyx. Monitoraram a evolução de Tolta durante o treino. Tentaram agir após confirmação de que Tolta estava sob proteção.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Afiliação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Organização desconhecida com capacidade de monitorar narrativas e escolhidos. Possuem supervisores acima deles. Motivações ainda não reveladas.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Observação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Foram instruídos a não interferir ainda. O que vem depois dessa ordem ainda é desconhecido.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Temporada 2 · Estrutura revelada",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Existe um \"presidente\" no topo do Sistema de Supervisores de Ficções, que Onyx odeia e já enfrentou várias vezes. Esse sistema ignora completamente narrativas sem autor, tratando a vida nelas como sem valor, e às vezes chega a matar o próprio autor de uma narrativa só para tomar controle dela (motivo ainda não revelado: dinheiro, controle, exército). Supervisores individuais respondem a outros supervisores numa cadeia até chegar ao presidente. Os Juízes (Conselho dos Adomos Primordiais) não têm ligação com isso, só entrariam em cena em caso de destruição em massa de narrativas sem justificativa. A organização tem um nome antigo que Onyx se recusa a revelar.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ferid · O Mestre da Forja",
+  "title": "Deus Primordial da Magia e Indústria",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O que se sabe",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Seu nível exato e localização são um completo mistério para o sistema formal. É o arquiteto industrial por trás de armas que alteram a própria história. Como o Distorcedor de Narrativas do Braço de Ferro. Confirmado como Deus Primordial da Magia por Sukum e Bulldog no ep 26. Opera em Onisciência Nível 3.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "A Dúvida de Lore",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Comunidades e entidades debatem como ele controla a Metalurgia Fictícia. A especulação mais aceita: ele não cria matéria. Ele minera os \"bad sectors\", paradoxos e dados descartados pelo Algoritmo de Nível Zero na lixeira do sistema, forjando-os em armas físicas densas e funcionais. Seus artefatos existem fora da sintaxe narrativa convencional.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Paradeiro desconhecido. O Deus do Conhecimento sabia de sua localização. E o Deus do Conhecimento sumiu.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Bulldog Shoesign",
+  "title": "O Observador · Nome que Circula Entre o Impossível",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O que se sabe",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Quase nada. O nome circula entre entidades que não deveriam existir. Kevin, que tem acesso a informações que ninguém mais tem, não sabe sua localização. Apenas sua direção. Isso por si só já diz muito sobre o nível desse ser.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade especulada",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Diferente de outros que agem, dominam ou destroem. Bulldog Shoesign <em>observa</em>. Essa distinção é importante. Seres desse nível que escolhem observar em vez de agir geralmente fazem isso porque já sabem o que vai acontecer, ou porque o que estão vendo ainda não chegou no ponto que os interessa.\n                <br/><br/>\n                Se Kevin acredita que ele pode saber sobre o Deus Primordial que Onyx procura, então Bulldog opera em uma escala que vai além do que o sistema formal registra.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Destino de Onyx. Localização: ponto de convergência da Árvore Morta. Aquilo que sobrou depois. Ainda não encontrado.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Lúcifer",
+  "title": "Rei do Inferno · Anti-Herói",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Lúcifer não liga pra nada além de si mesmo. Anti-herói no sentido mais puro. Não é vilão porque não tem paciência pra ter objetivos maiores. Age quando tem motivo pessoal, ignora o resto. Não suporta o Kevin e não esconde isso. Estava nos Casinos jogando poker com Napoleão quando Onyx passou.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Papel no verso",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Um dos Reis do Inferno. Opera em nível acima do Kevin. O que por si só já diz muito. Primeira aparição no ep 26, abordando Onyx na saída da reunião com Bulldog e Sukum.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Pediu a Onyx pra passar uma mensagem pro Kevin: tirar o cavalinho da chuva, que ele não é o mais poderoso do submundo. Onyx tentou gravar em áudio. Lúcifer não achou graça.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Falcon",
+  "title": "O Lendário · Maior Caçador de Recompensas da História",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Falcon é o tipo de ser que você ouve falar durante anos e quando finalmente chega na frente, só leva porrada. Lendário, mítico, hiperlendário. Não dá trégua pra ninguém. Nem pra quem ele treinou. Especialmente pra quem ele treinou. Testa antes de falar. Foi assim com Onyx na primeira vez. Será assim de novo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Nível Colapso Conceitual no height. Um dos pouquíssimos que transcenderam o sistema formal. Em poder bruto, supera o próprio Onyx. Se pego desprevenido, Onyx afirma não ter interação nem raciocínio suficiente pra reagir. Um Dragon de nível 3 não seria suficiente pra derrubá-lo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de percepção, raciocínio, onisciência, transcendência de onisciência e onisciência de nível 2. Técnicas que burlam qualquer imunidade mágica ou conceitual. Foi ele quem ensinou boa parte disso ao próprio Onyx.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Artefatos",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Lança do Vazio</strong>, forjada em um plano que ignora a lógica de escrita. Não existe ação possível nesse plano, e ainda assim ele conseguiu pegá-la. Dentre todas as lanças existentes, é o ápice absoluto.<br/><br/>\n<strong>Feito Histórico · A Invasão ao Nullcofre:</strong> O Nullcofre não era um objeto. Era uma narrativa inteira selada e sacrificada por deidades antigas pra servir de caixa-forte. Seu tecido existencial era saturado por magias de apagamento, travas causais e desintegração instantânea. No coração absoluto dessa realidade bunker ficava a Lança do Vazio. Protegida por uma barreira que impedia qualquer entrada ou saída do sistema. O Nullcofre foi projetado pra triturar os dados de qualquer intruso antes mesmo de a ação ser registrada.<br/><br/>\n<strong style=\"color:var(--silver);\">A Entrada · Isenção de Sintaxe Marcial:</strong> Ao caminhar em direção ao Nullcofre, o inferno de magias de apagamento e desintegração avançou contra ele. Em vez de tentar burlar ou hackear a segurança, Falcon ativou o ápice de sua densidade marcial metafísica. Para o corpo denso e exógeno dele, toda aquela alta magia de apagamento literário não passava de minério rudimentar de baixo nível. Os feitiços de desintegração axiomática ricocheteavam e se estilhaçavam na pele dele como vidro batendo numa bigorna industrial. O Nullcofre tentava ler a estrutura do Falcon pra aplicar o comando de deletar. Mas a presença dele operava numa A-Sintaxe que o sistema de defesa da narrativa não conseguia codificar ou processar.<br/><br/>\n<strong style=\"color:var(--silver);\">O Roubo · Vontade Auto-Inflexível no Plano Sem Escrita:</strong> Ao alcançar a câmara central, onde a ação era proibida e nada podia se mover, Falcon utilizou sua Transcendência de Onisciência combinada com pura Vontade Auto-Inflexível. Ele simplesmente estendeu a mão e forçou o conceito de movimento a existir naquele plano imóvel. Solidificou a ação onde a lógica ditava vácuo absoluto de eventos. Segurou a Lança do Vazio com as mãos nuas e a arrancou do pedestal como se estivesse pegando uma ferramenta comum de trabalho.<br/><br/>\n<strong style=\"color:var(--silver);\">A Saída · Incompatibilidade Crônica por Impacto Bruto:</strong> O Nullcofre foi configurado pra que ninguém pudesse sair. Destruindo os dados de qualquer portal que tentasse se abrir de dentro pra fora. Falcon não perdeu tempo com fendas delicadas. Utilizou força física real e raciocínio de combate pra esmurrar e rasgar a estrutura do bunker de dentro pra fora. O impacto marcial bruto gerou uma incompatibilidade crônica de sistemas. Incapaz de processar o peso, a densidade e o impacto da força física real de Falcon, o Nullcofre entrou em pane geral, sofreu um glitch total e colapsou. Falcon saiu caminhando tranquilamente pelo buraco da explosão estrutural, carregando a lança nas costas.<br/><br/>\n                A Lança do Vazio carrega poder destrutivo e conceitual imensurável pra qualquer ser das 21 camadas. Considerada o ápice absoluto de todas as lanças por ter sido forjada em plano exógeno. Para Falcon, ela não é um trunfo guardado a sete chaves. Ele a porta e utiliza até hoje como arma favorita porque achou a peça estilosa e funcional. A constatação passiva de um ser tão acima das regras de escrita que tratou a segurança máxima do universo como uma mera portaria empurrada com o ombro.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arsenal de Técnicas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Safiri</strong>. Anula tecnicamente qualquer ataque, fazendo-o nunca ter existido. Apagou completamente o Dragon Nível 3 de Onyx sem esforço aparente.<br/><br/>\n<strong>Sephiras</strong>. Técnica de anulação absoluta criada especificamente, segundo o próprio Falcon, \"pra humilhar\" Onyx.<br/><br/>\n<strong>Chaos Sword</strong>. Sua lâmina. Um único corte rasgou uma camada inteira da existência e partiu Onyx ao meio.<br/><br/>\n<strong>Bigorna</strong>. Estilo lendário de combate corpo a corpo. O corpo dele funciona como ponto fixo absoluto: qualquer golpe que o atinge é o que se despedaça, nunca o contrário. Foi essa densidade marcial que fez a segurança inteira do Nullcofre ricochetear como vidro contra metal industrial.<br/><br/>\n                Domina raio amarelo como forma de deslocamento. Curva no espaço em velocidade que rivaliza onipresença nível 3.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Histórico",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O lendário maior caçador de recompensas que já existiu. Concluiu praticamente todos os serviços que aceitou. Destruiu civilizações inteiras com pensamentos. Treinou o próprio Onyx. Há 30 anos sem ser visto por ele. Indicado por Bulldog Shoesign como o único capaz de ajudar Tolta a controlar o que existe dentro dele.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O Reencontro · Ep 27",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "A luta com Onyx destruiu um planeta inteiro, incinerou uma lua e rasgou múltiplas camadas da existência. Falcon dominou boa parte do confronto, chutes que quebraram o pescoço de Onyx, raios que cruzaram o planeta, a Chaos Sword partindo Onyx ao meio em um único corte. Ativou seu Colapso Conceitual no ápice. Mesmo assim, recusou usar a espada com tudo: \"Se eu usar... você morre.\" Quando Onyx ativou a Forma Alfa no combate mano a mano, Falcon não teve reação. Foi destruído, sem membros, quase apagado, e desistiu de continuar lutando, reconhecendo o quanto Onyx cresceu.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 7,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Derrotado pela Forma Alfa de Onyx no ep 27. Respeito mútuo estabelecido entre os dois. Levou Onyx ao Deck, onde vive o Pistoleiro. Antigo conhecido de Falcon.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Pistoleiro",
+  "title": "Shadow Rëvna · O Caçador Lendário",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade & Personalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Nome real: <strong>Shadow Rëvna</strong>. Apelido lendário entre caçadores: <strong>O Pistoleiro</strong>. Econômico. Direto. Não se impressiona com nada. Nem com o fato de Onyx, um ser de nível primordial, ser seu fã declarado. Estava pescando tranquilamente no Deck quando Onyx chegou em colapso total. Sua frase pra Onyx resume tudo: \"Continua ficando forte. Porque admiração sem poder não vale nada aqui.\" Quase sorriu. Quase.<br/><br/>Origem ainda não revelada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arsenal · As Desert Eagles",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Duas Desert Eagles com baionetas serradas presas por correntes pesadas abaixo dos canos.<br/><br/>\n<strong>Desert Eagle Esquerda · \"NULIDADE\":</strong> Projétil que força um Reset de Lógica Paraconsistente no impacto. A física do ataque inimigo tenta se contradizer e se anula, transformando explosões dimensionais em poeira cinzenta industrial.<br/><br/>\n<strong>Desert Eagle Direita · \"VAZIO\":</strong> Injeta entropia pura no alvo. Aplica Ruído Estrutural (C04). Apaga a estrutura mental e física do inimigo de forma definitiva, sem deixar poeira residual ou energia.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Imunidades Passivas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Isenção do Rascunho:</strong> Sua origem concede imunidade total a qualquer alteração de enredo ou decreto de roteiro. Tentativas de reescrever suas ações batem na Auréola N9 e falham instantaneamente. Ele existe fora do fluxo da escrita convencional.<br/><br/>\n<strong>Inércia Ontológica Passiva (C03):</strong> Gravidade, vetores, tempo e geometria do espaço não afetam seu corpo. Resistência estática infinita contra qualquer modificação da realidade ao redor.<br/><br/>\n<strong>Blindagem Paraconsistente (C13):</strong> Ataques conceituais abstratos, alma, causa e efeito, existência/não-existência, colidem com sua estática N9, perdem cor, viram poeira cinzenta e caem a valor zero antes de tocar seu sobretudo.<br/><br/>\n<strong>Isolação Térmica-Narrativa (C09):</strong> Seu Gun-Fu cria uma zona passiva ao redor dele. Qualquer ataque de projétil, energia ou oponente em velocidade imensurável perde tração e é desacelerado à força. Por operar em A-Sintaxe, percebe e reage ao dano milésimos de segundo antes do golpe ser desferido fisicamente.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnicas de Combate",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Arrastão do Nulo:</strong> Dispara a baioneta como arpão, cravando-a no peito do adversário. Impõe Inércia Ontológica (C03) ao contrário. Paralisa o fluxo de energia (Qi) e trava os movimentos do alvo. Arrasta o oponente com a corrente e descarrega a \"NULIDADE\" à queima-roupa, aplicando Ruído Estrutural (C04) para apagar a estrutura mental do inimigo.<br/><br/>\n<strong>Disparo de Intercepção Nula:</strong> Não desvia. Aponta e atira diretamente contra o golpe mais poderoso do inimigo. O projétil força Reset de Lógica Paraconsistente. A física do ataque inimigo se contradiz, ativa Calcificação Lógica (C13) e se dissolve em poeira cinzenta industrial.<br/><br/>\n<strong>Dança Cinzenta · O Chicote das Linhas Ocultadas:</strong> Gira as duas Desert Eagles pelos gatilhos em alta velocidade. As correntes e baionetas criam um turbilhão cortante que delimita uma zona de Isolação Térmica-Narrativa (C09). Quem tenta se aproximar, mesmo em velocidade imensurável, é desacelerado e retalhado. Dano aplicado em A-Sintaxe. Os cortes chegam milésimos antes das lâminas passarem fisicamente.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "home",
+  "groupId": "home-g1",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Bu",
+  "title": "Deus da Paz Interior · Almas",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": null,
+  "badgeAttrs": null,
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Domínio",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Paz interior, almas e equilíbrio. Mencionado por Sukum como possível candidato pra ajudar Tolta a controlar a entidade dentro dele. Descartado por não ser suficiente pra uma situação desse nível.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Situação atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Informação limitada, não apareceu diretamente em nenhum dos 33 episódios, apenas mencionado de passagem no ep 26. Poderes, aparência e nível de combate ainda não revelados.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Tengu",
+  "title": "O Escolhido · Fio Dourado",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK SSS · HEROICA SSS+",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "gallery",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "estrutura-galeria",
+     "style": "display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin-bottom:1.2rem;"
+    },
+    "html": null,
+    "images": [
+     {
+      "attrs": {
+       "alt": "Retrato de Tengu",
+       "src": "/media/personagens/tengu-retrato.avif",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     },
+     {
+      "attrs": {
+       "alt": "Tengu de corpo inteiro empunhando a Lâmina de Nullis",
+       "src": "/media/personagens/tengu-corpo-inteiro.avif",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank SSS em forma base, com Forma Heroica ativada atinge SSS+. Opera num patamar equivalente a N5 e N6 (o N6 confirmado no ep 33), com auréola forjada e fora do ranking padrão. Geometria impossível e fractais. Counters conceituais infinitos e mana que ignora imunidades, confirmados por Onyx no ep 29. Potencial ainda não completamente ativado.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Natureza da Auréola",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Onyx confirmou em episódio que Tengu não consegue atingir um ranking de auréola pelo sistema padrão. A saída dele é materializar a própria auréola do zero, algo que Onyx trata como a única forma real disponível pra ele. Não é uma auréola nascida naturalmente nele, é forjada. Isso explica por que ela se comporta como um anti-conceito em forma pura, e por que não se adapta às regras de nenhuma camada como um poder comum faria: ela não segue o caminho natural de ninguém, porque foi construída do zero, não herdada nem despertada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Rank atual",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank SSS em forma base, confirmado no ep 29, e SSS+ com a Forma Heroica ativada. Antes do salto do ep 29 a leitura era A-S em base e SSS na nova forma. Superando qualquer parâmetro esperado para um ser de sua origem.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Combate com espada e magia em alto nível, desenvolvidos sob treinamento direto de Onyx e Lothus. Anos no mundo das luas (morte e reset contínuos) forjaram velocidade, precisão e instinto além do esperado para seu rank. Forma Heroica. Aura branca instável que racha o espaço ao redor e gera counters conceituais automáticos. É um anti-conceito em forma pura, e por isso não se adapta às regras de nenhuma camada como um poder comum faria. Atualmente controla mais de 50% do poder real da aura, já injetando-a diretamente na própria existência, não mais só como técnica externa. O que essa aura representa hoje não é necessariamente o que ela vai representar quando o refino for completo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma · Lâmina de Nullis",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Espada negra com linhas brancas pulsantes, criada antes das primeiras estruturas narrativas. Não corta matéria. Corta conceitos. Se adapta ao usuário e amplifica sua intenção, criando um counter automático para qualquer defesa. Recuperada por Onyx em suas viagens exógenas e deixada sob a guarda de Lothus com instrução estrita: entregar apenas quando o Fio Dourado demonstrasse controle real.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     },
+     {
+      "t": "raw",
+      "html": "<img alt=\"A Lâmina de Nullis\" src=\"/media/personagens/tengu-lamina-de-nullis.avif\" style=\"max-width:220px; width:100%; height:auto; display:block; margin:0.8rem auto 0; border:1px solid var(--border);\"/>"
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 6,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Trajetória de Combate",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                A primeira vez que Tengu provou que não era só potencial foi quando apagou sozinho um boss de antimagia física que evoluía devorando vítimas e absorvendo habilidades. Ford, Rank S, foi quem resumiu melhor o que aconteceu: Tengu não derrotou a criatura, ele a apagou da existência, sem deixar energia residual, pó ou rastro. A cratera que sobrou virou cicatriz impossível na dungeon, e ninguém nunca conseguiu explicar direito como.\n                <br/><br/>\n                O salto de verdade veio depois, no episódio 29, ainda em forma base: destruiu Lothus (Rank SSS) incontáveis vezes antes dele sequer perceber o que tinha acontecido, com uma velocidade tão absurda que parecia teletransporte. Um único golpe no estômago gerou onda de choque capaz de apagar um planeta ou sistema solar inteiro, e Onyx chegou a avaliar que, pra vencê-lo naquela forma, precisaria do Manto Sagrado ou mais. Nessa mesma luta, Tengu usou Onipresença Nível 2, counters conceituais infinitos e uma mana que analisa e ignora imunidades, e chegou a atacar o próprio Onyx com a Lâmina de Nullis, que só foi segurada com dois dedos, usando a Técnica Alpha.\n                <br/><br/>\n                Desde então o treinamento direto com Onyx começou de fato: Tengu está na camada 15, com um atributo de sobrevivência aplicado pelo próprio Onyx, e ainda usa só 30% a 40% do potencial real. Ainda assim, Onyx já afirmou que, do jeito que está, ele poderia superar quem o criou. É discípulo oficial de Onyx, mesmo negando o título. Na Temporada 2, observando o treino à distância, Onyx descreveu o que viu como velocidade absurda, golpes limpos e precisos, sem esforço aparente e sem uso de aura, só técnica e controle puro, algo que já parece natural nele, e afirmou sentir orgulho.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Feng",
+  "title": "Grupo de Tengu · O Escudo",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK B+",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank B+. Opera entre N3 e N4. Formas compostas a variáveis, manipulação de múltiplos conceitos e início de alteração causal. Seu campo gravitacional é expressão direta dessa faixa de auréola aplicada ao combate físico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Armadura de Gravidade Colapsante</strong>. Gera um campo gravitacional absurdo ao redor do corpo. Ataques são puxados, esmagados e dissipados antes de atingir.<br/><br/>\n<strong>Impacto Titânico</strong>. Cada golpe carrega peso equivalente a uma massa estelar. Tornou-se um tanque absoluto após o treinamento intensivo nas luas de Onyx sob Lothus.<br/><br/>\n<strong>Punho de Colapso</strong>. Concentra o campo gravitacional inteiro num único soco, comprimindo o espaço à frente do punho antes do impacto. O alvo sente o peso chegar antes do golpe em si.<br/><br/>Ajuste por escala de Auréola: no nível atual, comprime o espaço logo à frente do punho. Com mais refino, a compressão deixaria de precisar de distância nenhuma, o peso chegaria antes mesmo do soco ser lançado.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica Corporal · Rebote de Lastro Gravitacional",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Feng assume uma postura defensiva firme e ativa sua Armadura de Gravidade Colapsante. Quando recebe um golpe físico ou de energia, ele usa a transferência de peso para concentrar o impacto em seu centro gravitacional, protegendo o grupo.\n                <br/><br/>\nAtualmente em seu nível intermediário (Rank B+, entre a Geometria Variável e a fronteira seguinte), ele usa essa técnica para repelir ataques e jogar o oponente pra trás com força estelar. Conforme sua maestria evoluir, o golpe passa a simular propriedades da própria Tensão Superficial: o ataque do rival racha contra o escudo de Feng e ricocheteia de volta com o dobro da força, triturando a estrutura do inimigo através do próprio impacto que ele disparou.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ania",
+  "title": "Grupo de Tengu · Domínio Sensorial",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK B+",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank B+. Opera entre N3 e N4. Formas compostas a variáveis, explica sua capacidade de manipular múltiplos sentidos e conceitos simultaneamente com o Domínio Sensorial Absoluto.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Domínio Sensorial Absoluto</strong>. Cria ilusões que afetam visão, som, toque, percepção e conceitos. O alvo não percebe o que é real.<br/><br/>\n<strong>Espelho de Inversão Total</strong>. Qualquer coisa percebida pelo alvo pode ser reescrita: ataques, intenções e até decisões.<br/><br/>\n<strong>Guardiões do Véu</strong>. Invocação de criaturas feitas de mana conceitual pura.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Estilo Marcial · Passo do Reflexo Invertido",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Ania combina o combate corporal curto com o seu Espelho de Inversão Total. Ela não tenta desviar do soco do oponente de forma física comum; ela desfere um contra-ataque que interfere diretamente nos impulsos de percepção e nos sentidos do rival durante o movimento.\n                <br/><br/>\n                \"No nível dela hoje, ela só faz o cara errar o ângulo do golpe, achando que ela se moveu\", comentou Onyx uma vez, observando um treino. \"Mas conforme ela refinar essa sintonização, o soco que o rival desferiu contra ela vai ser reescrito na mente dele, virar retroativamente uma decisão de golpear a si mesmo. O cara vai quebrar o próprio braço na marra e nem vai entender por quê.\"\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Brulhios",
+  "title": "Grupo de Tengu · Cavaleiro Dimensional",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK B+",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank B+. Opera entre N3 e N4. Formas compostas, sustenta sua capacidade de perfurar linhas de existência com a Lança de Aethelion além do dano físico convencional.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma · Lança de Aethelion",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Forjada com fragmentos de realidades colapsadas. Não perfura apenas corpos. Perfura linhas de existência.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Investida Dimensional</strong>. Atravessa barreiras de espaço e conceito no avanço.<br/><br/>\n<strong>Ruptura Linear</strong>. Rompe a continuidade de existência do alvo no ponto de impacto.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Kael",
+  "title": "Grupo de Tengu · Precisão Letal",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK C",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Precisão em crescimento acelerado após treinamento. Movimentos econômicos e letais. <strong>Corte Único</strong>. Nunca desfere um segundo golpe se o primeiro já resolveu. Estuda o oponente em silêncio antes de agir, então converte tudo que observou num único ataque decisivo.<br/><br/>Ajuste por escala de Auréola: em seu nível atual, o corte resolve o que os olhos dele já viram. Conforme a Auréola evolui, o tempo de observação necessário encolhe, até o ponto em que ele não precisa mais estudar o oponente antes de golpear, só reconhecer, no instante do impacto, o que já sabia sem saber que sabia.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Tolta",
+  "title": "O Escolhido · Receptáculo da Anomalia",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "EM DESENVOLVIMENTO",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O Segredo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Quando bebê, foi levado pelo Deus máximo a um local anterior à criação atual. Lá, foi usado como receptáculo para selar uma Anomalia. Origem desconhecida na época, hoje identificada como Nephilis Heder. Maria afirma ser um ser da época dos Deuses Primordiais Mitológicos, deuses que teoricamente antecederam os atuais. Onyx não acredita completamente, mas a presença da entidade no corpo de Tolta o faz levar a sério.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Forma Berserker",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Armadura negra com linhas vermelhas. Regeneração instantânea. Velocidade além da luz. Capaz de pressionar Onyx. Em forma Berserker invoca Asmondia, uma técnica mágica antiga que lança uma esfera de energia capaz de apagar os fios existenciais narrativos de todos os habitantes daquela realidade a nível zero absoluto. Sem alvo específico. Sem volta. A Anomalia dentro de Tolta sairia do corpo antes do apagamento, e como ambos já estão fundidos a nível de alma, Tolta herdaria os poderes da entidade e não morreria junto. Onyx reconheceu e selou a técnica junto com Tolta antes que fosse ativada.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Imortalidade",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Confirmada. Tipo ainda desconhecido. Membros perdidos regeneram. Mortes revertidas.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Maria",
+  "title": "Tia de Tolta · Rainha de Gelo",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK SSS · PODER REAL NÃO REVELADO",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank SSS, opera no sistema de Auréolas entre N5 e N6, com o N7 pentagonal ativado no ep 33, geometria impossível e fractais. Paradoxos funcionam como ferramentas em suas mãos. O que demonstra publicamente é deliberadamente contido, seu nível real, sem restrições, ainda não foi revelado. Onyx a classifica como absurda mesmo dentro do que ela escolhe mostrar.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica principal · Rainha de Gelo",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Congelamento absoluto, temperaturas extremas e criação de armas de gelo infinitas. O diferencial desta técnica não é apenas o gelo em si, é que cada arma forjada pode receber infinitos conceitos existentes e inexistentes aplicados por Maria. Um único cristal pode carregar o conceito de apagamento, o conceito de peso absoluto, o conceito de impossibilidade, ou qualquer outro que ela decida impor. As possibilidades são literalmente infinitas. Capaz de congelar planetas inteiros com fração mínima do real poder.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arma favorita",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Foice de gelo. Arma que ela forja instantaneamente e pode escalar em tamanho e densidade conforme a situação exige.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnica Marcial de Lâmina · Clivagem do Zero Ontológico",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Maria forja instantaneamente sua foice de gelo e desfere um corte cirúrgico. O golpe não busca congelar a matéria física (carne/ossos), mas sim injetar estagnação lógica nas propriedades conceituais do oponente. No impacto, o alvo sofre os efeitos da Inércia Ontológica (C03) ao contrário, tendo o enredo de suas ações e sua velocidade de mudança congelados na marra.\n                <br/><br/>\n                Em sua maestria atual, o corte é um congelamento local de alta escala. Dependendo do refino de sua Auréola Fractal ou de sua natureza oculta, porém, o golpe evolui pro patamar de Congelamento Pós-Conceitual: o pagamento existencial do corte congela a própria gramática de escrita do rival, fazendo com que qualquer counter automático do oponente vire um cristal inerte e quebrável no soco.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder real",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O que ela demonstra publicamente é deliberadamente contido para não chamar atenção. Onyx a classifica como absurda. E isso já é SSS. Seu nível real, quando sem restrições, não foi revelado nem a Tolta. A contenção é uma escolha, não um limite.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Capacidades ocultas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de temperatura em escala cósmica. Congelamento de conceitos além do físico. Criação de estruturas de gelo que existem fora do espaço convencional. Percepção de presenças absurdas. Sentiu algo no nível de Onyx sem conseguir identificar a fonte, o que a deixou em estado de alerta por dias. Tentou socar Onyx com força real e não o moveu um centímetro.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Jeff",
+  "title": "Colega de Sala · O Mais Forte da Turma",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK A",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Nível no Sistema",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Rank A. Opera em N2, Auréola Poligonal. Manipulação de energia e espaço em nível inicial. Patamar mais avançado do sistema formal básico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O mais forte da turma. Mal consegue tocar o professor. Em constante evolução. Já demonstra os primeiros sinais de <strong>Investida Reta</strong>. Um avanço direto sem finta, sem economia, jogando toda a energia disponível num único ponto de impacto. Cru e sem refino, mas cresce a cada tentativa.<br/><br/>Ajuste por escala de Auréola: por enquanto, a técnica só existe na escala do próprio corpo dele, sem nada além de força bruta jovem. Ainda não há Auréola o bastante pra dizer até onde ela vai.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Onyx",
+  "title": "O Andarilho · Nível Primordial",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "NÃO CLASSIFICADO",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "gallery",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "estrutura-galeria",
+     "style": "display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin-bottom:1.2rem;"
+    },
+    "html": null,
+    "images": [
+     {
+      "attrs": {
+       "alt": "Retrato de Onyx, encapuzado",
+       "src": "/media/personagens/onyx-retrato.avif",
+       "style": "width:100%; height:auto; display:block; border:1px solid var(--border);"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Não é um Deus Primordial de origem. Ocupa o posto de Primordial do Portão, guardião do Portão Principal da Árvore de Anoff, na Camada 21 (Fio Zero), e opera em nível equivalente ao deles, reconhecido como tal pelos próprios Deuses Primordiais. Fora do sistema de rankings. O sistema não consegue registrá-lo. Maria, com percepção SSS, não sentiu absolutamente nada da presença dele.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Feitos confirmados",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Onyx selou simultaneamente a técnica Asmondia e o próprio Tolta antes que o colapso fosse ativado, num dos momentos mais decisivos que já se viu dele: Asmondia apagaria os fios existenciais narrativos de todos os habitantes daquela realidade a nível zero absoluto, incluindo o próprio Tolta, e uma fração de segundo a mais teria feito toda aquela narrativa deixar de existir, sem volta.\n                <br/><br/>\n                Fora dessa crise, o padrão se repete: ele absorveu um soco do Berserker de Tolta, com velocidade além da luz e força capaz de destruir estruturas dimensionais, e só riu. Reconstruiu um parque inteiro, prédios destruídos incluídos, e apagou a memória do evento de todos os presentes com um único pulso, sem concentração visível. Chegou a pressionar o ambiente só com presença passiva, o suficiente pra paralisar Jeff, o mais forte da turma, por instantes, sem sequer olhar pra ele. Eliminou um agente Rank S com um arremesso de espada sem desviar o olhar, chamando-o de inseto. Bloqueou um soco de Maria com uma mão, ela tentou com força real e não moveu ele um centímetro.\n                <br/><br/>\n                Também percorreu infinitas narrativas por um período que passa de dois mil anos, mantendo identidade, poder e controle o tempo todo, e foi top 1 de caçadores em infinitas narrativas antes de abandonar o sistema, superando até seres que Braço de Ferro, ele mesmo top 1 em escala multinarrativa, não alcança. E quando reencontrou Falcon depois de 30 anos, travou uma luta que destruiu um planeta, incinerou uma lua inteira e rasgou múltiplas camadas: levou cortes que partiram seu corpo ao meio, se recompôs ativando a Auréola Pentagonal (Colapso Conceitual), ativou a Forma Alfa e destruiu Falcon, Colapso Conceitual no height e um dos seres mais poderosos já confirmados, a ponto dele desistir de continuar lutando.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Na <b>Forma Sagrada / Manto Sagrado</b>, Onyx dissolve o corpo em energia anti-narrativa pura. Nesse estado, porta manipulação total de enredo, narrativa e história, com adaptação contínua e imunidade a qualquer tentativa de manipulação narrativa contra ele; ataques físicos, conceituais e narrativos passam através sem efeito, e a única forma de derrotá-lo seria através de absorção de imunidade combinada com energia narrativa pura, já que ele se torna o oposto absoluto disso. Nessa forma, selamento de alma é possível.\n                <br/><br/>\n                O <b>Dragon</b> é uma esfera de energia que absorve qualquer ataque, distorce sua estrutura e devolve amplificado, quanto mais poderoso o ataque absorvido, mais destrutivo o retorno. As <b>Três Íris Verdes Sobrepostas</b> dão a ele percepção além do tempo, vendo ações antes de acontecerem, enquanto o espaço ao redor desacelera pra ele processar tudo simultaneamente. Sua <b>Manipulação de Espaço e Distância</b> altera a geometria ao redor sem movimento visível, fazendo um ataque que deveria acertar simplesmente não alcançar, já que a distância entre os dois muda antes do impacto.\n                <br/><br/>\n                A <b>Transmutação de Matéria</b> reconstrói e desfaz estruturas físicas e dimensionais com precisão cirúrgica ou em escala absoluta. O <b>Selamento Conceitual</b> prende entidades no nível da alma e do conceito, não do corpo, tornando resistência física irrelevante. A <b>Manipulação de Narrativa Local</b> reescreve a percepção de eventos dentro de uma narrativa, fazendo o impossível ser aceito como normal por todos os presentes. Já o <b>Ocultamento Total</b> apaga completamente sua presença, energia e existência perceptível, indetectável até por entidades SSS com percepção elevada.\n                <br/><br/>\n                O <b>Buff de Auréola</b> é capaz de elevar temporariamente o nível de outro ser, foi assim que Tolta, com um boost básico, quase atingiu Rank S e destruiu o parque. A <b>Lâmina Verde</b> é uma arma de energia que corta espaço, matéria e estruturas além do físico, e pode ser arremessada com precisão absoluta a qualquer distância. Já a <b>Técnica Alpha</b> concentra aura verde numa única mão, cortando existência, não existência, conceitos e lógica ao mesmo tempo, foi com ela que Onyx segurou a Lâmina de Nullis de Tengu com apenas dois dedos.\n                <br/><br/>\n<img alt=\"A Lâmina Verde de Onyx\" src=\"/media/personagens/onyx-lamina-verde.avif\" style=\"max-width:220px; width:100%; height:auto; display:block; margin:0 auto; border:1px solid var(--border);\"/>\n<div style=\"max-width:400px; margin:0.6rem auto 0; text-align:center; font-size:0.78rem; color:var(--grey); font-style:italic; line-height:1.6;\">Não é uma arma separada do corpo dele. É a própria matéria ao redor se contorcendo e assumindo essa forma nas mãos de Onyx, o mesmo poder que ele usa pra qualquer outra coisa, só que moldado em lâmina. Pode assumir qualquer outro formato (foice, martelo, cajado), mas quase sempre aparece como espada por escolha dele, não por limitação.</div>\n<br/>\n                O <b>Golpe Zero</b> é o soco mais simples que ele tem, e por isso o mais perigoso: cada impacto aplica um pagamento existencial que dobra a partir do anterior, o primeiro vale por um, o segundo por dois, o terceiro por quatro, o quarto por oito, crescendo assim indefinidamente enquanto a sequência não for interrompida. O valor de cada soco dobra em cima da Auréola de quem aplica, não do soco anterior isolado, e Onyx raramente precisa passar do terceiro golpe.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Hierarquia de Formas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                O próprio Onyx confirma à Maria que existem formas superiores que superam infinitamente sua base, Forma Duo e Manto Sagrado. A <b>Forma Base</b> é o que foi mostrado na história até agora, e já opera em nível primordial. Acima dela vem a <b>Forma Duo</b>, ainda não revelada em combate, e depois o <b>Manto Sagrado / Forma Sagrada</b>, energia anti-narrativa pura que supera infinitamente as anteriores. A <b>Forma Celestial</b>, revelada contra Falcon, puxa sua lâmina real, não a cópia que Falcon usa, e combate em velocidade incompreensível, com onipresença nível 3. Já a <b>Forma Divina</b> porta poderes baseados nos conceitos absolutos da cosmologia, manipulação total de realidade, narrativa, conceitos matemáticos, estruturas causais e existenciais, transcendência absoluta.\n                <br/><br/>\n                No topo confirmado está a <b>Forma Alfa, o Filamento do Colapso (N9 Height Intrínseca)</b>, alcançada após um treinamento secreto com A Entidade e revelada publicamente no combate mano a mano contra Falcon. Nela, Onyx implode a Auréola máxima do sistema formal, a N9 Height, Colapso do Conceito, e a funde diretamente ao próprio Fio Existencial. Como o Fio é o registro matemático absoluto de uma entidade no ecossistema, Onyx deixa de carregar uma estrutura geométrica externa: ele se torna a própria Auréola viva.\n                <br/><br/>\n                Essa fusão gera Imunidade Infinita baseada estritamente na alta matemática da cosmologia, impossível de ser morto, alterado ou apagado, independente do nível de apagamento do oponente. Quando um ataque de escala infinita tenta lê-lo pra deletá-lo, o sistema do invasor recebe um valor nulo de volta, gerando Incompatibilidade Crônica de Sistemas instantânea, e o hack ou apagamento racha como vidro e colapsa a zero antes de tocá-lo. Ofensivamente, a forma converte Adaptação Total em atributo físico absoluto: Onyx passa a manifestar as propriedades mais pesadas da cosmologia, Massa Semântica e Gusa Fictício, nos próprios músculos, e enxerga qualquer divindade conceitual ou entidade abstrata como ferro bruto derretido. Se o rival afirma ser intocável, o soco do Onyx aplica Fratura Axiomática em escala absoluta, quebra a verdade universal do inimigo, solidifica seu corpo abstrato à força e tritura sua estrutura no impacto via Vontade Auto-Inflexível.\n                <br/><br/>\n                Múltiplas transformações simultâneas, galáxia, buraco negro, retorno humano, são apenas o reflexo visual dessa adaptação operando no ápice absoluto. Onyx narra os próprios golpes como se fosse o narrador da história, e foi assim que destruiu Falcon, Colapso Conceitual no height, a ponto dele desistir de lutar. Existem formas superiores à Alfa. Não reveladas. Não nomeadas. Onyx não as discute.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 5,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder real",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "O que foi mostrado é o mínimo necessário para cada situação. Nunca mais. Afirma que soltar seus limites destruiria o planeta. Suas formas máximas e poderes reais permanecem completamente não revelados.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g0",
+  "sortOrder": 9,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ayla",
+  "title": "Esposa de Onyx",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "PODER NÃO REVELADO",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "html",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": null,
+    "html": "<div class=\"char-field-value\">Sem dados de poder confirmados em episódio. A ficha completa está no site da história.</div>"
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Kevin",
+  "title": "O Descendente · Caçador Absoluto",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "SSAS++",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Magnitude de nível cósmico. Supera qualquer SSAS+ comum. Sua linhagem o coloca em categoria separada. Praticamente um semideus primordial por herança.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Auréola",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Não utiliza forma geométrica padrão. Considera o sistema de auréolas coisa de fraco. Em forma máxima: onipresença em nível de colapso caótico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Braço de Ferro",
+  "title": "O Negociador · Distorcedor de Narrativas",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "SSAS+",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Caçador de recompensas rank SSAS+. Dentro de infinitas narrativas, foi considerado top 1 dos caçadores. Um monstro absoluto em escala multinarrativa.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Equipamento",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Distorcedor de Narrativa. Forjado pelo Deus da Forja, um ser acima de autores. Interage diretamente com o tecido fictício da existência.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poderes",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de realidade, história e narrativa. Manipulação de conceitos matemáticos. Distorção do tecido fictício. Auréola de nível quase caótico.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "char-card char-mystery",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Homens de Terno",
+  "title": "Organização Desconhecida · Agentes",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK S",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Classificação",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Todos os agentes confirmados são Rank S, portando Auréola entre N3 e N4. Presença esmagadora, capacidade de abrir fendas dimensionais, mas presos à sintaxe da cena onde atuam, dependem de ferramentas externas como maletas de contenção pra agir. Reconhecem entidades acima do sistema comum e sabem a diferença entre um Agente de Campo e um Supervisor de verdade.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Temporada 2 · Estrutura revelada",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Existe um \"presidente\" no topo do Sistema de Supervisores de Ficções, que Onyx odeia e já enfrentou várias vezes. Esse sistema ignora completamente narrativas sem autor, tratando a vida nelas como sem valor, e às vezes chega a matar o próprio autor de uma narrativa só para tomar controle dela (motivo ainda não revelado: dinheiro, controle, exército). Supervisores individuais respondem a outros supervisores numa cadeia até chegar ao presidente. Os Juízes (Conselho dos Adomos Primordiais) não têm ligação com isso, só entrariam em cena em caso de destruição em massa de narrativas sem justificativa. A organização tem um nome antigo que Onyx se recusa a revelar.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Ferid · O Mestre da Forja",
+  "title": "Deus Primordial da Magia e Indústria",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "RANK MISTÉRIO",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O que se sabe",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Seu nível exato e localização são um completo mistério para o sistema formal. É o arquiteto industrial por trás de armas que alteram a própria história. Como o Distorcedor de Narrativas do Braço de Ferro. Confirmado como Deus Primordial da Magia por Sukum e Bulldog no ep 26. Opera em Onisciência Nível 3.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "A Dúvida de Lore",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Comunidades e entidades debatem como ele controla a Metalurgia Fictícia. A especulação mais aceita: ele não cria matéria. Ele minera os \"bad sectors\", paradoxos e dados descartados pelo Algoritmo de Nível Zero na lixeira do sistema, forjando-os em armas físicas densas e funcionais. Seus artefatos existem fora da sintaxe narrativa convencional.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Bulldog Shoesign",
+  "title": "O Observador · Nome que Circula Entre o Impossível",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "DEUS PRIMORDIAL",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O que se sabe",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Quase nada. O nome circula entre entidades que não deveriam existir. Kevin, que tem acesso a informações que ninguém mais tem, não sabe sua localização. Apenas sua direção. Isso por si só já diz muito sobre o nível desse ser.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Identidade especulada",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Diferente de outros que agem, dominam ou destroem. Bulldog Shoesign <em>observa</em>. Essa distinção é importante. Seres desse nível que escolhem observar em vez de agir geralmente fazem isso porque já sabem o que vai acontecer, ou porque o que estão vendo ainda não chegou no ponto que os interessa.\n                <br/><br/>\n                Se Kevin acredita que ele pode saber sobre o Deus Primordial que Onyx procura, então Bulldog opera em uma escala que vai além do que o sistema formal registra.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Lúcifer",
+  "title": "Rei do Inferno · Anti-Herói",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "ACIMA DO KEVIN",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "html",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": null,
+    "html": "<div class=\"char-field-value\">Sem dados de poder confirmados em episódio. A ficha completa está no site da história.</div>"
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Falcon",
+  "title": "O Lendário · Maior Caçador de Recompensas da História",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "COLAPSO CONCEITUAL · HEIGHT",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Poder",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Nível Colapso Conceitual no height. Um dos pouquíssimos que transcenderam o sistema formal. Em poder bruto, supera o próprio Onyx. Se pego desprevenido, Onyx afirma não ter interação nem raciocínio suficiente pra reagir. Um Dragon de nível 3 não seria suficiente pra derrubá-lo.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Habilidades",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Manipulação de percepção, raciocínio, onisciência, transcendência de onisciência e onisciência de nível 2. Técnicas que burlam qualquer imunidade mágica ou conceitual. Foi ele quem ensinou boa parte disso ao próprio Onyx.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Artefatos",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Lança do Vazio</strong>, forjada em um plano que ignora a lógica de escrita. Não existe ação possível nesse plano, e ainda assim ele conseguiu pegá-la. Dentre todas as lanças existentes, é o ápice absoluto.<br/><br/>\n<strong>Feito Histórico · A Invasão ao Nullcofre:</strong> O Nullcofre não era um objeto. Era uma narrativa inteira selada e sacrificada por deidades antigas pra servir de caixa-forte. Seu tecido existencial era saturado por magias de apagamento, travas causais e desintegração instantânea. No coração absoluto dessa realidade bunker ficava a Lança do Vazio. Protegida por uma barreira que impedia qualquer entrada ou saída do sistema. O Nullcofre foi projetado pra triturar os dados de qualquer intruso antes mesmo de a ação ser registrada.<br/><br/>\n<strong style=\"color:var(--silver);\">A Entrada · Isenção de Sintaxe Marcial:</strong> Ao caminhar em direção ao Nullcofre, o inferno de magias de apagamento e desintegração avançou contra ele. Em vez de tentar burlar ou hackear a segurança, Falcon ativou o ápice de sua densidade marcial metafísica. Para o corpo denso e exógeno dele, toda aquela alta magia de apagamento literário não passava de minério rudimentar de baixo nível. Os feitiços de desintegração axiomática ricocheteavam e se estilhaçavam na pele dele como vidro batendo numa bigorna industrial. O Nullcofre tentava ler a estrutura do Falcon pra aplicar o comando de deletar. Mas a presença dele operava numa A-Sintaxe que o sistema de defesa da narrativa não conseguia codificar ou processar.<br/><br/>\n<strong style=\"color:var(--silver);\">O Roubo · Vontade Auto-Inflexível no Plano Sem Escrita:</strong> Ao alcançar a câmara central, onde a ação era proibida e nada podia se mover, Falcon utilizou sua Transcendência de Onisciência combinada com pura Vontade Auto-Inflexível. Ele simplesmente estendeu a mão e forçou o conceito de movimento a existir naquele plano imóvel. Solidificou a ação onde a lógica ditava vácuo absoluto de eventos. Segurou a Lança do Vazio com as mãos nuas e a arrancou do pedestal como se estivesse pegando uma ferramenta comum de trabalho.<br/><br/>\n<strong style=\"color:var(--silver);\">A Saída · Incompatibilidade Crônica por Impacto Bruto:</strong> O Nullcofre foi configurado pra que ninguém pudesse sair. Destruindo os dados de qualquer portal que tentasse se abrir de dentro pra fora. Falcon não perdeu tempo com fendas delicadas. Utilizou força física real e raciocínio de combate pra esmurrar e rasgar a estrutura do bunker de dentro pra fora. O impacto marcial bruto gerou uma incompatibilidade crônica de sistemas. Incapaz de processar o peso, a densidade e o impacto da força física real de Falcon, o Nullcofre entrou em pane geral, sofreu um glitch total e colapsou. Falcon saiu caminhando tranquilamente pelo buraco da explosão estrutural, carregando a lança nas costas.<br/><br/>\n                A Lança do Vazio carrega poder destrutivo e conceitual imensurável pra qualquer ser das 21 camadas. Considerada o ápice absoluto de todas as lanças por ter sido forjada em plano exógeno. Para Falcon, ela não é um trunfo guardado a sete chaves. Ele a porta e utiliza até hoje como arma favorita porque achou a peça estilosa e funcional. A constatação passiva de um ser tão acima das regras de escrita que tratou a segurança máxima do universo como uma mera portaria empurrada com o ombro.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 3,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arsenal de Técnicas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Safiri</strong>. Anula tecnicamente qualquer ataque, fazendo-o nunca ter existido. Apagou completamente o Dragon Nível 3 de Onyx sem esforço aparente.<br/><br/>\n<strong>Sephiras</strong>. Técnica de anulação absoluta criada especificamente, segundo o próprio Falcon, \"pra humilhar\" Onyx.<br/><br/>\n<strong>Chaos Sword</strong>. Sua lâmina. Um único corte rasgou uma camada inteira da existência e partiu Onyx ao meio.<br/><br/>\n<strong>Bigorna</strong>. Estilo lendário de combate corpo a corpo. O corpo dele funciona como ponto fixo absoluto: qualquer golpe que o atinge é o que se despedaça, nunca o contrário. Foi essa densidade marcial que fez a segurança inteira do Nullcofre ricochetear como vidro contra metal industrial.<br/><br/>Ajuste por escala de Auréola: quanto mais alta a Auréola de quem o golpeia, mais alto sobe a densidade de retorno, o corpo de Falcon nunca é o limite, o limite é sempre de quem bateu primeiro.<br/><br/>\n                Domina raio amarelo como forma de deslocamento. Curva no espaço em velocidade que rivaliza onipresença nível 3.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 4,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "O Reencontro · Ep 27",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "A luta com Onyx destruiu um planeta inteiro, incinerou uma lua e rasgou múltiplas camadas da existência. Falcon dominou boa parte do confronto, chutes que quebraram o pescoço de Onyx, raios que cruzaram o planeta, a Chaos Sword partindo Onyx ao meio em um único corte. Ativou seu Colapso Conceitual no ápice. Mesmo assim, recusou usar a espada com tudo: \"Se eu usar... você morre.\" Quando Onyx ativou a Forma Alfa no combate mano a mano, Falcon não teve reação. Foi destruído, sem membros, quase apagado, e desistiu de continuar lutando, reconhecendo o quanto Onyx cresceu.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Pistoleiro",
+  "title": "Shadow Rëvna · O Caçador Lendário",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "AURÉOLA N9 · COLAPSO CONCEITUAL",
+  "badgeAttrs": {
+   "class": "char-rank-badge",
+   "style": "background:var(--accent2);"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Arsenal · As Desert Eagles",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n                Duas Desert Eagles com baionetas serradas presas por correntes pesadas abaixo dos canos.<br/><br/>\n<strong>Desert Eagle Esquerda · \"NULIDADE\":</strong> Projétil que força um Reset de Lógica Paraconsistente no impacto. A física do ataque inimigo tenta se contradizer e se anula, transformando explosões dimensionais em poeira cinzenta industrial.<br/><br/>\n<strong>Desert Eagle Direita · \"VAZIO\":</strong> Injeta entropia pura no alvo. Aplica Ruído Estrutural (C04). Apaga a estrutura mental e física do inimigo de forma definitiva, sem deixar poeira residual ou energia.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 1,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Imunidades Passivas",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Isenção do Rascunho:</strong> Sua origem concede imunidade total a qualquer alteração de enredo ou decreto de roteiro. Tentativas de reescrever suas ações batem na Auréola N9 e falham instantaneamente. Ele existe fora do fluxo da escrita convencional.<br/><br/>\n<strong>Inércia Ontológica Passiva (C03):</strong> Gravidade, vetores, tempo e geometria do espaço não afetam seu corpo. Resistência estática infinita contra qualquer modificação da realidade ao redor.<br/><br/>\n<strong>Blindagem Paraconsistente (C13):</strong> Ataques conceituais abstratos, alma, causa e efeito, existência/não-existência, colidem com sua estática N9, perdem cor, viram poeira cinzenta e caem a valor zero antes de tocar seu sobretudo.<br/><br/>\n<strong>Isolação Térmica-Narrativa (C09):</strong> Seu Gun-Fu cria uma zona passiva ao redor dele. Qualquer ataque de projétil, energia ou oponente em velocidade imensurável perde tração e é desacelerado à força. Por operar em A-Sintaxe, percebe e reage ao dano milésimos de segundo antes do golpe ser desferido fisicamente.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   },
+   {
+    "kind": "field",
+    "sortOrder": 2,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Técnicas de Combate",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "\n<strong>Arrastão do Nulo:</strong> Dispara a baioneta como arpão, cravando-a no peito do adversário. Impõe Inércia Ontológica (C03) ao contrário. Paralisa o fluxo de energia (Qi) e trava os movimentos do alvo. Arrasta o oponente com a corrente e descarrega a \"NULIDADE\" à queima-roupa, aplicando Ruído Estrutural (C04) para apagar a estrutura mental do inimigo.<br/><br/>\n<strong>Disparo de Intercepção Nula:</strong> Não desvia. Aponta e atira diretamente contra o golpe mais poderoso do inimigo. O projétil força Reset de Lógica Paraconsistente. A física do ataque inimigo se contradiz, ativa Calcificação Lógica (C13) e se dissolve em poeira cinzenta industrial.<br/><br/>\n<strong>Dança Cinzenta · O Chicote das Linhas Ocultadas:</strong> Gira as duas Desert Eagles pelos gatilhos em alta velocidade. As correntes e baionetas criam um turbilhão cortante que delimita uma zona de Isolação Térmica-Narrativa (C09). Quem tenta se aproximar, mesmo em velocidade imensurável, é desacelerado e retalhado. Dano aplicado em A-Sintaxe. Os cortes chegam milésimos antes das lâminas passarem fisicamente.\n              ",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "hierarquia",
+  "groupId": "hierarquia-g1",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "char-card",
+   "onclick": "toggleChar(this)"
+  },
+  "name": "Bu",
+  "title": "Deus da Paz Interior · Almas",
+  "headerAttrs": {
+   "class": "char-card-header"
+  },
+  "badgeText": "DEUS PRIMORDIAL",
+  "badgeAttrs": {
+   "class": "char-rank-badge"
+  },
+  "toggleText": "▸   Ver ficha",
+  "bodyAttrs": {
+   "class": "char-body"
+  },
+  "parts": [
+   {
+    "kind": "field",
+    "sortOrder": 0,
+    "label": null,
+    "attrs": {
+     "class": "char-field"
+    },
+    "html": null,
+    "fieldParts": [
+     {
+      "t": "label",
+      "text": "Domínio",
+      "attrs": {
+       "class": "char-field-label"
+      }
+     },
+     {
+      "t": "value",
+      "html": "Paz interior, almas e equilíbrio. Mencionado por Sukum como possível candidato pra ajudar Tolta a controlar a entidade dentro dele. Descartado por não ser suficiente pra uma situação desse nível.",
+      "attrs": {
+       "class": "char-field-value"
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

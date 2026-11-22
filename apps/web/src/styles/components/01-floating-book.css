@@ -1,0 +1,109 @@
+    /* FLOATING BOOK */
+    .floating-book {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 800;
+      opacity: 0.35;
+      animation: bookFloat 5s ease-in-out infinite;
+      transition: opacity 0.3s;
+    }
+
+    .floating-book:hover { opacity: 0.7; }
+
+    @keyframes bookFloat {
+      0%, 100% { transform: translateY(0) rotate(-5deg); }
+      50% { transform: translateY(-14px) rotate(2deg); }
+    }
+
+    .floating-book svg {
+      filter: drop-shadow(0 0 8px rgba(201,161,58,0.3));
+    }
+
+    .floating-book { cursor: pointer; }
+
+    /* GRIMOIRE MENU (arcane circle that opens from the book) */
+    .grimoire-menu {
+      position: fixed;
+      right: calc(2rem + 23px);
+      bottom: calc(9rem + 31px);
+      transform: scale(0.7);
+      width: 0;
+      height: 0;
+      z-index: 799;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+
+    .grimoire-menu.open {
+      opacity: 1;
+      pointer-events: auto;
+      transform: scale(1);
+    }
+
+    .grimoire-circle {
+      position: absolute;
+      top: 0; left: 0;
+      width: 230px;
+      height: 230px;
+      margin: -115px 0 0 -115px;
+      animation: spinSlow 40s linear infinite;
+    }
+
+    .grimoire-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      margin: -25px 0 0 -25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      background: rgba(11,10,13,0.9);
+      box-shadow: 0 0 14px var(--glow);
+      transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .grimoire-item-label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.4rem;
+      line-height: 1.05;
+      letter-spacing: 0.02em;
+      color: var(--light);
+      padding: 0 5px;
+      word-break: break-word;
+      hyphens: auto;
+    }
+
+    .grimoire-item:hover {
+      background: rgba(201,161,58,0.12);
+      box-shadow: 0 0 20px var(--ember-glow);
+    }
+
+    .grimoire-item:hover .grimoire-item-label { color: var(--accent); }
+
+    .grimoire-menu.open .grimoire-item[data-pos="0"] { transform: translate(-30px, 112px); }
+    .grimoire-menu.open .grimoire-item[data-pos="1"] { transform: translate(-82px, 82px); }
+    .grimoire-menu.open .grimoire-item[data-pos="2"] { transform: translate(-112px, 30px); }
+    .grimoire-menu.open .grimoire-item[data-pos="3"] { transform: translate(-112px, -30px); }
+    .grimoire-menu.open .grimoire-item[data-pos="4"] { transform: translate(-82px, -82px); }
+    .grimoire-menu.open .grimoire-item[data-pos="5"] { transform: translate(-30px, -112px); }
+
+    .grimoire-item[data-pos] { transform: translate(0,0); }
+
+    /* PARCHMENT TEXTURE overlay on panels */
+    .entity-card, .cosmo-layer, .ep-item, .ep-reader {
+      background-image: url("/assets/textures/parchment-noise.svg");
+    }
+
+    /* AGED border style */
+    .entity-card {
+      border-top: 1px solid rgba(201,161,58,0.2);
+    }

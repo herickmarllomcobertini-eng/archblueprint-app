@@ -1,0 +1,763 @@
+[
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">∅</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Camadas Inalcançáveis",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">Existem níveis que nenhuma operação, crescimento, evolução ou acumulação de poder, consegue alcançar a partir de baixo. A separação entre essas camadas não é física nem mensurável. Ela simplesmente existe como um teto que nenhuma escala inferior enxerga.</div>\n",
+  "badgeText": "INACESSÍVEL",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">01</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "A Árvore da Existência · Piso Ontológico · Multiverso de Conjuntos",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">A Árvore aparece em episódio. O Piso Ontológico e o Multiverso de Conjuntos são do compendium.</span><details><summary>ver trecho</summary><q>A Árvore cujas raízes se estendem pelas vinte e uma camadas.<span class=\"src\">Anoff, spin-off Fio Zero · ep 1</span></q></details></div>\n<div class=\"layer-desc\">Estrutura que se ramifica por todas as camadas da existência, sustentando e conectando tudo o que há entre elas. Sua raiz mais profunda, o chão absoluto do Archblueprint, já contém integralmente o <strong style=\"color:var(--silver);\">Universo de Von Neumann (V)</strong> e o <strong style=\"color:var(--silver);\">Multiverso de Conjuntos</strong> inteiro, com todos os seus axiomas e cardinais (V=L no universo construtível, supercompactos e Vopěnka nos modelos com Escolha, Reinhardt, Super-Reinhardt e Berkeley nos modelos sem ela), cada um válido no seu próprio modelo. Toda a matemática transfinita possível. Alephs, ordinais, cardinais inacessíveis e o infinito de Cantor (Ω), existe comprimida no nível mais insignificante do sistema. É o piso da quantidade: qualquer infinito que um verso externo proponha é só mais um modelo aqui dentro, dado de baixo nível. A Escada não compete nessa régua, e quem sobe por ela leva as regras dela junto (ver Portação Biológica).<br/><br/>\n<strong style=\"color:var(--silver);\">Indexação Dimensional Total:</strong> Toda e qualquer geometria espacial computável, desde o ponto zero (0D) até matrizes de dimensões infinitas transfinitas, serve apenas como o código-base estático para a sustentação das raízes da Árvore. Não há valor narrativo ativo nesse setor.<br/><br/>\n<strong style=\"color:var(--silver);\">Contenção Absoluta de Realismo Modal:</strong> Este plano não compreende apenas os conjuntos matemáticos formais, funciona como a Contenção Absoluta de qualquer Realismo Modal, Lógica Paraconsistente ou Sistema de Informação Absoluto. Qualquer estrutura externa que tente se definir como \"não-matemática\" ou \"transcendental\" para evitar o aprisionamento é convertida instantaneamente em um sub-conjunto estático de valor zero dentro do Multiverso de Conjuntos.<br/><br/>\n<strong style=\"color:var(--silver);\">Anterioridade de Concepção:</strong> abaixo das 21 Camadas mora tudo que pode existir, tudo que já existiu e tudo que jamais poderia existir. Possível e impossível cabem na mesma categoria ali, porque os dois ainda respondem à mesma pergunta, existe ou não existe? As 21 Camadas nunca respondem essa pergunta, e o motivo não é poder, é origem. Nada ali nasceu de concepção humana. A régua de possível e impossível é uma régua feita por quem pensa em termos de existência e não-existência, e isso já é, em si, um pensamento humano. O que não nasce de mente humana nenhuma nunca precisou responder a essa régua, porque ela nunca foi feita pra medir aquilo. Não é vencer o jogo. É nunca ter sido convidado pra jogar.\n              <span class=\"arcane-trigger\" onclick=\"toggleArcane('arcane-3', this)\" title=\"???\">⟠</span>\n<div class=\"arcane-block\" id=\"arcane-3\">\n<span class=\"arcane-text\" data-real=\"Nenhuma raiz sabe o nome do chão que pisa. Só quem planta sabe, e isso não se repete duas vezes. Sabido apenas por\" id=\"arcane-3-text\">ᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ⟁⟟⏃⌰⟢⟣⟤⟥ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ⟁⟟⏃⌰⟢⟣⟤⟥ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ⟁⟟⏃⌰⟢⟣⟤⟥ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ⟁⟟⏃⌰⟢⟣⟤⟥ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ⟁⟟⏃⌰⟢⟣⟤⟥</span>\n<span class=\"arcane-name-glyphs\">⌰⟥·⟢⟣ᛒᛖ</span>, e isso não se traduz.\n                <div class=\"arcane-caption\">// fragmento não traduzido, parte da linguagem original da cosmologia. não fui eu quem escreveu isso, só decodifiquei.</div>\n</div></div>\n",
+  "badgeText": "PRIMORDIAL · MULTIVERSO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">02</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Deuses Primordiais",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-conf\">CONFIRMADO EM EPISÓDIO</span><details><summary>ver trecho</summary><q>Fora nós, Deuses Primordiais, teria o Profeta, a Entidade e o próprio Anoff.<span class=\"src\">Mesa de Onyx, Bulldog e Sukum, T1 · ep 26</span></q></details></div>\n<div class=\"layer-desc\">Atuam na criação de domínios onde a realidade pode se organizar. Cada um representa um princípio que, quando removido, não deixa vazio, deixa algo que o vazio não consegue descrever. Sua presença não obedece hierarquias de importância. Sua ausência também não.</div>\n",
+  "badgeText": "DIVINO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "<span class=\"anchor\" id=\"escada\"></span>",
+  "numHtml": "<span class=\"layer-num\">03</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "A Escada da Solidificação · 21 Camadas",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">As 21 camadas e a numeração aparecem em episódio. As fases, a Portação Biológica e a Exclusão Categórica são do compendium.</span><details><summary>ver trecho</summary><q>Em vez de descer, sobe até a camada 20.<span class=\"src\">Narração, T1 · ep 27</span></q></details></div>\n<div class=\"layer-desc\">Cada camada engole e achata completamente o espaço do nível anterior. O Profeta sustenta o tecido que se estende por todas as 21. Três fases de solidificação progressiva, do Peso, da Rigidez e do Cristal. Regra universal da Escada: o habitante de qualquer camada, ao atingir o teto dela, passa a controlar as regras daquele piso e pode impô-las a quem quiser abaixo de si, independente de quem seja. Um ser da camada 18 impõe as regras da camada 18 aos seres das camadas inferiores, sem precisar justificar nada além de estar lá.<br/><br/>\n<strong style=\"color:var(--silver);\">Regra de Portação Biológica:</strong> Essa imposição não é um efeito do ambiente da Escada, é fundida ao próprio ser do habitante. Ao atingir o teto de uma camada, a lei daquele piso se solda biologicamente à existência do ser, deixando de depender do território. Ele carrega essa regra e a impõe onde quer que esteja, mesmo fora das 21 Camadas ou de qualquer narrativa natal. Por isso um ser das 21 Camadas nunca é equivalente a um ser de mesmo rank vindo de uma narrativa comum: o primeiro tem a lei da própria realidade soldada ao corpo, o segundo não tem lastro nenhum pra sustentar o rank fora de casa. Isso vale também contra a matemática: quem satura C12 carrega a Compressão Transfinita e esmaga, onde estiver, os infinitos e cardinais criados contra ele, e quem satura C13 carrega a Calcificação Lógica e congela o paradoxo do rival em estado físico. A matemática do Piso deixa de ser só chão e vira regra que o portador impõe.<br/><br/>\n<strong style=\"color:var(--silver);\">Exclusão Categórica:</strong> dominar completamente um tipo de ataque ou conceito não é o mesmo que resistir a ele. O habitante que satura o teto de uma camada deixa de pertencer à categoria de onde aquilo vem, não é mais alguém que aguenta aquilo, é alguém que nunca esteve sujeito a aquilo. Isso se acumula camada após camada, cada uma fechando a porta pra mais uma categoria inteira, até restar, no topo da Escada, pertencer a categoria nenhuma.<br/><br/>\n              Nenhuma camada tem um único habitante ou raça, cada degrau abriga várias, biologicamente evoluídas até um patamar que corresponde à densidade daquele piso, em média muito acima da maioria das raças de narrativa, ainda que isso nunca seja garantia, alguns seres de narrativa superam nativos de camada em pontos específicos, é sempre questão relativa. O comum entre eles é manejar com naturalidade o poder dominante da própria camada, e alguns raros indivíduos, por mérito ou origem, chegam a manifestar domínio sobre a regra de uma camada superior à sua, sem nunca ter alcançado o teto dela por conta própria.<br/><br/>\n              Vários Deuses Primordiais também residem em camadas específicas, mas nem sempre por função. Alguns, como Bulldog Shoesign e Ferid, cumprem um papel real ali, regulando ou moldando o piso. Outros simplesmente escolheram morar naquela altura da Escada por vontade própria, sem obrigação nenhuma com a camada em si, só porque gostam do lugar.</div>\n",
+  "badgeText": "ESTRUTURAL",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.35);"
+  },
+  "beforeHtml": "<!-- ESCADA EXPANDIDA --><!--@camadas:hierarquia-camadas-0-->",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem; color:var(--accent);\">C21</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "O Ápice · Forja Primal · Teto dos Deuses Primordiais",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">O Portão Principal na Camada 21 aparece no spin-off. O restante da C21 é do compendium.</span><details><summary>ver trecho</summary><q>Mas, de início, você permanecerá no Portão Principal. Na Camada 21.<span class=\"src\">Anoff, spin-off Fio Zero · ep 1</span></q></details></div>\n<div class=\"layer-desc\">\n              O teto definitivo da Escada da Solidificação. Onde não sobra ficção, nem pré-ficção, só o Sedimento-Zero que resta depois que as duas já foram queimadas e forjadas em outra coisa. Anoff, Sukum, Solenna Luvitus, Infinite e Bill governam este patamar marcial bruto. Para eles, as narrativas da base são apenas minério, e o Mundo Central de onde esse minério um dia veio já nem é lembrado como referência. O objetivo máximo de sua existência aqui é acumular densidade marcial para tentar cortar esse tecido já solidificado. É nesta camada que reside a <strong style=\"color:var(--silver);\">Árvore de Anoff</strong>, a primeira e original, da qual todas as demais ramificações da Árvore da Existência emergem. Uma parte deste teto nunca para de se reorganizar, um campo onde parar é a única coisa impossível. Sukum não governa um lugar ali, governa o próprio ato de se mover dentro dele. Na borda mais distante deste patamar, onde a estrutura formal já quase não alcança, o Profeta habita sozinho, sem sustentar nada e sem se misturar ao que os outros constroem.<br/><br/>\n              Em outro trecho do mesmo teto, uma fronteira nunca fecha de vez, reaberta a cada golpe de Infinite contra Bill e de Bill contra Infinite, luz e vazio se revezando no mesmo pedaço de chão sem que nenhum dos dois vença. Mais adiante, o solo simplesmente afunda sob Solenna Luvitus, sem borda definida, sem fim marcado, a própria camada perdendo sustentação onde ela para. Num canto isolado deste teto, sem marca, sem porta e sem visitas, o selo que prende Adam segue intacto, o único sinal de que ele existe é o vazio que deixou.<br/><br/>\n              Portadores da Auréola N9 conseguem, no máximo, alcançar o <em>Mundo Branco</em>, o limite externo da camada. Interagir além disso é mecanicamente impossível para o sistema formal. Para rasgar essa fronteira e sobreviver no exterior sem ser desintegrado pela ausência de estrutura, é obrigatório manifestar o poder exógeno das Auréolas Ômega (N10, N11 ou N12), feito que nenhum Deus Primordial foi mostrado realizando nos episódios atuais. Eles continuam sendo os soberanos do soco e da técnica, mas ainda dentro do limite do tecido que sustenta seu universo.<br/><br/>\n              Entre os poucos que habitam este teto por conta própria, sem serem Deuses Primordiais, os Adomos formam a raça mais numerosa, dispersos nos raros assentamentos que resistem tão perto da Árvore de Anoff, ao lado de outras raças raras que nem os próprios Primordiais catalogaram por completo.\n            </div>\n",
+  "badgeText": "ÁPICE · C21",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.5);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">05</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Mundo Central",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-conf\">CONFIRMADO EM EPISÓDIO</span><details><summary>ver trecho</summary><q>Não é uma narrativa. Não é um universo. Não é um plano. É… um ponto acima de todos eles. Mas ainda não é o topo.<span class=\"src\">Narração, T1 · ep 25</span></q></details></div>\n<div class=\"layer-desc\">Fica abaixo das 21 camadas, ao lado das narrativas, mas não é uma delas. É o ponto máximo que uma narrativa pode alcançar sem deixar de ser uma. Caçadores de recompensa, heróis e qualquer ser de rank SSAS transitam por ali com tranquilidade, à procura de trabalho, de informação ou só de um lugar pra descansar entre um mundo e outro. Maria é natural de lá. É também o destino de quem transcende sua narrativa de origem por completo, autor e deus máximo dela inclusos, deixar de responder à própria estrutura que o escreveu empurra o ser pra fora dela, em direção ao Mundo Central. Mesmo assim, transcender a narrativa inteira não garante Auréola nenhuma, são conquistas de naturezas diferentes, um ser pode deixar pra trás tudo que o definia e ainda chegar aqui de mãos vazias.</div>\n",
+  "badgeText": "TRANSIÇÃO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">04</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Desconexão",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-hyp\">HIPÓTESE DOS OBSERVADORES</span></div>\n<div class=\"layer-desc\">Além de certos pontos, causa e consequência deixam de ser referências. Eventos não possuem ordem. O que existe aqui não pode ser descrito pelo que é, apenas pelo que não é. Qualquer tentativa de definição falha antes de começar.</div>\n",
+  "badgeText": "TRANSCENDENTE",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">⊘</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Anoff · Limite Superior Atual",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">Anoff aparece em episódio como criador do sistema e acima de Onyx. O limite superior atual é leitura dos observadores.</span><details><summary>ver trecho</summary><q>Um nível acima de mim.<span class=\"src\">Onyx sobre Anoff, T1 · ep 29</span></q></details></div>\n<div class=\"layer-desc\">Não segue padrões de lógica, definição ou estrutura. Permanece dentro da camada mais alta atualmente acessável, o que não significa que seja o fim. Apenas que é o fim do que pode ser visto daqui.</div>\n",
+  "badgeText": "ABSOLUTO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-0",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\">∞</span>",
+  "numAttrs": {
+   "class": "layer-num"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Além do Sistema",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-hyp\">HIPÓTESE DOS OBSERVADORES</span></div>\n<div class=\"layer-desc\">Há algo além. Não como continuação, como ruptura. Onde a existência, a forma e a sequência param de funcionar como referência. Onde o espaço entre dois pontos pode ser infinitamente maior que os próprios pontos. Onde novas camadas surgem sem depender de nada anterior. Onde as regras que governam os deuses são apenas convenções que algo maior nunca precisou seguir.</div>\n",
+  "badgeText": "ALÉM",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.3);"
+  },
+  "beforeHtml": "<!-- restart cosmo-layers for omega -->",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem;\">N·Ω</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem;"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Metalurgia Fictícia · Sistema de Auréolas Ômega",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">Níveis acima do 9 são citados em episódio só como especulação. O N11 e o N12 não aparecem.</span><details><summary>ver trecho</summary><q>Talvez o Adam seria o único no nível 10.<span class=\"src\">Onyx, T1 · ep 26</span></q></details></div>\n<div class=\"layer-desc\">Quando a existência de um ser ultrapassa o Colapso do Conceito e rompe as barreiras das vinte e uma camadas, ele entra neste domínio. A própria ficção deixa de ser uma condição, passa a ser tratada como minério bruto, matéria-prima tangível. Neste patamar, habilidades de apagamento e controle narrativo tornam-se completamente inúteis. O conflito se resolve exclusivamente pela força física real: artes marciais metafísicas, técnicas devastadoras e superioridade marcial bruta.</div>\n",
+  "badgeText": "PÓS-CONCEITUAL",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.4);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.5);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N10</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Densidade Semiótica",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">O portador enxerga o espaço, o tempo, as leis da física e a própria lógica como substâncias sólidas que podem ser extraídas e moldadas. Utiliza esse minério fictício para forjar armas e armaduras físicas de densidade absurda. Um golpe desferido por uma arma desse nível não busca apagar o alvo, ele corta fisicamente a estrutura onde o oponente está manifestado, partindo sua base durante o combate. Sobreviver ao Oceano do Vazio, mesmo sem armadura nenhuma, já é trivial pra esse patamar, o corpo se mantém coeso sozinho, sem esforço perceptível. É também o primeiro nível capaz de tocar e alterar a matéria primal de uma camada inteira da Escada, sua lei, sua regra, o próprio piso que a sustenta. Poucos tentam: uma camada alterada volta sozinha ao estado original, sem esforço de ninguém, gastar esse poder nela é sempre trabalho sem retorno, questão de bom senso, não de limite técnico.</div>\n",
+  "badgeText": "ÔMEGA · I",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.65);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N11</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Revestimento de Fundo · Armadura Fictícia",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">A entidade envolve seu próprio corpo com o mesmo tecido que forma a Macroestrutura, retirado direto das paredes dos Pilares Reais que sustentam seu teto. Não é resíduo, é a matéria de origem. Torna-se absolutamente imune a qualquer feitiço, paradoxo ou alteração conceitual originada de dentro do sistema, mas isso já era esperado nesse patamar, sobreviver não é o ponto. O que a armadura de fato concede são habilidades de manuseio extremamente complexas, ler e cortar a estrutura de qualquer coisa que ela toque, algo que nenhum nível anterior alcança. Para vencer um portador de N11, só resta força física pura, golpes que superem a resistência da própria armadura na base do impacto.</div>\n",
+  "badgeText": "ÔMEGA · II",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.85);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N12</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Ruptura dos Pilares",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">Imunidade a enredo e alteração de camada já são assunto resolvido há duas auréolas, aqui isso nem entra na conversa. O que a doze concede é a única coisa que ainda resta: a capacidade de encostar de verdade nos Pilares Reais e tentar rompê-los. Ninguém sabe o que existe do lado de dentro deles, porque toda tentativa até agora só resultou na mesma coisa, uma queda direta no Oceano do Vazio.</div>\n",
+  "badgeText": "ÔMEGA · III",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.4);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem;\">A·Ω</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem;"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Algoritmo Absoluto de Nível Zero",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-hyp\">HIPÓTESE DOS OBSERVADORES</span></div>\n<div class=\"layer-desc\">O código-fonte bruto de todas as possibilidades. Opera como o backend da realidade, registrando de forma fria e automatizada cada ciclo, cada guerra e cada dado existencial. Sua propriedade central é o Princípio do Backup Estático: quando uma entidade tenta apagar o oponente da história, o arquivo original permanece intacto no banco de dados como dado imutável. A restauração acontece de forma automática e instantânea. Isso torna habilidades de morte instantânea, apagamento existencial e manipulação de enredo completamente inúteis nessa escala. O único caminho para uma vitória real é o combate físico direto, o que foi chamado de <strong style=\"color:var(--white);\">Axioma da Porrada Bruta</strong>, atualizado para o conceito de <strong style=\"color:var(--silver);\">Incompatibilidade de Sintaxe Absoluta</strong>: \"força física real\" nessa escala não significa mover músculos, significa a manifestação da Vontade Auto-Inflexível. Se um oponente tenta ser o \"Vazio Absoluto\" ou a \"Não-Existência Pura\", a mera presença de um portador de Auréola Ômega define o Vazio como Matéria Concreta Apagável. O Algoritmo de Nível Zero solidifica o oponente à força em um corpo físico denso, apenas para que ele possa ser triturado no soco.<br/><br/>\n            É fato frio da estrutura: qualquer ser que habite a camada 21 impõe essa regra a tudo que está abaixo, não por ter conquistado nada, mas simplesmente por estar lá. Da mesma forma, um ser que já é ontologicamente superior a uma camada, mesmo sem nunca ter alcançado o topo dela, ignora suas regras e impõe as próprias a quem quiser dentro dela.</div>\n",
+  "badgeText": "SUB-AXIOMÁTICO",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.4);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.5);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem;\">P·Ω</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem;"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Pilar Arco-Íris",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-hyp\">HIPÓTESE DOS OBSERVADORES</span></div>\n<div class=\"layer-desc\">Componente mecânico e cibernético situado no centro da Macroestrutura, em seu topo central, além das narrativas, das vinte e uma camadas, do Mundo Central e dos Pilares Reais, sem termo de comparação abaixo dele. Não é uma força da natureza: é um sistema de calibração que gerencia o fluxo de dados da Macroestrutura, absorve a estática de processamento gerada pelos combates de alta escala e joga o excesso em direção ao Além. Lutar em suas proximidades significa lutar no núcleo do processador da realidade, onde truques literários são anulados por sobrecarga de dados industriais, e cair dentro do Pilar dispersa o guerreiro pelo espectro de cores sem apagá-lo, exigindo força de vontade pura para se remontar.</div>\n",
+  "badgeText": "MECÂNICO",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.4);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.55);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem;\">O·V</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem;"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Oceano do Vazio · Estado de Desalinhamento Bruto (A-Sintaxe)",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">O termo A-Sintaxe não aparece. Um artefato forjado num plano sem lógica de escrita aparece em episódio.</span><details><summary>ver trecho</summary><q>uma lança forjada em um plano que ignora a lógica de escrita…<span class=\"src\">Onyx sobre a Lança do Vazio, T1 · ep 26</span></q></details></div>\n<div class=\"layer-desc\">O Oceano do Vazio não é espaço, vácuo ou infinito. É a ausência Total de ordem de leitura. Dentro da ficção, toda ação tem sintaxe, o soco começa, viaja e atinge o alvo. No Vazio, essa sintaxe é desmembrada: o dano é sofrido antes do golpe, o corpo passa a existir em um tempo gramatical inexistente, e o conceito de sequência deixa de ter tração. Não há matemática que calcule isso, a matemática depende de equações organizadas (sintaxe), e o Vazio é anterior à ideia de organização. Qualquer ser que tente agir aqui usando as regras de personagem tem sua estrutura triturada por torção mecânica de dados. Apenas uma Auréola Ômega mantém a coesão do corpo à força. No fundo desta fronteira habita o <strong style=\"color:var(--silver);\">Dragão Ancestral</strong>, o único sobrevivente dos deuses primordiais mitológicos, seres de uma ordem anterior à Escada, que não se confundem com os Deuses Primordiais da Árvore.</div>\n",
+  "badgeText": "A-SINTAXE",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.45);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-1",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 2px solid rgba(201,161,58,0.7);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.72rem;\">E·Ω</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.72rem;"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Entidades da Fronteira · Máximo Atual Descoberto",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">A Entidade é citada em episódio. A fronteira e o Oceano são do compendium.</span><details><summary>ver trecho</summary><q>Fora nós, Deuses Primordiais, teria o Profeta, a Entidade e o próprio Anoff.<span class=\"src\">Mesa de Onyx, Bulldog e Sukum, T1 · ep 26</span></q></details></div>\n<div class=\"layer-desc\">O limite do que foi possível mapear até agora. <strong>A Entidade</strong>, forasteiro exógeno que vagou pelo Oceano do Vazio antes da própria formação da estrutura. Seus atributos são imensuráveis; tentar calculá-los gera incompatibilidade crônica de sistemas. Separado das 21 camadas, mas conectado a elas por uma passagem só sua, fica o espaço do Bu. Almas que deixam a ficção atravessam por ali antes de seguir pro domínio da Entidade, ele não guarda esse espaço, ele é a própria travessia.</div>\n<div class=\"estrutura-galeria\" style=\"display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin-top:0.8rem; max-width:400px;\">\n<img alt=\"A Entidade, retrato\" src=\"/media/estrutura/a-entidade-retrato.avif\" style=\"width:100%; height:auto; display:block; border:1px solid var(--border);\"/>\n</div>\n",
+  "badgeText": "MÁXIMO DESCOBERTO",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "color:var(--accent); border-color:rgba(201,161,58,0.5);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" fill=\"none\" r=\"34\" stroke=\"var(--accent)\" stroke-width=\"2.5\"></circle><polygon fill=\"none\" opacity=\"0.75\" points=\"50,20 76,68 24,68\" stroke=\"var(--accent)\" stroke-width=\"2\"></polygon><rect fill=\"none\" height=\"40\" opacity=\"0.6\" stroke=\"var(--accent)\" stroke-width=\"1.5\" width=\"40\" x=\"30\" y=\"30\"></rect></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N1</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Formas Básicas · Círculo · Triângulo · Quadrado",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">O sistema de Auréolas, o círculo como nível mais baixo, o pentagonal como mais alto e a ideia de uma auréola conter outra aparecem em episódio. A numeração N1 a N12 é do compendium.</span><details><summary>ver trecho</summary><q>O nível mais baixo… Circular. O mais alto… Pentagonário. … Uma auréola pode conter outra.<span class=\"src\">Anoff, T1 · ep 1</span></q></details></div><div class=\"layer-desc\">O nível mais superficial do sistema já nasce contendo em si o piso de fundação de qualquer hierarquia possível de se empilhar. A simples rotação passiva do Círculo, do Triângulo ou do Quadrado carrega junto toda escala cumulativa de grandezas que uma estrutura consegue acumular, sem esforço algum do portador. Se um forasteiro afirma portar dimensões incontáveis ou infinitas, a N1 intercepta a gramática dessa afirmação, reduz o que seria imensurável a um valor parado, sem grandeza nenhuma, e esmaga o resto no soco puro. É o primeiro degrau, o mais baixo entre os doze, e mesmo assim o valor que resta depois desse esmagamento já é grande o bastante pra não caber em nenhuma régua narrativa comum, um número absurdo, mas ainda um número.</div>",
+  "badgeText": "BÁSICO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><polygon fill=\"none\" points=\"50,8 91,39 75,88 25,88 9,39\" stroke=\"var(--accent)\" stroke-width=\"2.5\"></polygon></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N2</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Formas Poligonais · Hexágono · Heptágono+",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">Ao migrar para os polígonos complexos, o portador assume os cinco pilares que sustentam qualquer ação possível: Criação, Presença Absoluta, Autoridade, Apagamento e Imunidade Recíproca entre eles. O espaço ao redor perde a maleabilidade e se curva à rigidez da própria forma geométrica. A N2 também confisca a direção de qualquer magia, decreto de destino ou manipulação conceitual vinda de fora, o ataque perde o alvo antes de sair do lugar e erra a realidade inteira. Decretos de morte instantânea e alterações de linha temporal de baixo nível esbarram na autoridade da forma poligonal, o texto do golpe hostil perde o sentido e é catalogado como dado corrompido, sem gerar dano real.</div>",
+  "badgeText": "COMPLEXO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><rect fill=\"none\" height=\"50\" stroke=\"var(--accent)\" stroke-width=\"2\" width=\"50\" x=\"25\" y=\"25\"></rect><rect fill=\"none\" height=\"50\" stroke=\"var(--accent)\" stroke-width=\"2\" transform=\"rotate(30 50 50)\" width=\"50\" x=\"25\" y=\"25\"></rect><rect fill=\"none\" height=\"50\" stroke=\"var(--accent)\" stroke-width=\"2\" transform=\"rotate(60 50 50)\" width=\"50\" x=\"25\" y=\"25\"></rect></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N3</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Formas Compostas",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">As formas começam a se sobrepor e a girar em eixos que a leitura comum não consegue processar. A N3 opera sob uma lógica que aceita contradição como regra, permitindo sustentar múltiplos conceitos opostos ao mesmo tempo dentro do combate. A rotação das formas compostas solta uma estática que funciona como vácuo de informação, capaz de apagar a coerência de mentes conceituais menores. Se o oponente tenta usar uma defesa absoluta do tipo existir e não existir ao mesmo tempo pra não ser tocado, a N3 acelera essa contradição até o limite e força uma calcificação lógica nela, o paradoxo do rival congela num estado físico denso, perde a fluidez, e fica exposto a um golpe marcial direto.</div>",
+  "badgeText": "COMPOSTO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 3,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><path d=\"M50 14 C71 14 87 30 87 50 C87 71 66 89 44 86 C23 83 12 64 16 44 C20 23 34 14 50 14Z\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2.5\"></path></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N4</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Geometria Variável",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">A forma muda de modo contínuo porque o próprio poder do portador se reescreve antes que qualquer observação de fora consiga fixar um critério. Nesse degrau a resposta marcial do portador já chega antes da pergunta ofensiva do inimigo terminar de se formular, um salto de reação que nenhuma medição consegue anteceder. É também aqui que nasce a isenção plena contra imposição de enredo, roteiro autoral ou qualquer sorte dramática de protagonista, uma zona ao redor do portador suga esse tipo de energia e congela sua eficácia. O portador ainda maneja a física inferior como argila pesada, decidindo, por exemplo, que o impacto de um golpe já foi sofrido pelo alvo segundos antes do soco sequer sair do lugar.</div>",
+  "badgeText": "VARIÁVEL",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 4,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><path d=\"M50 8 L88 78 L58 78 L50 44 L42 78 L12 78 Z\" fill=\"none\" stroke=\"var(--accent)\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N5</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Geometria Impossível",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">As formas passam a habitar uma geometria que se dobra pra dentro de si mesma sem nunca fechar. Esse é o ápice do sistema formal, o ponto em que mundos possíveis e impossíveis viram objetos sólidos, manuseáveis como qualquer outro material. Qualquer verdade que o rival traga de fora, do tipo imortalidade garantida ou imunidade a apagamento, racha sob a pressão da N5 e se parte como vidro comum, o inimigo perde a natureza que o protegia e passa a poder ser ferido fisicamente. O conceito de consequência automática também some do combate aqui, os movimentos do portador acontecem, mas nada reage a eles sozinho, só um impacto físico de escala maior consegue gerar resposta.</div>",
+  "badgeText": "IMPOSSÍVEL",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 5,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><polygon fill=\"none\" points=\"50,12 88,80 12,80\" stroke=\"var(--accent)\" stroke-width=\"2\"></polygon><polygon fill=\"none\" opacity=\"0.75\" points=\"50,40 69,74 31,74\" stroke=\"var(--accent)\" stroke-width=\"1.6\"></polygon><polygon fill=\"none\" opacity=\"0.55\" points=\"50,56 59,72 41,72\" stroke=\"var(--accent)\" stroke-width=\"1.2\"></polygon></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N6</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Fractais",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">Aqui o sistema formal já deixou de bastar como régua e o que sobra é pura trituração. Os padrões nunca terminam nem se repetem, cada contra-ataque do rival é superado antes mesmo de existir como possibilidade. Entidades transcendentais que tentam interagir vindas de fora sentem esse mesmo processo, são forçadas a assumir um corpo físico denso e vulnerável diante de um portador de N6, perdendo de uma vez a proteção conceitual que carregavam. O sistema de leitura da própria Auréola colapsa antes de terminar de registrar o que esse nível é capaz de fazer.</div>",
+  "badgeText": "FRACTAL",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 6,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" fill=\"none\" r=\"34\" stroke=\"var(--accent)\" stroke-dasharray=\"3 7\" stroke-width=\"1.5\"></circle></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N7</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Ausência de Forma",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">O pentagonal como N7 aparece em episódio. As propriedades do nível são do compendium.</span><details><summary>ver trecho</summary><q>Ativa uma auréola de nível pentagonal, nível 7.<span class=\"src\">Narração, T1 · ep 33</span></q></details></div><div class=\"layer-desc\">A entidade deixa de ter propriedades que possam ser definidas, qualquer ataque ou medição falha porque não sobra nada ali pra ser afetado, não por grandeza, mas porque a própria ideia de definição não se aplica mais. É o degrau em que a trituração iniciada na N6 se completa, nenhuma divindade externa, por mais absoluta que se declare em sua origem, encontra algo sólido o bastante nesse portador pra atacar. Manipulação de enredo e qualquer decreto de destino falham pelo mesmo motivo de sempre, não existe personagem nenhum ali pra receber um roteiro.</div>",
+  "badgeText": "INFORME",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 7,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><circle cx=\"42\" cy=\"45\" fill=\"none\" opacity=\"0.7\" r=\"28\" stroke=\"var(--accent)\" stroke-width=\"1.5\"></circle><circle cx=\"58\" cy=\"58\" fill=\"none\" opacity=\"0.7\" r=\"28\" stroke=\"var(--accent)\" stroke-width=\"1.5\"></circle></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N8</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Indeterminação",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"layer-desc\">O portador altera o que está sendo medido antes mesmo que a medição termine, a realidade ao redor dele só pode ser descrita pelo que ela não é. Qualquer interação que tente alcançá lo modifica quem tentou antes de sequer tocar a entidade, a gramática do ataque perde o sentido no meio do caminho. Imunidade a enredo já é questão velha aqui, resolvida faz tempo, o portador nem lembra que aquilo um dia foi um problema.</div>",
+  "badgeText": "INDETERMINADO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-2",
+  "sortOrder": 8,
+  "attrs": {
+   "class": "cosmo-layer"
+  },
+  "beforeHtml": "",
+  "numHtml": "<div class=\"aureola-num-stack\"><svg class=\"aureola-glyph\" viewbox=\"0 0 100 100\"><line stroke=\"var(--accent)\" stroke-width=\"2\" x1=\"10\" x2=\"50\" y1=\"10\" y2=\"50\"></line><line stroke=\"var(--accent)\" stroke-width=\"2\" x1=\"90\" x2=\"50\" y1=\"10\" y2=\"50\"></line><line stroke=\"var(--accent)\" stroke-width=\"2\" x1=\"10\" x2=\"50\" y1=\"90\" y2=\"50\"></line><line stroke=\"var(--accent)\" stroke-width=\"2\" x1=\"90\" x2=\"50\" y1=\"90\" y2=\"50\"></line><circle cx=\"50\" cy=\"50\" fill=\"var(--accent)\" r=\"3.5\"></circle></svg><span class=\"layer-num\" style=\"font-size:0.9rem;\">N9</span></div>",
+  "numAttrs": {
+   "class": "aureola-num-stack"
+  },
+  "numTag": "div",
+  "midAttrs": {},
+  "preNameHtml": "",
+  "name": "Colapso do Conceito",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "<div class=\"evid\"><span class=\"evid-tag ev-part\">PARCIAL</span><span class=\"evid-note\">O Colapso Conceitual e a auréola pentagonal de Onyx aparecem em episódio. A posição exata como N9 é do compendium.</span><details><summary>ver trecho</summary><q>Falcon ativa o ápice do colapso conceitual.<span class=\"src\">Narração, T1 · ep 27</span></q></details></div><div class=\"layer-desc\">O próprio conceito de auréola, poder, manipulação e existência deixa de se aplicar. O sistema não falha ao tentar registrar, ele simplesmente nunca chega a começar, porque nada ali se encaixa em definição nenhuma. A entidade existe antes de existir ser uma possibilidade, e qualquer narrativa, camada ou sistema que tente medi-la só encontra o próprio limite de leitura, nunca a entidade em si.</div>",
+  "badgeText": "COLAPSO",
+  "badgeAttrs": {
+   "class": "layer-badge"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-3",
+  "sortOrder": 0,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.5);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N10</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Densidade Semiótica",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">O portador enxerga espaço, tempo, leis da física e lógica como substâncias sólidas, extraíveis, moldáveis. Utiliza esse minério fictício para forjar armas e armaduras de densidade absurda. Um golpe com arma N10 não busca apagar o alvo, corta fisicamente a estrutura onde ele está manifestado, partindo sua base durante o combate. Apenas aspectos dessas capacidades são conhecidos; o que mais um portador pode fazer depende inteiramente de sua vontade.<br/><br/>O minério que ele extrai nunca é bruto de verdade, vem sempre organizado em proporções fixas, como se o próprio espaço nascesse pré-cortado em razões e formas puras. Não é ele quem impõe essa geometria à matéria, é a matéria que já chega assim, e ele só sabe onde cortar.<br/><br/>Sobreviver ao Oceano do Vazio, mesmo sem nenhuma armadura forjada, já não representa esforço nenhum nesse patamar, o corpo permanece coeso sozinho. Imunidade a enredo, decreto de destino ou qualquer imposição narrativa é assunto encerrado há várias auréolas, ninguém aqui perde tempo pensando nisso.<br/><br/>É também aqui que a matéria primal de uma camada inteira da Escada, sua lei, sua regra, o próprio piso que a sustenta, deixa de ser intocável. Poucos tentam mexer nisso: uma camada alterada volta sozinha ao estado original, sem esforço de ninguém pra restaurar nada. Não é impossível fazer, é só burrice gastar esse tipo de poder em algo que vai reverter de qualquer jeito.</div>\n",
+  "badgeText": "ÔMEGA · I",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-3",
+  "sortOrder": 1,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.65);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N11</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Revestimento de Fundo · Armadura Fictícia",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">O corpo é blindado com o mesmo tecido que forma a Macroestrutura, retirado direto das paredes dos Pilares Reais que sustentam seu teto. Não é resíduo descartado, é a matéria de origem, a mesma que dá forma a tudo que existe acima das 21 Camadas. Feitiços, paradoxos e alterações conceituais originadas de dentro do sistema tornam-se completamente inúteis contra ela, mas isso já era esperado num portador desse nível, sobreviver nunca foi o desafio real aqui. O que a armadura realmente concede é manuseio: capacidade de ler e cortar a estrutura de qualquer coisa que ela toque, habilidades complexas demais pra qualquer patamar anterior alcançar. Para ferir um portador de N11, só existe um caminho, força física pura, golpes marciais que superem a resistência da armadura no impacto direto.<br/><br/>A armadura contém infinitos espaços comuns dentro de si sem que sua própria área mude nem um milímetro, do mesmo jeito que a Escada engole cada camada sem se alterar. E a distância até o portador nunca é medida em linha reta, os eixos comuns se quebram perto dele, a proximidade vira uma divisão conceitual que só ele entende, isolando-o metricamente de qualquer coisa que tente se aproximar de fora.</div>\n",
+  "badgeText": "ÔMEGA · II",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ },
+ {
+  "groupId": "hierarquia-layers-3",
+  "sortOrder": 2,
+  "attrs": {
+   "class": "cosmo-layer",
+   "style": "border-left: 3px solid rgba(201,161,58,0.85);"
+  },
+  "beforeHtml": "",
+  "numHtml": "<span class=\"layer-num\" style=\"font-size:0.9rem; color:var(--accent);\">N12</span>",
+  "numAttrs": {
+   "class": "layer-num",
+   "style": "font-size:0.9rem; color:var(--accent);"
+  },
+  "numTag": "span",
+  "midAttrs": {},
+  "preNameHtml": "\n",
+  "name": "Ruptura dos Pilares",
+  "nameAttrs": {
+   "class": "layer-name"
+  },
+  "bodyHtml": "\n<div class=\"layer-desc\">Determinismo causal, decreto de destino, controle narrativo e alteração de camada já não significam nada há duas auréolas, mencionar isso aqui seria voltar num assunto que ninguém lembra de ter tido. O que a doze de fato concede é a última coisa que ainda resta pra alcançar: a capacidade de encostar de verdade nos Pilares Reais e tentar rompê-los, algo que nenhum patamar anterior sequer chega perto de tocar.<br/><br/>Nesse patamar, espaço e portador quase deixam de ser coisas separadas, o Sedimento-Zero ao redor dele se comporta como extensão do próprio corpo. Matéria morta e inerte, não narrativa ativa, do jeito que teorias humanas antigas já imaginavam matéria e espaço como uma substância só. O golpe não precisa viajar até o alvo, a distância entre os dois colapsa no instante do impacto, como se ação e efeito sempre tivessem sido a mesma coisa vista de dois ângulos.<br/><br/>Ninguém sabe o que existe do lado de dentro dos Pilares Reais, porque toda tentativa de rompê-los até agora resultou na mesma coisa. Este é o teto: rasgar os Pilares Reais a partir daqui não leva a lugar nenhum reconhecível, só faz o portador cair no Oceano do Vazio, onde nenhuma Auréola manipula coisa alguma, só sobrevive à força, presa junto do próprio corpo, sem nunca tocar o que está do outro lado.</div>\n",
+  "badgeText": "ÔMEGA · III",
+  "badgeAttrs": {
+   "class": "layer-badge",
+   "style": "border-color:var(--accent); color:var(--accent);"
+  },
+  "kidCount": 3
+ }
+]

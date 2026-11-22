@@ -1,0 +1,7 @@
+/* CSS original, na mesma ordem, dividido por componente */
+@import './styles/components/index.css';
+@import './styles/ui-extras.css';
+
+/* Tailwind: so componentes e utilitarios (sem preflight, para nao mexer no visual) */
+@tailwind components;
+@tailwind utilities;

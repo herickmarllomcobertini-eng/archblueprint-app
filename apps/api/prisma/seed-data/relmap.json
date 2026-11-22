@@ -1,0 +1,257 @@
+{
+ "nodes": [
+  {
+   "id": "onyx",
+   "name": "Onyx",
+   "x": 350,
+   "y": 320,
+   "hub": true
+  },
+  {
+   "id": "ayla",
+   "name": "Ayla",
+   "x": 350,
+   "y": 170
+  },
+  {
+   "id": "tolta",
+   "name": "Tolta",
+   "x": 425,
+   "y": 190
+  },
+  {
+   "id": "maria",
+   "name": "Maria",
+   "x": 480,
+   "y": 245
+  },
+  {
+   "id": "tengu",
+   "name": "Tengu",
+   "x": 500,
+   "y": 320
+  },
+  {
+   "id": "lothus",
+   "name": "Lothus",
+   "x": 480,
+   "y": 395
+  },
+  {
+   "id": "jeff",
+   "name": "Jeff",
+   "x": 425,
+   "y": 450
+  },
+  {
+   "id": "homens-terno",
+   "name": "Homens de Terno",
+   "x": 350,
+   "y": 470
+  },
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "x": 275,
+   "y": 450
+  },
+  {
+   "id": "shadow-revna",
+   "name": "Shadow Rëvna",
+   "x": 220,
+   "y": 395
+  },
+  {
+   "id": "bulldog",
+   "name": "Bulldog Shoesign",
+   "x": 200,
+   "y": 320
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "x": 220,
+   "y": 245
+  },
+  {
+   "id": "braco-de-ferro",
+   "name": "Braço de Ferro",
+   "x": 275,
+   "y": 190
+  },
+  {
+   "id": "ferid",
+   "name": "Ferid",
+   "x": 239,
+   "y": 83
+  },
+  {
+   "id": "lucifer",
+   "name": "Lúcifer",
+   "x": 97,
+   "y": 252
+  },
+  {
+   "id": "feng",
+   "name": "Feng",
+   "x": 587,
+   "y": 209
+  },
+  {
+   "id": "ania",
+   "name": "Ania",
+   "x": 608,
+   "y": 275
+  },
+  {
+   "id": "brulhios",
+   "name": "Brulhios",
+   "x": 611,
+   "y": 343
+  },
+  {
+   "id": "kael",
+   "name": "Kael",
+   "x": 596,
+   "y": 410
+  },
+  {
+   "id": "ford",
+   "name": "Ford",
+   "x": 565,
+   "y": 470
+  }
+ ],
+ "edges": [
+  {
+   "from": "onyx",
+   "to": "ayla",
+   "label": "Casados. Ela é o motivo pelo qual ele decidiu se estabelecer."
+  },
+  {
+   "from": "onyx",
+   "to": "tolta",
+   "label": "Onyx treina Tolta e busca ajuda pra controlar Nephilis Heder, a Anomalia primordial selada nele."
+  },
+  {
+   "from": "onyx",
+   "to": "tengu",
+   "label": "Discípulo oficial de Onyx, mesmo negando o título."
+  },
+  {
+   "from": "onyx",
+   "to": "kevin",
+   "label": "Amigos antigos. Conexão leve, se respeitam como iguais."
+  },
+  {
+   "from": "onyx",
+   "to": "maria",
+   "label": "Relação tensa e respeitosa. Ela sabe de Nephilis Heder, a Anomalia que habita Tolta."
+  },
+  {
+   "from": "onyx",
+   "to": "homens-terno",
+   "label": "Rivalidade direta. Onyx já enfrentou o sistema deles várias vezes."
+  },
+  {
+   "from": "falcon",
+   "to": "tolta",
+   "label": "Falcon avaliou a entidade dentro de Tolta e confirmou seu nível de poder."
+  },
+  {
+   "from": "ferid",
+   "to": "braco-de-ferro",
+   "label": "Ferid forjou o Distorcedor de Narrativas usado por Braço de Ferro."
+  },
+  {
+   "from": "onyx",
+   "to": "falcon",
+   "label": "Reencontro após 30 anos. Luta que destruiu um planeta e rasgou múltiplas camadas, terminou com a ativação da Forma Alfa e Falcon desistindo de continuar lutando."
+  },
+  {
+   "from": "onyx",
+   "to": "shadow-revna",
+   "label": "Onyx é fã declarado dele. Shadow não se impressiona: \"admiração sem poder não vale nada aqui\"."
+  },
+  {
+   "from": "shadow-revna",
+   "to": "falcon",
+   "label": "Colegas antigos. Muito amigos."
+  },
+  {
+   "from": "onyx",
+   "to": "braco-de-ferro",
+   "label": "Respeito mútuo. Braço de Ferro intermedia contratos e informações e tem contato com o Mestre da Forja."
+  },
+  {
+   "from": "maria",
+   "to": "tolta",
+   "label": "Tia de Tolta. Já foi muito mais forte e escolheu uma vida simples pra protegê-lo."
+  },
+  {
+   "from": "homens-terno",
+   "to": "tolta",
+   "label": "Monitoraram a evolução de Tolta durante o treino e tentaram agir depois de confirmar que ele estava sob proteção."
+  },
+  {
+   "from": "onyx",
+   "to": "lothus",
+   "label": "Assistente de Onyx. Treina a equipe de Tengu na ausência dele."
+  },
+  {
+   "from": "lothus",
+   "to": "tengu",
+   "label": "Treinou Tengu e foi destruído por ele incontáveis vezes em forma base no ep 29."
+  },
+  {
+   "from": "tengu",
+   "to": "feng",
+   "label": "Mesmo grupo. Feng é o escudo da equipe."
+  },
+  {
+   "from": "tengu",
+   "to": "ania",
+   "label": "Mesmo grupo. Ania é o Domínio Sensorial da equipe."
+  },
+  {
+   "from": "tengu",
+   "to": "brulhios",
+   "label": "Mesmo grupo. Brulhios é a analista da equipe e dona do bar onde o grupo se reúne."
+  },
+  {
+   "from": "tengu",
+   "to": "kael",
+   "label": "Mesmo grupo. Kael faz a Precisão Letal da equipe."
+  },
+  {
+   "from": "ford",
+   "to": "tengu",
+   "label": "Ford, Rank S, viu Tengu apagar um boss e ficou com receio. Resgatou Tengu e a equipe na dungeon destruída."
+  },
+  {
+   "from": "jeff",
+   "to": "onyx",
+   "label": "Jeff quer medir forças com Onyx em combate oficial e reconhece que há algo diferente nele."
+  },
+  {
+   "from": "onyx",
+   "to": "bulldog",
+   "label": "Destino de Onyx. Kevin deu o nome e a direção até ele, na Árvore Morta. Ainda não foi encontrado."
+  },
+  {
+   "from": "bulldog",
+   "to": "falcon",
+   "label": "Bulldog indicou Falcon como o único capaz de ajudar Tolta a controlar o que existe dentro dele."
+  },
+  {
+   "from": "lucifer",
+   "to": "kevin",
+   "label": "Lúcifer não suporta Kevin e o considera inferior no submundo. Mandou recado pra ele tirar o cavalinho da chuva."
+  },
+  {
+   "from": "lucifer",
+   "to": "onyx",
+   "label": "Abordou Onyx no ep 26, na saída da reunião com Bulldog e Sukum, pra mandar um recado ao Kevin."
+  }
+ ]
+}

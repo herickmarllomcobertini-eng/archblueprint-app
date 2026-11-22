@@ -1,0 +1,13 @@
+    /* ====== FIXED CORNER GEARS ====== */
+    .corner-gear {
+      position: fixed;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.07;
+    }
+    .corner-gear.tl { top: -30px; left: -30px; }
+    .corner-gear.tr { top: -30px; right: -30px; transform: scaleX(-1); }
+    .corner-gear.bl { bottom: -30px; left: -30px; }
+    .corner-gear.br { bottom: -30px; right: -30px; transform: scale(-1); }
+    .corner-gear svg { animation: gearSpin var(--speed, 30s) linear infinite; }
+    .corner-gear.tr svg, .corner-gear.bl svg { animation-direction: reverse; }

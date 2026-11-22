@@ -1,0 +1,103 @@
+    /* EPISODE READER */
+    .ep-reader {
+      display: none;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 3rem;
+      margin-top: 2rem;
+    }
+
+    .ep-reader.active { display: block; }
+
+    .ep-reader-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .ep-reader-tag {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+
+    .ep-reader-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .ep-content {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.05rem;
+      color: var(--silver);
+      line-height: 2;
+      white-space: pre-line;
+      max-width: 720px;
+    }
+
+    .ep-content .scene-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: var(--accent);
+      margin: 2.5rem 0 1rem;
+      display: block;
+    }
+
+    .ep-content .dialogue {
+      color: var(--white);
+      font-weight: 500;
+      border-left: 2px solid var(--accent2);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+
+    .ep-content .ep-section {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      color: var(--accent);
+      text-align: center;
+      margin: 2rem 0 1rem;
+      opacity: 0.7;
+    }
+
+    .ep-content .speaker {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--accent2);
+      margin-bottom: 0.3rem;
+    }
+
+    .close-reader {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--grey);
+      background: none;
+      border: 1px solid var(--line);
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      margin-top: 2.5rem;
+      transition: all 0.2s;
+    }
+
+    .close-reader:hover { border-color: var(--accent); color: var(--accent); }
+
+    .scene-visual-note {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      font-style: italic;
+      text-align: center;
+      margin: 2.5rem 0 1.2rem;
+      padding-top: 1.2rem;
+      border-top: 1px dashed var(--border);
+    }

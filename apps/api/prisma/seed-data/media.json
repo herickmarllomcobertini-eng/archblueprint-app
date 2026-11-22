@@ -1,0 +1,123 @@
+[
+ {
+  "hash": "639c428f25",
+  "folder": "estrutura",
+  "filename": "macroestrutura-vista-de-fora.avif",
+  "path": "/media/estrutura/macroestrutura-vista-de-fora.avif",
+  "width": 1024,
+  "height": 1536,
+  "bytesOriginal": 1540788,
+  "bytesAvif": 120831,
+  "alt": null
+ },
+ {
+  "hash": "c4ff9834e8",
+  "folder": "estrutura",
+  "filename": "corte-interno-da-estrutura.avif",
+  "path": "/media/estrutura/corte-interno-da-estrutura.avif",
+  "width": 1024,
+  "height": 1536,
+  "bytesOriginal": 1613140,
+  "bytesAvif": 122664,
+  "alt": null
+ },
+ {
+  "hash": "c0edbb5d7d",
+  "folder": "entidades",
+  "filename": "a-entidade.avif",
+  "path": "/media/entidades/a-entidade.avif",
+  "width": 740,
+  "height": 1004,
+  "bytesOriginal": 648104,
+  "bytesAvif": 42035,
+  "alt": "A Entidade"
+ },
+ {
+  "hash": "e68932194c",
+  "folder": "entidades",
+  "filename": "onyx.avif",
+  "path": "/media/entidades/onyx.avif",
+  "width": 1056,
+  "height": 1489,
+  "bytesOriginal": 1739885,
+  "bytesAvif": 105264,
+  "alt": "Onyx"
+ },
+ {
+  "hash": "653d2d18c0",
+  "folder": "personagens",
+  "filename": "tengu-retrato.avif",
+  "path": "/media/personagens/tengu-retrato.avif",
+  "width": 1040,
+  "height": 1512,
+  "bytesOriginal": 1656453,
+  "bytesAvif": 75338,
+  "alt": "Retrato de Tengu"
+ },
+ {
+  "hash": "20b96afd89",
+  "folder": "personagens",
+  "filename": "tengu-corpo-inteiro.avif",
+  "path": "/media/personagens/tengu-corpo-inteiro.avif",
+  "width": 661,
+  "height": 1536,
+  "bytesOriginal": 127054,
+  "bytesAvif": 34190,
+  "alt": "Tengu de corpo inteiro empunhando a Lâmina de Nullis"
+ },
+ {
+  "hash": "3619b1d442",
+  "folder": "personagens",
+  "filename": "tengu-lamina-de-nullis.avif",
+  "path": "/media/personagens/tengu-lamina-de-nullis.avif",
+  "width": 1024,
+  "height": 1536,
+  "bytesOriginal": 1429644,
+  "bytesAvif": 22230,
+  "alt": null
+ },
+ {
+  "hash": "7a3bf6ae7b",
+  "folder": "personagens",
+  "filename": "onyx-retrato.avif",
+  "path": "/media/personagens/onyx-retrato.avif",
+  "width": 750,
+  "height": 1006,
+  "bytesOriginal": 919621,
+  "bytesAvif": 45597,
+  "alt": "Retrato de Onyx, encapuzado"
+ },
+ {
+  "hash": "0f7624953f",
+  "folder": "personagens",
+  "filename": "onyx-lamina-verde.avif",
+  "path": "/media/personagens/onyx-lamina-verde.avif",
+  "width": 1056,
+  "height": 1489,
+  "bytesOriginal": 1515906,
+  "bytesAvif": 69866,
+  "alt": null
+ },
+ {
+  "hash": "48a7fd3aec",
+  "folder": "estrutura",
+  "filename": "a-entidade-retrato.avif",
+  "path": "/media/estrutura/a-entidade-retrato.avif",
+  "width": 736,
+  "height": 1012,
+  "bytesOriginal": 862476,
+  "bytesAvif": 53251,
+  "alt": null
+ },
+ {
+  "hash": "88befbf42a",
+  "folder": "fundos",
+  "filename": "planeta-disco.avif",
+  "path": "/media/fundos/planeta-disco.avif",
+  "width": 1536,
+  "height": 1024,
+  "bytesOriginal": 2717420,
+  "bytesAvif": 242381,
+  "alt": "Planeta disco (fundo do hero)"
+ }
+]

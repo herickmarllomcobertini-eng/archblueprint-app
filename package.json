@@ -1,0 +1,19 @@
+{
+  "name": "archblueprint",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "concurrently -n api,web -c yellow,cyan \"npm run start:dev -w @archblueprint/api\" \"npm run dev -w @archblueprint/web\"",
+    "build": "npm run build -w @archblueprint/web && npm run build -w @archblueprint/api",
+    "start": "npm run start -w @archblueprint/api",
+    "db:init": "npm run prisma:generate -w @archblueprint/api && npm run db:migrate -w @archblueprint/api -- --name init && npm run db:seed -w @archblueprint/api",
+    "db:seed": "npm run db:seed -w @archblueprint/api",
+    "db:studio": "npm run db:studio -w @archblueprint/api",
+    "build:static": "DATABASE_URL=file:./build.db npm run db:setup -w @archblueprint/api && DATABASE_URL=file:./build.db npm run export:static -w @archblueprint/api && npm run build:static -w @archblueprint/web",
+    "extract": "bash tools/run_all.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

@@ -1,0 +1,44 @@
+:root{--black:#04050d;--deep:#070a1a;--panel:#0b0f26;--border:#1d2650;--line:#2a3669;--muted:#36427a;
+--grey:#7684b8;--silver:#a6b1dc;--light:#cdd5f3;--white:#eef1ff;--accent:#d8bf74;--accent2:#8da2e8;
+--glow:rgba(216,191,116,.14);--glow2:rgba(120,140,255,.14);--ember:#7f8fe0;--ember-glow:rgba(120,140,255,.25)}
+html{background:var(--black)}
+body{background:transparent}
+#stars{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+section,.cosmo-section{background:rgba(5,7,20,.58)!important}
+nav{background:rgba(4,5,13,.88)!important}
+.divider{background:linear-gradient(to right,transparent,var(--line),transparent)}
+.cosmo-layer{background:rgba(11,15,38,.80)}
+.mecanica-block,.char-card,.entity-card,.glossary-row{background:rgba(11,15,38,.72)}
+.section-title,.layer-name{letter-spacing:.07em}
+.section-title{text-shadow:0 0 22px rgba(141,162,232,.28)}
+.hero-title,.hero-title .line2{text-shadow:0 0 30px rgba(141,162,232,.30)}
+.hero-bg-overlay{filter:none!important}
+.hero-bg-overlay::after{background:linear-gradient(180deg,var(--black) 0%,rgba(6,9,28,.55) 32%,rgba(6,9,28,.74) 68%,var(--black) 100%),linear-gradient(90deg,var(--black) 0%,transparent 22%,transparent 78%,var(--black) 100%),linear-gradient(rgba(90,110,210,.10),rgba(90,110,210,.10))!important}
+.hero-orb{background:radial-gradient(circle,rgba(141,162,232,.20),transparent 70%)!important}
+.smoke-layer{opacity:.12!important;filter:hue-rotate(205deg) saturate(2)}
+.anchor{display:block;position:relative;top:-72px;height:0;visibility:hidden}
+/* indice lateral */
+.hier-toc{position:fixed;top:0;left:0;bottom:0;width:210px;z-index:850;padding:1.1rem .9rem 1.4rem;
+ background:rgba(4,5,13,.86);border-right:1px solid var(--border);overflow-y:auto;display:none;backdrop-filter:blur(10px)}
+.hier-toc .toc-brand{font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.2em;color:var(--white);margin-bottom:.2rem}
+.hier-toc .toc-brand span{color:var(--accent)}
+.hier-toc .toc-sub{font-family:'Share Tech Mono',monospace;font-size:.5rem;letter-spacing:.22em;color:var(--grey);margin-bottom:1.2rem}
+.hier-toc a{display:block;padding:.34rem .6rem;margin-left:-.6rem;font-family:'Share Tech Mono',monospace;font-size:.6rem;letter-spacing:.1em;
+ text-transform:uppercase;color:var(--silver);text-decoration:none;border-left:1px solid transparent}
+.hier-toc a:hover{color:var(--white)}
+.hier-toc a.active{color:var(--accent);border-left-color:var(--accent);background:linear-gradient(90deg,rgba(216,191,116,.10),transparent)}
+.hier-toc .toc-back{margin-top:1.2rem;border-top:1px solid var(--border);padding-top:.9rem;color:var(--accent2)}
+@media(min-width:1280px){.hier-toc{display:block}body{padding-left:210px}nav{left:210px!important}}
+/* selos de evidencia */
+.evid{margin:.4rem 0 .9rem;display:flex;flex-wrap:wrap;align-items:flex-start;gap:.35rem .7rem}
+.evid-tag{font-family:'Share Tech Mono',monospace;font-size:.56rem;letter-spacing:.16em;padding:.18rem .55rem;border:1px solid;display:inline-block;transform:rotate(-1deg);white-space:nowrap}
+.ev-conf{color:var(--accent);border-color:var(--accent);background:rgba(216,191,116,.08)}
+.ev-part{color:var(--accent2);border-color:var(--accent2);background:rgba(141,162,232,.08)}
+.ev-hyp{color:var(--grey);border-color:var(--muted);border-style:dashed}
+.evid-note{font-size:.76rem;line-height:1.5;color:var(--grey);flex:1 1 260px}
+.evid details{flex:1 1 100%}
+.evid summary{cursor:pointer;font-family:'Share Tech Mono',monospace;font-size:.58rem;letter-spacing:.12em;color:var(--silver)}
+.evid q{display:block;margin-top:.45rem;padding:.65rem .9rem;background:#e8e3d1;color:#1b1d2c;font-family:'Playfair Display',serif;font-style:italic;font-size:.84rem;line-height:1.6;border-left:3px solid var(--accent);quotes:none}
+.evid .src{display:block;margin-top:.35rem;font-family:'Share Tech Mono',monospace;font-style:normal;font-size:.52rem;letter-spacing:.14em;color:#4a5072}
+.evid-legend{display:grid;gap:.5rem;margin:.6rem 0 2rem;padding:1rem 1.2rem;border:1px solid var(--border);background:rgba(11,15,38,.7);font-size:.84rem;color:var(--silver)}
+.evid-legend div{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}

@@ -1,0 +1,61 @@
+    /* RANKING SYSTEM */
+    .rank-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .rank-row {
+      background: var(--panel);
+      padding: 1.2rem 2rem;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 1.5rem;
+      align-items: start;
+      transition: background 0.2s;
+      position: relative;
+    }
+
+    .rank-row::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--accent);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .rank-row:hover { background: var(--deep); }
+    .rank-row:hover::before { opacity: 1; }
+
+    .rank-label {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+    }
+
+    .rank-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+
+    .rank-desc {
+      font-size: 0.85rem;
+      color: var(--grey);
+      line-height: 1.6;
+    }
+
+    .rank-known {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.12em;
+      color: var(--accent2);
+      margin-top: 0.4rem;
+    }

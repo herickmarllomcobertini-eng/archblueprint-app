@@ -1,0 +1,9 @@
+{
+  "framework": null,
+  "buildCommand": "npm run build:static",
+  "outputDirectory": "apps/web/dist",
+  "rewrites": [
+    { "source": "/hierarquia", "destination": "/index.html" },
+    { "source": "/hierarquia/index.html", "destination": "/index.html" }
+  ]
+}

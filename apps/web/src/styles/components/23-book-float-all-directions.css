@@ -1,0 +1,42 @@
+    /* BOOK FLOAT ALL DIRECTIONS */
+    .floating-book {
+      position: fixed;
+      bottom: 9rem;
+      right: 2rem;
+      top: auto;
+      left: auto;
+      z-index: 800;
+      opacity: 0.55;
+      transition: opacity 0.3s;
+      pointer-events: all;
+      cursor: pointer;
+      animation: bookBob 3s ease-in-out infinite;
+    }
+
+    .floating-book:hover { opacity: 0.9; }
+
+    /* NAV click animations */
+    .nav-links a.clicked {
+      animation: navSpin 0.4s ease;
+    }
+
+    .nav-aureolas a.clicked {
+      animation: aureolaSpin 0.5s ease;
+    }
+
+    @keyframes navSpin {
+      0%   { transform: scale(1) rotate(0deg); color: var(--accent); }
+      40%  { transform: scale(1.3) rotate(180deg); color: var(--white); }
+      100% { transform: scale(1) rotate(360deg); color: var(--accent); }
+    }
+
+    @keyframes aureolaSpin {
+      0%   { transform: scale(1) rotate(0deg); opacity: 0.6; }
+      40%  { transform: scale(1.5) rotate(180deg); opacity: 1; }
+      100% { transform: scale(1) rotate(360deg); opacity: 0.6; }
+    }
+
+    @keyframes bookBob {
+      0%, 100% { transform: rotate(-4deg) scale(1); }
+      50% { transform: rotate(3deg) scale(1.05); }
+    }

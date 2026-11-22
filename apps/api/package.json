@@ -1,0 +1,38 @@
+{
+  "name": "@archblueprint/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "prisma:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:seed": "prisma db seed",
+    "db:reset": "prisma migrate reset --force",
+    "db:setup": "prisma generate && prisma db push --skip-generate && prisma db seed",
+    "export:static": "nest build && node dist/export-static.js",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.0",
+    "@nestjs/core": "^10.4.0",
+    "@nestjs/platform-express": "^10.4.0",
+    "@prisma/client": "^6.2.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "prisma": "^6.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma",
+    "seed": "ts-node --transpile-only prisma/seed.ts"
+  }
+}

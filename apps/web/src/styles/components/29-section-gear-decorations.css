@@ -1,0 +1,13 @@
+    /* ====== SECTION GEAR DECORATIONS ====== */
+    .section-gear-deco {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0.04;
+      z-index: 0;
+    }
+    .section-gear-deco svg { animation: gearSpin var(--speed, 40s) linear infinite; }
+
+    @keyframes gearSpin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }

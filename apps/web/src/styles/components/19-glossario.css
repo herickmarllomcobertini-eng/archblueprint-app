@@ -1,0 +1,17 @@
+    /* GLOSSÁRIO */
+    .glossary-row {
+      background: var(--panel);
+      padding: 1.1rem 1.6rem;
+      margin-bottom: 0.6rem;
+      border-left: 3px solid transparent;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .glossary-row:hover { background: var(--deep); border-left-color: var(--accent); }
+    .glossary-term {
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent2);
+      margin-bottom: 0.3rem;
+    }
+    .glossary-def { font-size: 0.85rem; color: var(--grey); line-height: 1.6; }

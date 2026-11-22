@@ -1,0 +1,47 @@
+    /* EPISODE SEARCH */
+    .ep-search-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      flex: 1 1 200px;
+      max-width: 260px;
+    }
+
+    .ep-search-icon {
+      position: absolute;
+      left: 0.7rem;
+      color: var(--grey);
+      font-size: 0.85rem;
+      pointer-events: none;
+    }
+
+    .ep-search-input {
+      width: 100%;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--light);
+      background: rgba(0,0,0,0.25);
+      border: 1px solid var(--border);
+      padding: 0.55rem 1.8rem 0.55rem 1.9rem;
+      outline: none;
+      transition: border-color 0.25s;
+    }
+
+    .ep-search-input::placeholder { color: var(--muted); }
+    .ep-search-input:focus { border-color: var(--accent); }
+
+    .ep-search-clear {
+      position: absolute;
+      right: 0.5rem;
+      background: none;
+      border: none;
+      color: var(--grey);
+      font-size: 1.1rem;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0.2rem;
+    }
+
+    .ep-search-clear:hover { color: var(--accent); }

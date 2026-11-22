@@ -1,0 +1,42 @@
+    /* ====== HOLOGRAM OVERLAYS ====== */
+    .holo-container {
+      position: relative;
+    }
+    .holo-figure {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0.12;
+      z-index: 0;
+    }
+    .holo-figure svg {
+      filter: drop-shadow(0 0 6px rgba(201,161,58,0.5));
+    }
+    /* Spinning cube */
+    .holo-cube { animation: holoCubeSpin 12s linear infinite; }
+    /* Pulsing circle */
+    .holo-pulse { animation: holoPulse 3s ease-in-out infinite; }
+    /* Rotating aureola ring */
+    .holo-ring  { animation: holoRing 8s linear infinite; }
+    /* Floating drift */
+    .holo-float { animation: holoFloat 6s ease-in-out infinite; }
+
+    @keyframes holoCubeSpin {
+      0%   { transform: rotateY(0deg) rotateX(15deg); }
+      100% { transform: rotateY(360deg) rotateX(15deg); }
+    }
+    @keyframes holoPulse {
+      0%, 100% { opacity: 0.08; transform: scale(1); }
+      50%       { opacity: 0.18; transform: scale(1.06); }
+    }
+    @keyframes holoRing {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    @keyframes holoFloat {
+      0%, 100% { transform: translateY(0px); }
+      50%       { transform: translateY(-12px); }
+    }
+
+    /* cosmo section needs relative for absolute children */
+    .cosmo-section { position: relative; overflow: hidden; }
+    .char-section   { position: relative; overflow: hidden; }

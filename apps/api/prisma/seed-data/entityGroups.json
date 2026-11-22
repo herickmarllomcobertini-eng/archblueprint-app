@@ -1,0 +1,16 @@
+[
+ {
+  "id": "home-entities",
+  "page": "home",
+  "attrs": {
+   "class": "entities-grid"
+  }
+ },
+ {
+  "id": "hierarquia-entities",
+  "page": "hierarquia",
+  "attrs": {
+   "class": "entities-grid"
+  }
+ }
+]
