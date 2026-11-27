@@ -1,9 +1,13 @@
 {
   "framework": null,
-  "buildCommand": "npm run build:static",
+  "buildCommand": "npm run build:protected",
   "outputDirectory": "apps/web/dist",
   "rewrites": [
     { "source": "/hierarquia", "destination": "/index.html" },
     { "source": "/hierarquia/index.html", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/c/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
   ]
 }

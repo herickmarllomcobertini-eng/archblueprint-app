@@ -8,3 +8,4 @@ __pycache__
 .DS_Store
 apps/web/public/data
 apps/web/public/media
+apps/web/public/c

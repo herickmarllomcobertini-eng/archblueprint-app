@@ -2,7 +2,9 @@
   "name": "archblueprint",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["apps/*"],
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "dev": "concurrently -n api,web -c yellow,cyan \"npm run start:dev -w @archblueprint/api\" \"npm run dev -w @archblueprint/web\"",
     "build": "npm run build -w @archblueprint/web && npm run build -w @archblueprint/api",
@@ -11,7 +13,9 @@
     "db:seed": "npm run db:seed -w @archblueprint/api",
     "db:studio": "npm run db:studio -w @archblueprint/api",
     "build:static": "DATABASE_URL=file:./build.db npm run db:setup -w @archblueprint/api && DATABASE_URL=file:./build.db npm run export:static -w @archblueprint/api && npm run build:static -w @archblueprint/web",
-    "extract": "bash tools/run_all.sh"
+    "extract": "bash tools/run_all.sh",
+    "build:protected": "DATABASE_URL=file:./build.db npm run db:setup -w @archblueprint/api && DATABASE_URL=file:./build.db npm run export:static -w @archblueprint/api && node scripts/protect.js && npm run build:static -w @archblueprint/web",
+    "test:protect": "node tools/test-protect.js"
   },
   "devDependencies": {
     "concurrently": "^9.0.0"

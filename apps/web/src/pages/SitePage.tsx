@@ -24,9 +24,17 @@ export default function SitePage({ slug }: { slug: 'home' | 'hierarquia' }) {
     if (!data) return;
     const stop = initBehaviors(slug, data.relmap);
     const stopFx = slug === 'hierarquia' ? initHierarquiaEffects() : () => {};
-    // o original rolava ate o #hash ao carregar
-    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
-    return () => { stop(); stopFx(); };
+    // o original rolava ate o #hash ao carregar; no modo protegido o alvo pode chegar depois (chunks:loaded)
+    const hash = location.hash.slice(1);
+    let done = !hash || !!document.getElementById(hash);
+    if (hash && done) document.getElementById(hash)?.scrollIntoView();
+    const onLoaded = () => {
+      if (done) return;
+      const el = document.getElementById(hash);
+      if (el) { done = true; el.scrollIntoView(); }
+    };
+    window.addEventListener('chunks:loaded', onLoaded);
+    return () => { stop(); stopFx(); window.removeEventListener('chunks:loaded', onLoaded); };
   }, [data, slug]);
 
   if (error) return <pre style={{ color: '#ece3cc', padding: '2rem' }}>{error}</pre>;

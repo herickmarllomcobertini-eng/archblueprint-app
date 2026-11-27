@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import { memo, useRef, useState } from 'react';
+import { fetchChunk } from '@/lib/api';
 import { attrsToProps } from '@/lib/attrs';
 import type { Character, CharacterPart } from '@/lib/types';
 import { Content } from './Content';
@@ -26,9 +27,28 @@ function Part({ part }: { part: CharacterPart }) {
   return <Content html={part.html ?? ''} />;
 }
 
+/** Ficha de personagem. No modo protegido o conteudo so e baixado e decifrado ao abrir a ficha. */
 function Card({ c }: { c: Character }) {
+  const { protected: locked } = usePageData();
+  const [parts, setParts] = useState<CharacterPart[] | null>(locked ? null : c.parts);
+  const started = useRef(false);
+
+  const attrs = attrsToProps(c.attrs);
+  const original = attrs.onClick as ((ev: unknown) => void) | undefined;
+  attrs.onClick = (ev: unknown) => {
+    if (locked && c.chunk && !started.current) {
+      started.current = true;
+      fetchChunk<{ parts: CharacterPart[] }>(c.chunk)
+        .then((r) => setParts(r.parts))
+        .catch(() => {
+          started.current = false;
+        });
+    }
+    original?.(ev);
+  };
+
   return (
-    <div {...attrsToProps(c.attrs)}>
+    <div {...attrs}>
       <div {...attrsToProps(c.headerAttrs)}>
         <div>
           <div className="char-name">{c.name}</div>
@@ -38,7 +58,7 @@ function Card({ c }: { c: Character }) {
       </div>
       <div className="char-toggle">{c.toggleText}</div>
       <div {...attrsToProps(c.bodyAttrs)}>
-        {c.parts.map((p) => <Part key={p.id} part={p} />)}
+        {(parts ?? []).map((p) => <Part key={p.id} part={p} />)}
       </div>
     </div>
   );

@@ -43,19 +43,20 @@ export function initHierarquiaEffects(): () => void {
   } catch { /* efeito decorativo */ }
 
   try {
-    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('.hier-toc a[href^="#"]'));
-    const map = links
-      .map((a) => ({ a, el: document.getElementById((a.getAttribute('href') ?? '').slice(1)) }))
-      .filter((m) => m.el);
     const spy = () => {
+      const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('.hier-toc a[href^="#"]'));
+      const map = links
+        .map((a) => ({ a, el: document.getElementById((a.getAttribute('href') ?? '').slice(1)) }))
+        .filter((m) => m.el);
       let cur: (typeof map)[number] | null = null;
       map.forEach((m) => { if (m.el!.getBoundingClientRect().top <= 140) cur = m; });
       links.forEach((l) => l.classList.remove('active'));
       if (cur) (cur as (typeof map)[number]).a.classList.add('active');
     };
     addEventListener('scroll', spy, { passive: true });
+    addEventListener('chunks:loaded', spy);
     spy();
-    cleanups.push(() => removeEventListener('scroll', spy));
+    cleanups.push(() => { removeEventListener('scroll', spy); removeEventListener('chunks:loaded', spy); });
   } catch { /* efeito decorativo */ }
 
   return () => cleanups.forEach((fn) => fn());

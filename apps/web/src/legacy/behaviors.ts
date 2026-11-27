@@ -246,6 +246,7 @@ export function initBehaviors(page: 'home' | 'hierarquia', relMapData: RelMapDat
 
   // ---- Leitor
   const openEp = (id: string) => {
+    window.dispatchEvent(new CustomEvent('ep:open', { detail: id })); // modo protegido: baixa o texto agora
     qa('.ep-reader').forEach((r) => r.classList.remove('active'));
     const el = byId(id)!;
     el.classList.add('active');

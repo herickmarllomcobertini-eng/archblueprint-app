@@ -7,6 +7,8 @@ export interface Episode {
   slug: string; sortOrder: number; readerOrder: number; seasonNumber: number | null; spinoffSlug: string | null;
   numLabel: string; title: string; subtitle: string | null; itemAttrs: Attrs; readerAttrs: Attrs;
   readerTag: string; readerTitle: string; bodyHtml: string; bodyAttrs: Attrs; afterHtml: string;
+  /** modo protegido: nome do arquivo cifrado com bodyHtml/afterHtml */
+  chunk?: string;
 }
 export interface Spinoff { slug: string; label: string; sortOrder: number; attrs: Attrs }
 
@@ -18,6 +20,7 @@ export interface CharacterPart {
 export interface Character {
   id: number; sortOrder: number; attrs: Attrs; name: string; title: string; headerAttrs: Attrs;
   badgeText: string | null; badgeAttrs: Attrs | null; toggleText: string; bodyAttrs: Attrs; parts: CharacterPart[];
+  chunk?: string;
 }
 export interface CharacterGroup { id: string; page: string; attrs: Attrs; characters: Character[] }
 
@@ -45,7 +48,7 @@ export interface Layer {
   id: number; attrs: Attrs; beforeHtml: string; numHtml: string; midAttrs: Attrs; preNameHtml: string;
   name: string; nameAttrs: Attrs; bodyHtml: string; badgeText: string; badgeAttrs: Attrs;
 }
-export interface LayerGroup { id: string; page: string; attrs: Attrs; trailingHtml: string; layers: Layer[] }
+export interface LayerGroup { id: string; page: string; attrs: Attrs; trailingHtml: string; layers: Layer[]; chunk?: string }
 export interface Camada {
   id: number; attrs: Attrs; beforeHtml: string; code: string; codeAttrs: Attrs; midAttrs: Attrs;
   name: string; nameAttrs: Attrs; descHtml: string; descAttrs: Attrs;
@@ -71,4 +74,7 @@ export interface PagePayload {
   layerGroups: LayerGroup[];
   camadaGroups: CamadaGroup[];
   relmap: RelMapData;
+  /** modo protegido (beta): textos longos e imagens chegam cifrados, em pedacos */
+  protected?: boolean;
+  mediaMap?: Record<string, string>;
 }

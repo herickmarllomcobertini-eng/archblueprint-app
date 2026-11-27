@@ -25,6 +25,18 @@ No build ela cria o SQLite a partir de `apps/api/prisma/seed-data`, exporta tudo
 O site fica 100% estatico (rapido e sem custo de servidor). Para mudar conteudo no modo gratuito, edite os dados e envie de novo.
 A API/Railway so e necessaria se voce quiser editar o banco ao vivo.
 
+## Modo protegido (beta)
+
+Branch `beta`: o texto dos episódios, as fichas de personagem, as camadas/auréolas e as imagens (menos o fundo do hero) **não ficam mais legíveis no site publicado**.
+- No build, `scripts/protect.js` cifra esse conteúdo (AES-256-GCM) em `public/c/<nome>.bin`. Os JSON públicos ficam só com títulos e listas.
+- O navegador pede um token JWT (`/api/token`, vida de 10 min, preso ao navegador) e, com ele, a chave de cada arquivo (`/api/key`). Só atende pedidos feitos a partir do próprio domínio.
+- O episódio só é baixado e decifrado quando é aberto; a ficha, quando é aberta; as camadas, logo depois da página montar.
+- Obrigatório: variável de ambiente **`CHUNK_SECRET`** (40+ caracteres aleatórios) no projeto da Vercel, para build e funções. Sem ela o build falha de propósito.
+- `npm run test:protect` roda o teste de ponta a ponta (cifra, API e leitura no navegador) e compara tudo com o original.
+
+Limites: quem usa um navegador de verdade consegue ler o que a própria página mostra (print, copiar texto). O limite de pedidos por IP vale por instância; o firewall da Vercel faz o resto.
+Continuam públicos: textos de blocos (introduções), glossário, ranks, cards de entidades e o fundo do hero.
+
 ## Rodar
 
 ```bash
